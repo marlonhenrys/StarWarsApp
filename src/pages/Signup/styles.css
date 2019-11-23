@@ -1,0 +1,70 @@
+.Signup {
+    --color-font-standard: white;
+}
+
+.Signup form {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+
+.Signup .title {
+    color: var(--color-font-standard);
+    margin-bottom: 1em;
+}
+
+/* --- Form inputs */
+
+/* Style the input container */
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: var(--color-font-standard);
+    min-width: 50px;
+    text-align: center;
+}
+
+/* Style the input fields */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* --- Form buttons */
+
+.btns-signup {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns-signup button {
+    margin: 2em 5%;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: var(--color-font-standard);
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    /* font-size: larger; */
+}
+
+.btn:hover {
+    opacity: 1;
+}
