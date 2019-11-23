@@ -1,26 +1,11 @@
 import React, { useState } from 'react';
 import useForm from 'react-hook-form';
+import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import './styles.css';
 
 const Login = () => {
     const { register, handleSubmit, /* watch, */ errors } = useForm()
     const onSubmit = data => console.log('submit event!');
-
-    const usernameConfig = {
-        required: "Please, inform your name",
-        maxLength: { value: 50, message: "Username must have 50 or less characters." },
-        minLength: { value: 3, message: "Username must have at least 3 characters." },
-        pattern: { value: /\w/, message: "Username must have only letters and numbers." },
-    };
-    const passwordConfig = {
-        required: "Please, inform your password",
-        maxLength: { value: 50, message: "Password must have 50 or less characters." },
-        minLength: { value: 8, message: "Password must have at least 8 characters." },
-        pattern: {
-            value: /[\w!@#$%&*]/,
-            message: "Password must have only letters, numbers and special symbols."
-        },
-    };
 
     // console.log(watch('username'));
 
