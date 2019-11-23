@@ -28,12 +28,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Star Wars</h1>
-      <Header
+      <h1 className="title">Star Wars</h1>
+      <div className="btns-introduction">
+        <button type="button" class="btn btn-primary btn-lg">Introduce myself</button>
+        <button type="button" class="btn btn-primary btn-lg">Explore</button>
+      </div>
+      {/* <Header
         darkModeActived={darkModeActived}
         changeTheme={() => setDarkModeActived(!darkModeActived)}
-      />
-      <CardList />
+      /> */}
     </div>
   );
 }

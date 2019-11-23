@@ -12,9 +12,37 @@ html {
 body,
 #root {
   min-height: 100%;
-  background-color: var(--color-bg-main);
+  /* background-color: var(--color-bg-main); */
   color: var(--color-font-standard);
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale !important;
   text-rendering: optimizeLegibility !important;
+  text-align: center;
+}
+
+body {
+  background-image: url('assets/background_manystars.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.App * {
+  color: white;
+  background-color: transparent;
+}
+
+.App .title {
+  font-size: 5em;
+  margin: 2em auto;
+}
+
+.btns-introduction {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btns-introduction button:not(:first-child) {
+  margin-left: 15ch;
 }
