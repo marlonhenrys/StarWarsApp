@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import useForm from 'react-hook-form';
-import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
-import './styles.css';
 import {Link} from "react-router-dom";
+import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
+import authReducer, {login} from "../../utils/authAdministration";
+import './styles.css';
 
 const Login = () => {
-    const { register, handleSubmit, /* watch, */ errors } = useForm()
-    const onSubmit = data => console.log('submit event!');
-
-    // console.log(watch('username'));
+    const { register, handleSubmit, /* watch, */ errors } = useForm();
+    const onSubmit = data => authReducer( login(data) );
 
     return (
         <div className="Login">
@@ -44,6 +43,6 @@ const Login = () => {
             </form>
         </div>
     );
-}
+};
 
 export default Login;

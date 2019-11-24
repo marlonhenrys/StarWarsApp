@@ -1,22 +1,22 @@
 import React, {useRef} from 'react';
 import useForm from 'react-hook-form';
-import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
-import './styles.css';
 import {Link} from "react-router-dom";
+import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
+import userReducer, { addUser } from "../../utils/userAdministration";
+import './styles.css';
 
 const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => console.log('submit event!');
+    const onSubmit = data => userReducer(addUser(data));
 
-    const password = useRef({}); // This reference persist during the component life cycle
+    // This reference is a hook and persists during the component life cycle
+    const password = useRef({});
     password.current = watch('password', ''); // Watch field value
 
     const passwordConfirmConfig = {
         ...passwordConfig,
         validate: value => value === password.current || "The passwords does not match."
     };
-
-    // console.log(watch('username'));
 
     return (
         <div className="Register">

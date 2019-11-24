@@ -1,4 +1,6 @@
 
+import {getUsers} from "./userAdministration";
+
 export const MAX_USERNAME_LENGTH = 50;
 export const MIN_USERNAME_LENGTH = 3;
 export const MAX_PASSWORD_LENGTH = 128;
@@ -15,6 +17,11 @@ export const usernameConfig = {
         message: `Username must have at least ${MIN_USERNAME_LENGTH} characters.`
     },
     pattern: { value: /\w/, message: "Username must have only letters and numbers." },
+    validate: username => {
+        const users = getUsers();
+
+        if (users[username]) return "Username already in use";
+    }
 };
 
 export const passwordConfig = {
