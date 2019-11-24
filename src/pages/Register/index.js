@@ -2,9 +2,10 @@ import React, { useRef } from 'react';
 import useForm from 'react-hook-form';
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import './styles.css';
+import {Link} from "react-router-dom";
 
 const Register = () => {
-    const { register, handleSubmit, watch, errors } = useForm()
+    const { register, handleSubmit, watch, errors } = useForm();
     const onSubmit = data => console.log('submit event!');
 
     const password = useRef({}); // This reference persist during the component life cycle
@@ -24,8 +25,7 @@ const Register = () => {
 
     return (
         <div className="Register">
-            <div></div>
-            <form>
+            <form onSubmit={handleSubmit(onSubmit)}>
                 <h2 className="title">Register Form</h2>
 
                 <div className="input-container"> {/* Username input */}
@@ -59,13 +59,15 @@ const Register = () => {
                     <div className="alert alert-danger">{errors.passwordConfirm.message}</div>
                 }
 
-                <div className="btns-signup">
-                    <button type="submit" className="btn">Come back</button>
+                <div className="btns-register d-flex justify-content-around">
+                    <Link to={"/"} className="btn links">Come back</Link>
                     <button type="submit" className="btn">Be a padawan</button>
                 </div>
+
+                <Link to={"/login"} className="links">You already know me</Link>
             </form>
         </div>
     );
-}
+};
 
 export default Register;

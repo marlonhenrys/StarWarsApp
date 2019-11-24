@@ -40,15 +40,6 @@
 
 /* --- Form buttons */
 
-.btns-register {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btns-register button {
-    margin: 2em 5%;
-}
-
 /* Set a style for the submit button */
 .btn {
     background-color: dodgerblue;
@@ -63,4 +54,19 @@
 
 .btn:hover {
     opacity: 1;
+}
+
+/* --- Form links */
+
+.links {
+    color: var(--color-font-standard);
+    text-decoration: underline;
+}
+
+.btns-register {
+    margin: 2em auto;
+}
+
+.btns-register > button, .btns-register > a {
+    width: 45%;
 }

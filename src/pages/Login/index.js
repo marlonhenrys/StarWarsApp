@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useForm from 'react-hook-form';
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import './styles.css';
+import {Link} from "react-router-dom";
 
 const Login = () => {
     const { register, handleSubmit, /* watch, */ errors } = useForm()
@@ -34,12 +35,12 @@ const Login = () => {
                     <div className="alert alert-danger">{errors.password.message}</div>
                 }
 
-                <div className="btns-login">
-                    <button type="button" className="btn">Come back</button>
+                <div className="btns-login d-flex justify-content-around">
+                    <Link to={"/"} className="btn links">Come back</Link>
                     <button type="submit" className="btn">Explore</button>
                 </div>
 
-                <a href="#" className="links">Let me introduce my self</a>
+                <Link to={"/register"} className="links">Let me introduce my self</Link>
             </form>
         </div>
     );

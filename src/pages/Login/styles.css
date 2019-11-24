@@ -40,15 +40,6 @@
 
 /* --- Form buttons */
 
-.btns-login {
-    display: flex;
-    justify-content: space-between;
-}
-
-.btns-login button {
-    margin: 2em 5%;
-}
-
 /* Set a style for the submit button */
 .btn {
     background-color: dodgerblue;
@@ -70,4 +61,12 @@
 .links {
     color: var(--color-font-standard);
     text-decoration: underline;
+}
+
+.btns-login {
+    margin: 2em auto;
+}
+
+.btns-login > * {
+    width: 45%;
 }

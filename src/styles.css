@@ -43,7 +43,3 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-
-.btns-introduction button:not(:first-child) {
-  margin-left: 15ch;
-}

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function Error404() {
     return (
-        <div className={"Error404"}>
+        <div className="Error404">
             <h1>Page not found</h1>
             <br/>
             <Link to={"/"}>
