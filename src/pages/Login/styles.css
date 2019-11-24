@@ -12,14 +12,14 @@
 /* --- Form inputs */
 
 /* Style the input container */
-.input-container {
+.Login .input-container {
     display: flex;
     width: 100%;
     margin-bottom: 15px;
 }
 
 /* Style the form icons */
-.icon {
+.Login .icon {
     padding: 10px;
     background: dodgerblue;
     color: var(--color-font-standard);
@@ -28,20 +28,20 @@
 }
 
 /* Style the input fields */
-.input-field {
+.Login .input-field {
     width: 100%;
     padding: 10px;
     outline: none;
 }
 
-.input-field:focus {
+.Login .input-field:focus {
     border: 2px solid dodgerblue;
 }
 
 /* --- Form buttons */
 
 /* Set a style for the submit button */
-.btn {
+.Login .btn {
     background-color: dodgerblue;
     color: var(--color-font-standard);
     padding: 15px 20px;
@@ -52,21 +52,43 @@
     /* font-size: larger; */
 }
 
-.btn:hover {
+.Login .btn:hover {
     opacity: 1;
+}
+
+.Login .i-username {
+    background-image: url("../../assets/username_jedi.png");
+    background-size: cover;
+}
+
+.Login .i-password {
+    background-image: url("../../assets/password_key.svg");
+    background-size: 100% 100%;
 }
 
 /* --- Form links */
 
-.links {
-    color: var(--color-font-standard);
+.Login .links {
+    /*color: var(--color-font-standard);*/
+    color: var(--white);
     text-decoration: underline;
 }
 
-.btns-login {
+.Login .link-container {
+    opacity: 0.7;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.Login div .links {
+    color: var(--color-font-standard) !important;
+    text-decoration: none;
+}
+
+.Login .btns-login {
     margin: 2em auto;
 }
 
-.btns-login > * {
+.Login .btns-login > * {
     width: 45%;
 }

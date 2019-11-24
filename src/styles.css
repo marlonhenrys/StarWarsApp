@@ -37,7 +37,7 @@ body {
   margin: 15% auto;
 }
 
-.btns-introduction {
+.App .btns-introduction {
   width: 70%;
   text-align: center;
   margin: 0 auto;

@@ -15,7 +15,8 @@ const Login = () => {
                 <h2 className="title">Login Form</h2>
                 
                 <div className="input-container"> {/* Username input */}
-                    <i className="fa fa-user icon"></i>
+                    {/*<i className="fa fa-user icon"></i>*/}
+                    <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
                             placeholder="Who are you?" ref={ register(usernameConfig) }/>
                 </div>
@@ -25,7 +26,8 @@ const Login = () => {
                 }
 
                 <div className="input-container"> {/* Password input */}
-                    <i className="fa fa-key icon"></i>
+                    {/*<i className="fa fa-key icon"></i>*/}
+                    <i className="i-password fa fa-key icon"></i>
                     <input className="input-field" type="password" name="password"
                             placeholder="What's your password?" ref={ register(passwordConfig) }/>
                 </div>
@@ -39,7 +41,9 @@ const Login = () => {
                     <button type="submit" className="btn">Explore</button>
                 </div>
 
-                <Link to={"/register"} className="links">Let me introduce my self</Link>
+                <span className={"bg-dark link-container"}>
+                    <Link to={"/register"} className="links">Let me introduce my self</Link>
+                </span>
             </form>
         </div>
     );

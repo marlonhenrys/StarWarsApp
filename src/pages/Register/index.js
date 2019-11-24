@@ -24,7 +24,8 @@ const Register = () => {
                 <h2 className="title">Register Form</h2>
 
                 <div className="input-container"> {/* Username input */}
-                    <i className="fa fa-user icon"></i>
+                    {/*<i className="fa fa-user icon"></i>*/}
+                    <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
                             placeholder="Who are you?" ref={ register(usernameConfig) }/>
                 </div>
@@ -34,7 +35,8 @@ const Register = () => {
                 }
 
                 <div className="input-container"> {/* Password input */}
-                    <i className="fa fa-key icon"></i>
+                    {/*<i className="fa fa-key icon"></i>*/}
+                    <i className="i-password fa fa-key icon"></i>
                     <input className="input-field" type="password" name="password"
                             placeholder="What's your password?" ref={ register(passwordConfig) }/>
                 </div>
@@ -44,7 +46,8 @@ const Register = () => {
                 }
 
                 <div className="input-container"> {/* Password confirm input */}
-                    <i className="fa fa-key icon"></i>
+                    {/*<i className="fa fa-key icon"></i>*/}
+                    <i className="i-password fa fa-key icon"></i>
                     <input className="input-field" type="password" name="password-confirm"
                             id="password-confirm" placeholder="Repeat your password"
                             ref={ register(passwordConfirmConfig) }/>
@@ -59,7 +62,9 @@ const Register = () => {
                     <button type="submit" className="btn">Be a padawan</button>
                 </div>
 
-                <Link to={"/login"} className="links">You already know me</Link>
+                <span className={"bg-dark link-container"}>
+                    <Link to={"/login"} className="links">You already know me</Link>
+                </span>
             </form>
         </div>
     );
