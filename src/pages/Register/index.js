@@ -3,7 +3,7 @@ import useForm from 'react-hook-form';
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import './styles.css';
 
-const Signup = () => {
+const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm()
     const onSubmit = data => console.log('submit event!');
 
@@ -23,7 +23,7 @@ const Signup = () => {
     // console.log(watch('username'));
 
     return (
-        <div className="Signup">
+        <div className="Register">
             <div></div>
             <form>
                 <h2 className="title">Register Form</h2>
@@ -68,4 +68,4 @@ const Signup = () => {
     );
 }
 
-export default Signup;
+export default Register;

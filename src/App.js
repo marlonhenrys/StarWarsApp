@@ -24,7 +24,7 @@ const App = () => {
       root.style.setProperty('--color-font-standard', '#000');
       root.style.setProperty('--color-font-feature', 'rgb(88, 90, 155)');
     }
-  }, [darkModeActived])
+  }, [darkModeActived]);
 
   return (
     <div className="App">
@@ -39,7 +39,7 @@ const App = () => {
       /> */}
     </div>
   );
-}
+};
 
 
 export default App;

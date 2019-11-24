@@ -1,14 +1,10 @@
-.Signup {
-    --color-font-standard: white;
-}
-
-.Signup form {
+.Register form {
     max-width: 70%;
     margin: 0 auto;
     padding: 10% 0;
 }
 
-.Signup .title {
+.Register .title {
     color: var(--color-font-standard);
     margin-bottom: 1em;
 }
@@ -44,12 +40,12 @@
 
 /* --- Form buttons */
 
-.btns-signup {
+.btns-register {
     display: flex;
     justify-content: space-between;
 }
 
-.btns-signup button {
+.btns-register button {
     margin: 2em 5%;
 }
 
