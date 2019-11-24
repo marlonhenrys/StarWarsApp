@@ -23,9 +23,8 @@ body,
 
 body {
   background-image: url('assets/background_manystars.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: hidden;
+  background-repeat: repeat-y;
+  background-size: auto 100%;
 }
 
 .App * {
@@ -35,7 +34,7 @@ body {
 
 .App .title {
   font-size: 5em;
-  margin: 2em auto;
+  margin: 15% auto;
 }
 
 .btns-introduction {

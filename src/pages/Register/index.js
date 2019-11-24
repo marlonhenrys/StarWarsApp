@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, {useRef} from 'react';
 import useForm from 'react-hook-form';
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import './styles.css';
@@ -13,12 +13,7 @@ const Register = () => {
 
     const passwordConfirmConfig = {
         ...passwordConfig,
-        validate: value => {
-            return {
-                value: value === password.current,
-                message: "The passwords does not match.",
-            };
-        }
+        validate: value => value === password.current || "The passwords does not match."
     };
 
     // console.log(watch('username'));
@@ -55,8 +50,8 @@ const Register = () => {
                             ref={ register(passwordConfirmConfig) }/>
                 </div>
 
-                { errors.password && /* Password confirm error */
-                    <div className="alert alert-danger">{errors.passwordConfirm.message}</div>
+                { errors['password-confirm'] && /* Password confirm error */
+                    <div className="alert alert-danger">{errors['password-confirm'].message}</div>
                 }
 
                 <div className="btns-register d-flex justify-content-around">

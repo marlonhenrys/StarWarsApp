@@ -67,6 +67,6 @@
     margin: 2em auto;
 }
 
-.btns-register > button, .btns-register > a {
+.btns-register > *, .btns-register > button, .btns-register > a {
     width: 45%;
 }
