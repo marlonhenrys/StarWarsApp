@@ -1,0 +1,20 @@
+.Error404 .title {
+    margin-top: 10%;
+}
+
+.Error404 .links {
+    /*color: var(--color-font-standard);*/
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.Error404 .link-container {
+    opacity: 0.7;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
+
+.Error404 .sad-image {
+    margin: 2em auto;
+}

@@ -1,0 +1,94 @@
+.Register form {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+
+.Register .title {
+    color: var(--color-font-standard);
+    margin-bottom: 1em;
+}
+
+/* --- Form inputs */
+
+/* Style the input container */
+.Register .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Style the form icons */
+.Register .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: var(--color-font-standard);
+    min-width: 50px;
+    text-align: center;
+}
+
+/* Style the input fields */
+.Register .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.Register .input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* --- Form buttons */
+
+/* Set a style for the submit button */
+.Register .btn {
+    background-color: dodgerblue;
+    color: var(--color-font-standard);
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    /* font-size: larger; */
+}
+
+.Register .btn:hover {
+    opacity: 1;
+}
+
+.Register .i-username {
+    background-image: url("../../assets/username_jedi.png");
+    background-size: cover;
+}
+
+.Register .i-password {
+    background-image: url("../../assets/password_key.svg");
+    background-size: 100% 100%;
+}
+
+/* --- Form links */
+
+.Register .links {
+    /*color: var(--color-font-standard);*/
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.Register .link-container {
+    opacity: 0.7;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.Register div .links {
+    color: var(--color-font-standard) !important;
+    text-decoration: none;
+}
+
+.Register .btns-register {
+    margin: 2em auto;
+}
+
+.Register .btns-register > *, .btns-register > button, .btns-register > a {
+    width: 45%;
+}
