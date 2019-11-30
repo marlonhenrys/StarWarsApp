@@ -5,10 +5,11 @@ import { usernameConfig, passwordConfig } from '../../utils/userValidationRules'
 import authReducer, {login} from "../../utils/authAdministration";
 import './styles.css';
 
-const Login = () => {
+const Login = (props) => {
     const { register, handleSubmit, /* watch, */ errors } = useForm();
     const onSubmit = data => authReducer( login(data) );
-
+    const userDataState = props.location.state;
+    
     return (
         <div className="Login">
             <form onSubmit={handleSubmit(onSubmit)}>
@@ -18,7 +19,9 @@ const Login = () => {
                     {/*<i className="fa fa-user icon"></i>*/}
                     <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
-                            placeholder="Who are you?" ref={ register(usernameConfig) }/>
+                            placeholder="Who are you?" ref={ register(usernameConfig) }
+                            defaultValue={userDataState ? userDataState.userData.username : ""}
+                            autoFocus={!userDataState}/>
                 </div>
 
                 { errors.username && /* Username error */
@@ -29,7 +32,8 @@ const Login = () => {
                     {/*<i className="fa fa-key icon"></i>*/}
                     <i className="i-password fa fa-key icon"></i>
                     <input className="input-field" type="password" name="password"
-                            placeholder="What's your password?" ref={ register(passwordConfig) }/>
+                            placeholder="What's your password?" ref={ register(passwordConfig) }
+                            autoFocus={!!userDataState}/>
                 </div>
 
                 { errors.password && /* Password error */

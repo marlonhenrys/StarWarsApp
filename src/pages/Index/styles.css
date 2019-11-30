@@ -1,0 +1,18 @@
+.Index * {
+    color: white;
+    /* background-color: transparent; */
+}
+
+.Index .title {
+    font-size: 5em;
+    max-width: 70%;
+    /*margin: 15% auto;*/
+    margin: 3% auto;
+}
+
+.Index .btns-introduction {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+  

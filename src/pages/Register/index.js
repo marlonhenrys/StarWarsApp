@@ -1,13 +1,25 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import useForm from 'react-hook-form';
-import {Link} from "react-router-dom";
+import {Link, Redirect} from "react-router-dom";
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import userReducer, { addUser } from "../../utils/userAdministration";
 import './styles.css';
 
 const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm();
-    const onSubmit = data => userReducer(addUser(data));
+    const [ isToRedirect, setIsToRedirect ] = useState(false);
+    const [ userData, setUserData ] = useState({});
+
+    const redirect = () => isToRedirect ? <Redirect to={{
+        pathname: '/login',
+        state: { userData }
+    }} /> : null;
+
+    const onSubmit = data => {
+        userReducer(addUser(data));
+        setUserData(data);
+        setIsToRedirect(true);
+    };
 
     // This reference is a hook and persists during the component life cycle
     const password = useRef({});
@@ -20,6 +32,7 @@ const Register = () => {
 
     return (
         <div className="Register">
+            {redirect()}
             <form onSubmit={handleSubmit(onSubmit)}>
                 <h2 className="title">Register Form</h2>
 
@@ -27,7 +40,8 @@ const Register = () => {
                     {/*<i className="fa fa-user icon"></i>*/}
                     <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
-                            placeholder="Who are you?" ref={ register(usernameConfig) }/>
+                            placeholder="Who are you?" ref={ register(usernameConfig) }
+                            autoFocus/>
                 </div>
 
                 { errors.username && /* Username error */

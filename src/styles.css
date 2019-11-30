@@ -26,21 +26,3 @@ body {
   background-repeat: repeat;
   background-size: auto 100%;
 }
-
-.App * {
-  color: white;
-  background-color: transparent;
-}
-
-.App .title {
-  font-size: 5em;
-  max-width: 70%;
-  /*margin: 15% auto;*/
-  margin: 3% auto;
-}
-
-.App .btns-introduction {
-  width: 70%;
-  text-align: center;
-  margin: 0 auto;
-}
