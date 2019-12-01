@@ -9,9 +9,10 @@
 
 .SideNav .navbar-img {
     width: var(--sidenav-width);
-    height: var(--sidenav-width);
+    height: calc(var(--sidenav-width) * 0.6);
     background-image: url("../../assets/starwars_title.svg");
-    background-size: var(--sidenav-width) auto;
+    background-size: calc(var(--sidenav-width) * 0.9) auto;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
