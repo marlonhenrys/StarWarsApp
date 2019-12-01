@@ -32,7 +32,7 @@ const SideNav = () => {
                 <ul className="list-unstyled components">
                     {categories.map(
                         (category) =>
-                            <li className="active category-link-container">
+                            <li key={category.url} className="active category-link-container">
                                 <Link to={category.url}>
                                     <i className={"fas " + category.icon}/>
                                     {category.name}

@@ -21,16 +21,16 @@ const Header = ({ headerTitle = "Explore this universe", changeTheme, darkModeAc
                     checked={darkModeActived}
                     onChange={() => changeTheme()}
                 />
-                <label for={"darkMode"}>Ativar Modo Escuro</label>
+                <label htmlFor={"darkMode"}>Ativar Modo Escuro</label>
 
                 <a className="navbar-brand" href="#">{headerTitle}</a>
 
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <Link className={"nav-link"}>{getNameOfLoggedUser()}</Link>
+                        <Link to={"#"} className={"nav-link"}>{getNameOfLoggedUser()}</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className={"nav-link"}>|</Link>
+                        <Link to={"#"} className={"nav-link"}>|</Link>
                     </li>
                     <li className="nav-item">
                         <Link to={routes.login} className={"nav-link"}
