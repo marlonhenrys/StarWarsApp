@@ -7,8 +7,10 @@ import {HashRouter} from "react-router-dom";
 import {Route, Switch} from "react-router";
 import Error404 from "./pages/Error404";
 import Index from './pages/Index';
-import './styles.css';
 import routes from "./utils/routes";
+import './styles.css';
+import PrivateRoute from "./components/PrivateRoute";
+import Home from "./pages/Home";
 
 ReactDOM.render(
     <HashRouter>
@@ -16,6 +18,9 @@ ReactDOM.render(
             <Route path={routes.index} exact={true} component={Index}/>
             <Route path={routes.login} exact={true} component={Login}/>
             <Route path={routes.register} exact={true} component={Register}/>
+            <PrivateRoute>
+                <Route path={routes.home} exact={true} component={Home}/>
+            </PrivateRoute>
             <Route path={"*"} component={Error404}/>
         </Switch>
     </HashRouter>,

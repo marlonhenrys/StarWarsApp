@@ -1,7 +1,30 @@
+.SideNav {
+    --sidenav-width: 180px;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.SideNav .category-link-container {
+    padding: 10px;
+}
+
+.SideNav .navbar-img {
+    width: var(--sidenav-width);
+    height: var(--sidenav-width);
+    background-image: url("../../assets/starwars_title.svg");
+    background-size: var(--sidenav-width) auto;
+    background-repeat: no-repeat;
+}
+
+#sidebar {
+    background-color: black;
+    float: left;
+}
+
 /* Shrinking the sidebar from 250px to 80px and center aligining its content*/
 #sidebar.active {
-    min-width: 80px;
-    max-width: 80px;
+    min-width: var(--sidenav-width);
+    max-width: var(--sidenav-width);
     text-align: center;
 }
 
@@ -51,14 +74,18 @@
 }
 
 @media (max-width: 768px) {
+    .SideNav {
+        --sidenav-width: 80px;
+    }
+
     /* 80px and its content aligned to centre. Pushing it off the screen with the
        negative left margin
     */
     #sidebar.active {
-        min-width: 80px;
-        max-width: 80px;
+        min-width: var(--sidenav-width);
+        max-width: var(--sidenav-width);
         text-align: center;
-        margin-left: -80px !important;
+        margin-left: - var(--sidenav-width) !important;
     }
 
 

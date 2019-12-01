@@ -35,7 +35,8 @@ const Login = (props) => {
                     <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
                             placeholder="Who are you?" ref={ register(usernameConfig) }
-                            defaultValue={locationState ? locationState.userData.username : ""}
+                            defaultValue={locationState && locationState.userData ?
+                                locationState.userData.username : ""}
                             autoFocus={!locationState}/>
                 </div>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import './styles.css';
 
-function Error404() {
+const Error404 = () => {
     return (
         <div className="Error404">
             <h1 className={"title"}>Sorry, page not found</h1>
@@ -17,6 +17,6 @@ function Error404() {
             </span>
         </div>
     );
-}
+};
 
 export default Error404;

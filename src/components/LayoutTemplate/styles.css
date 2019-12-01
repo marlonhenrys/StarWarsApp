@@ -1,0 +1,7 @@
+.LayoutTemplate .Header .navbar-brand {
+    margin: 0 auto;
+}
+
+.LayoutTemplate .template-content {
+    clear: right;
+}

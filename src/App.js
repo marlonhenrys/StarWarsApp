@@ -41,10 +41,8 @@ const App = () => {
                 </Link>
             </div>
 
-            {/* <Header
-        darkModeActived={darkModeActived}
-        changeTheme={() => setDarkModeActived(!darkModeActived)}
-      /> */}
+            {/*<Header darkModeActived={darkModeActived}
+                    changeTheme={() => setDarkModeActived(!darkModeActived)}/>*/}
         </div>
     );
 };

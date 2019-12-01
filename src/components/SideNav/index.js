@@ -1,5 +1,8 @@
 import React from 'react';
+import {Link} from "react-router-dom";
+import $ from 'jquery';
 import './styles.css';
+import routes from "../../utils/routes";
 
 $(document).ready(function () {
 
@@ -10,71 +13,48 @@ $(document).ready(function () {
 });
 
 const SideNav = () => {
+    const categories = [
+        { name: 'People', url: routes.people, icon: '' },
+        { name: 'Films', url: routes.films, icon: '' },
+        { name: 'Starships', url: routes.starships, icon: '' },
+        { name: 'Vehicles', url: routes.vehicles, icon: '' },
+        { name: 'Species', url: routes.species, icon: '' },
+        { name: 'Planets', url: routes.planets, icon: '' },
+    ];
+
     return (
-        <div class="SideNav wrapper">
+        <div className="SideNav wrapper">
             <nav id="sidebar">
-                <div class="sidebar-header">
-                    <h3>Bootstrap Sidebar</h3>
-                    <strong>BS</strong>
+                <div className="sidebar-header">
+                    <div className={"navbar-img"}/>
                 </div>
 
-                <ul class="list-unstyled components">
-                    <li class="active">
-                        <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                            <i class="fas fa-home"></i>
-                            Home
-                        </a>
-                        <ul class="collapse list-unstyled" id="homeSubmenu">
-                            <li>
-                                <a href="#">Home 1</a>
+                <ul className="list-unstyled components">
+                    {categories.map(
+                        (category) =>
+                            <li className="active category-link-container">
+                                <Link to={category.url}>
+                                    <i className={"fas " + category.icon}/>
+                                    {category.name}
+                                </Link>
                             </li>
-                            <li>
-                                <a href="#">Home 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Home 3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fas fa-briefcase"></i>
-                            About
-                        </a>
-                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                            <i class="fas fa-copy"></i>
-                            Pages
-                        </a>
-                        <ul class="collapse list-unstyled" id="pageSubmenu">
-                            <li>
-                                <a href="#">Page 1</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 2</a>
-                            </li>
-                            <li>
-                                <a href="#">Page 3</a>
-                            </li>
-                        </ul>
-                    </li>
+                    )}
                 </ul>
 
             </nav>
 
-            <div id="content">
-
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-
-                        <button type="button" id="sidebarCollapse" class="btn btn-info">
-                            <i class="fas fa-align-left"></i>
+            {/*<div id="content">
+                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                    <div className="container-fluid">
+                        <button type="button" id="sidebarCollapse" className="btn btn-info">
+                            <i className="fas fa-align-left"></i>
                             <span>Toggle Sidebar</span>
                         </button>
                     </div>
                 </nav>
-            </div>
+            </div>*/}
         </div>
     );
-}
+};
 
 export default SideNav;
