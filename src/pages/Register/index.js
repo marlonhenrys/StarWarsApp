@@ -4,6 +4,7 @@ import {Link, Redirect} from "react-router-dom";
 import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
 import userReducer, { addUser } from "../../utils/userAdministration";
 import './styles.css';
+import routes from "../../utils/routes";
 
 const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm();
@@ -72,12 +73,12 @@ const Register = () => {
                 }
 
                 <div className="btns-register d-flex justify-content-around">
-                    <Link to={"/"} className="btn links">Come back</Link>
+                    <Link to={routes.index} className="btn links">Come back</Link>
                     <button type="submit" className="btn">Be a padawan</button>
                 </div>
 
                 <span className={"bg-dark link-container"}>
-                    <Link to={"/login"} className="links">You already know me</Link>
+                    <Link to={routes.login} className="links">You already know me</Link>
                 </span>
             </form>
         </div>

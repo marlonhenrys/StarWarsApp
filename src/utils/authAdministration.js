@@ -13,6 +13,7 @@ export const getAuthInfo =
 const setAuthInfo = (authInfo) => localStorage.setItem(AUTH_STORAGE_KEY, authInfo);
 
 export const getLoggedUser = () => getAuthInfo().user;
+export const isUserLogged = () => !!getLoggedUser();
 export const getNameOfLoggedUser = () => getLoggedUser().username;
 
 const _logout = () => {
