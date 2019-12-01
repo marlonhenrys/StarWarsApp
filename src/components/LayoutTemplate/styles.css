@@ -1,7 +1,20 @@
+.LayoutTemplate {
+    --sidenav-width: 180px;
+}
+
+@media (max-width: 768px) {
+    .LayoutTemplate {
+        --sidenav-width: 84px;
+    }
+}
+
 .LayoutTemplate .Header .navbar-brand {
     margin: 0 auto;
 }
 
 .LayoutTemplate .template-content {
+    float: right;
     clear: right;
+    width: calc(100% - var(--sidenav-width));
+    color: var(--color-font-standard);
 }

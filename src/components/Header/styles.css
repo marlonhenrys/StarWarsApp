@@ -1,12 +1,5 @@
 
 .Header {
-    --sidenav-width: 180px;
     width: calc(100% - var(--sidenav-width));
     float: right;
-}
-
-@media (max-width: 768px) {
-    .Header {
-        --sidenav-width: 84px;
-    }
 }
