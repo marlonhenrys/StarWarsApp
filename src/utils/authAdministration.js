@@ -1,7 +1,9 @@
+import userReducer, {checkUser} from './userAdministration';
 
 // schema: {
 //  user: [user]
 // }
+
 const INITIAL_STATE_AUTH = "{}";
 const AUTH_STORAGE_KEY = 'auth_info';
 
@@ -15,6 +17,12 @@ const setAuthInfo = (authInfo) => localStorage.setItem(AUTH_STORAGE_KEY, authInf
 export const getLoggedUser = () => getAuthInfo().user;
 export const isUserLogged = () => !!getLoggedUser();
 export const getNameOfLoggedUser = () => getLoggedUser().username;
+export const authenticates = (userData) => {
+    const checkDataAction = checkUser(userData);
+    userReducer(checkDataAction);
+
+    return checkDataAction.user.exists && checkDataAction.user.exists.password === userData.password;
+};
 
 const _logout = () => {
     const authInfo = getAuthInfo();
@@ -38,9 +46,14 @@ const authReducer = (action) => {
     switch (action.type)
     {
         case AUTH_LOGIN:
-            const authInfo = _logout();
-            authInfo.user = action.user;
-            return authInfo;
+            if (authenticates(action.user))
+            {
+                const authInfo = _logout();
+                authInfo.user = action.user;
+                return authInfo;
+            }
+
+            else return state;
 
         case AUTH_LOGOUT:
             return _logout();

@@ -1,7 +1,7 @@
 import React, {useRef, useState} from 'react';
 import useForm from 'react-hook-form';
 import {Link, Redirect} from "react-router-dom";
-import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
+import { usernameRegisterConfig, passwordConfig } from '../../utils/userValidationRules';
 import userReducer, { addUser } from "../../utils/userAdministration";
 import './styles.css';
 import routes from "../../utils/routes";
@@ -41,7 +41,7 @@ const Register = () => {
                     {/*<i className="fa fa-user icon"></i>*/}
                     <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
-                            placeholder="Who are you?" ref={ register(usernameConfig) }
+                            placeholder="Who are you?" ref={ register(usernameRegisterConfig) }
                             autoFocus/>
                 </div>
 

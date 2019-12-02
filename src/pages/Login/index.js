@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import useForm from 'react-hook-form';
 import {Link, Redirect} from "react-router-dom";
-import { usernameConfig, passwordConfig } from '../../utils/userValidationRules';
+import { usernameLoginConfig, passwordConfig } from '../../utils/userValidationRules';
 import authReducer, {login} from "../../utils/authAdministration";
 import './styles.css';
 import routes from "../../utils/routes";
@@ -9,15 +9,21 @@ import routes from "../../utils/routes";
 const Login = (props) => {
     const { register, handleSubmit, /* watch, */ errors } = useForm();
     const [ isToLogin, setIsToLogin ] = useState(false);
+    const [ loginErrorMsg, setLoginErrorMsg ] = useState(null);
     const locationState = props.location.state;
+    const locationStateHasMsg = locationState && locationState.authMsg;
+    const hasLoginErrorMsg = loginErrorMsg;
 
     const _login = () => isToLogin ? <Redirect to={{
         pathname: routes.home
     }} /> : null;
 
     const onSubmit = data => {
-        authReducer( login(data) );
-        setIsToLogin(true);
+        const loginAction = login(data);
+        authReducer(loginAction);
+
+        if (loginAction.user.exists) setIsToLogin(true);
+        else setLoginErrorMsg("Username or password invalid");
     };
 
     return (
@@ -26,7 +32,11 @@ const Login = (props) => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <h2 className="title">Login Form</h2>
 
-                { locationState && locationState.authMsg && /* Access denied error */
+                { hasLoginErrorMsg && /* Access denied error */
+                    <div className="alert alert-danger">{ loginErrorMsg }</div>
+                }
+
+                { !hasLoginErrorMsg && locationStateHasMsg && /* Access denied error */
                     <div className="alert alert-danger">{ locationState.authMsg }</div>
                 }
 
@@ -34,10 +44,10 @@ const Login = (props) => {
                     {/*<i className="fa fa-user icon"></i>*/}
                     <i className="i-username icon"></i>
                     <input className="input-field" type="text" name="username"
-                            placeholder="Who are you?" ref={ register(usernameConfig) }
+                            placeholder="Who are you?" ref={ register(usernameLoginConfig) }
                             defaultValue={locationState && locationState.userData ?
                                 locationState.userData.username : ""}
-                            autoFocus={!locationState}/>
+                            autoFocus={hasLoginErrorMsg}/>
                 </div>
 
                 { errors.username && /* Username error */
@@ -49,7 +59,7 @@ const Login = (props) => {
                     <i className="i-password fa fa-key icon"></i>
                     <input className="input-field" type="password" name="password"
                             placeholder="What's your password?" ref={ register(passwordConfig) }
-                            autoFocus={!!locationState}/>
+                            autoFocus={!hasLoginErrorMsg && locationStateHasMsg}/>
                 </div>
 
                 { errors.password && /* Password error */

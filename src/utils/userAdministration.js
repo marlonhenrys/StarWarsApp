@@ -17,9 +17,9 @@ const setUsers = (users) => localStorage.setItem(USERS_STORAGE_KEY, users);
 /* --------------------------- Types of Actions */
 
 export const ADD_USER = "ADD_USER";
-/*export const CHANGE_USER = "CHANGE_USER";
-export const DELETE_USER = "DELETE_USER";
-export const CHECK_USER = "CHECK_USER";*/
+// export const CHANGE_USER = "CHANGE_USER";
+// export const DELETE_USER = "DELETE_USER";
+export const CHECK_USER = "CHECK_USER";
 
 /* --------------------------- Reducers */
 
@@ -39,12 +39,12 @@ const userReducer = (action) => {
         case DELETE_USER:
             const newState = {...state};
             delete newState[action.user.username];
-            return newState;
+            return newState;*/
 
         case CHECK_USER:
             // Adds the property exists to the user
             action.user.exists = state[action.user.username];
-            return state;*/
+            return state;
 
         default:
             return state;
@@ -56,6 +56,6 @@ export default (action) => setUsers( JSON.stringify( userReducer(action) ) );
 /* --------------------------- Actions */
 
 export const addUser = (user) => { return {type: ADD_USER, user} };
-/*export const changeUser = (user) => { return {type: CHANGE_USER, user} };
-export const deleteUser = (user) => { return {type: DELETE_USER, user} };
-export const checkUser = (user) => { return {type: CHECK_USER, user} };*/
+// export const changeUser = (user) => { return {type: CHANGE_USER, user} };
+// export const deleteUser = (user) => { return {type: DELETE_USER, user} };
+export const checkUser = (user) => { return {type: CHECK_USER, user} };

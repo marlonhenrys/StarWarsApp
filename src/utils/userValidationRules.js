@@ -6,7 +6,7 @@ export const MIN_USERNAME_LENGTH = 3;
 export const MAX_PASSWORD_LENGTH = 128;
 export const MIN_PASSWORD_LENGTH = 8;
 
-export const usernameConfig = {
+export const usernameLoginConfig = {
     required: "Please, inform your name",
     maxLength: {
         value: MAX_USERNAME_LENGTH,
@@ -17,6 +17,10 @@ export const usernameConfig = {
         message: `Username must have at least ${MIN_USERNAME_LENGTH} characters.`
     },
     pattern: { value: /\w/, message: "Username must have only letters and numbers." },
+};
+
+export const usernameRegisterConfig = {
+    ...usernameLoginConfig,
     validate: username => {
         const users = getUsers();
 
