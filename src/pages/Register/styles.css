@@ -5,7 +5,7 @@
 }
 
 .Register .title {
-    color: var(--color-font-standard);
+    color: white;
     margin-bottom: 1em;
 }
 
@@ -22,7 +22,7 @@
 .Register .icon {
     padding: 10px;
     background: dodgerblue;
-    color: var(--color-font-standard);
+    color: white;
     min-width: 50px;
     text-align: center;
 }
@@ -43,13 +43,12 @@
 /* Set a style for the submit button */
 .Register .btn {
     background-color: dodgerblue;
-    color: var(--color-font-standard);
+    color: white;
     padding: 15px 20px;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-    /* font-size: larger; */
 }
 
 .Register .btn:hover {
@@ -69,7 +68,6 @@
 /* --- Form links */
 
 .Register .links {
-    /*color: var(--color-font-standard);*/
     color: var(--white);
     text-decoration: underline;
 }
@@ -81,7 +79,7 @@
 }
 
 .Register div .links {
-    color: var(--color-font-standard) !important;
+    color: white;
     text-decoration: none;
 }
 

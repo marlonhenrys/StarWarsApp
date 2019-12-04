@@ -5,7 +5,7 @@
 }
 
 .Login .title {
-    color: var(--color-font-standard);
+    color: white;
     margin-bottom: 1em;
 }
 
@@ -22,7 +22,7 @@
 .Login .icon {
     padding: 10px;
     background: dodgerblue;
-    color: var(--color-font-standard);
+    color: white;
     min-width: 50px;
     text-align: center;
 }
@@ -43,7 +43,7 @@
 /* Set a style for the submit button */
 .Login .btn {
     background-color: dodgerblue;
-    color: var(--color-font-standard);
+    color: white;
     padding: 15px 20px;
     border: none;
     cursor: pointer;
@@ -69,8 +69,7 @@
 /* --- Form links */
 
 .Login .links {
-    /*color: var(--color-font-standard);*/
-    color: var(--white);
+    color: white;
     text-decoration: underline;
 }
 
@@ -81,7 +80,7 @@
 }
 
 .Login div .links {
-    color: var(--color-font-standard) !important;
+    color: white !important;
     text-decoration: none;
 }
 
