@@ -1,4 +1,21 @@
-
 .Header {
-    padding-left: var(--sidenav-width);
+  padding-left: var(--sidenav-width);
 }
+
+.bg-color {
+  background-color: var(--color-bg-items);
+}
+
+.Header a, span {
+  color: var(--color-font-feature);
+}
+
+.Header a[disabled] {
+  pointer-events: none;
+}
+
+.navbar-brand {
+  width: 100%;
+  text-align: start;
+}
+

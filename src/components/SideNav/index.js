@@ -1,11 +1,10 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import $ from 'jquery';
 import './styles.css';
 import routes from "../../utils/routes";
 
-const fixSideBar = () =>
-{
+const fixSideBar = () => {
     const documentHeight = $(document).height();
     $('#sidebar').height(documentHeight);
 };
@@ -18,7 +17,7 @@ $(document).ready(
     }
 );
 
-const SideNav = () => {
+const SideNav = ({ changeTheme, darkModeActived }) => {
     const categories = [
         { name: 'People', url: routes.people, icon: '' },
         { name: 'Films', url: routes.films, icon: '' },
@@ -32,21 +31,40 @@ const SideNav = () => {
         <aside className="SideNav wrapper">
             <nav id="sidebar">
                 <div className="sidebar-header">
-                    <div className={"navbar-img"}/>
+                    <div className={"navbar-img"} />
                 </div>
 
                 <ul className="list-unstyled components">
+                    <li key={routes.home} className="active category-link-container">
+                        <Link to={routes.home}>
+                            Home
+                        </Link>
+                    </li>
                     {categories.map(
                         (category) =>
                             <li key={category.url} className="active category-link-container">
                                 <Link to={category.url}>
-                                    <i className={"fas " + category.icon}/>
+                                    <i className={"fas " + category.icon} />
                                     {category.name}
                                 </Link>
                             </li>
                     )}
-                </ul>
+                    <li>
+                        <div class="round">
+                            <input
+                                type="checkbox"
+                                name="darkMode"
+                                id="checkbox"
+                                checked={darkModeActived}
+                                onChange={() => changeTheme()}
+                            />
+                            <label for="checkbox"></label>
+                        </div>
 
+                        <p>Dark Mode</p>
+
+                    </li>
+                </ul>
             </nav>
 
             {/*<div id="content">

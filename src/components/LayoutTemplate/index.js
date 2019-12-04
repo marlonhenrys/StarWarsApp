@@ -36,10 +36,12 @@ const LayoutTemplate = ({ headerTitle, children }) => {
         <div className="LayoutTemplate">
             <Header
                 headerTitle={headerTitle}
+
+            />
+            <SideNav
                 darkModeActived={darkModeActived}
                 changeTheme={() => setDarkModeActived(!darkModeActived)}
             />
-            <SideNav />
             <div className={"template-content"}>
                 {children}
             </div>
