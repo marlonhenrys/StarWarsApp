@@ -2,6 +2,16 @@ import React, {useEffect, useState} from 'react';
 import './styles.css';
 import Header from "../Header";
 import SideNav from "../SideNav";
+import $ from 'jquery';
+
+const fixSideBar = () =>
+{
+    const windowHeight = $(window).height();
+    $('#sidebar').height(windowHeight);
+};
+
+$(window).resize(fixSideBar);
+$(document).ready(fixSideBar);
 
 const LayoutTemplate = ({headerTitle, children}) => {
     const [darkModeActived, setDarkModeActived] = useState(false);
