@@ -1,15 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
-import CardList from './components/CardList';
-import api from './services/api';
 
 import './styles.css';
-import {Link} from "react-router-dom";
-
+import {HashRouter, Route, Switch} from "react-router-dom";
+import routes from "./utils/routes";
+import Index from "./pages/Index";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import PrivateRoute from "./components/PrivateRoute";
+import Home from "./pages/Home";
+import Error404 from "./pages/Error404";
 
 const App = () => {
 
-    const [darkModeActived, setDarkModeActived] = useState(false);
+    /*const [darkModeActived, setDarkModeActived] = useState(false);
 
     useEffect(() => {
         const root = document.documentElement;
@@ -25,27 +28,21 @@ const App = () => {
             root.style.setProperty('--color-font-standard', '#000');
             root.style.setProperty('--color-font-feature', 'rgb(88, 90, 155)');
         }
-    }, [darkModeActived]);
+    }, [darkModeActived]);*/
 
     return (
-        <div className="App">
-            <img src={ require("./assets/starwars_title.svg") } alt={"Star Wars Logo"} className={"title"}/>
-            {/*<h1 className="title">Star Wars</h1>*/}
-
-            <div className="btns-introduction d-flex justify-content-around">
-                <Link to={"/register"}>
-                    <button type="button" className="btn btn-primary btn-lg">Introduce myself</button>
-                </Link>
-                <Link to={"/login"}>
-                    <button type="button" className="btn btn-primary btn-lg">Explore</button>
-                </Link>
-            </div>
-
-            {/*<Header darkModeActived={darkModeActived}
-                    changeTheme={() => setDarkModeActived(!darkModeActived)}/>*/}
-        </div>
+        <HashRouter>
+            <Switch>
+                <Route path={routes.index} exact={true} component={Index}/>
+                <Route path={routes.login} exact={true} component={Login}/>
+                <Route path={routes.register} exact={true} component={Register}/>
+                <PrivateRoute>
+                    <Route path={routes.home} exact={true} component={Home}/>
+                </PrivateRoute>
+                <Route path={"*"} component={Error404}/>
+            </Switch>
+        </HashRouter>
     );
 };
-
 
 export default App;
