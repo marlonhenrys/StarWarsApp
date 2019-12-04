@@ -4,13 +4,19 @@ import $ from 'jquery';
 import './styles.css';
 import routes from "../../utils/routes";
 
-$(document).ready(function () {
+const fixSideBar = () =>
+{
+    const documentHeight = $(document).height();
+    $('#sidebar').height(documentHeight);
+};
 
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-
-});
+$(document).resize(fixSideBar);
+$(document).ready(
+    () => {
+        fixSideBar();
+        $('#sidebarCollapse').click(() => $('#sidebar').toggleClass('active'));
+    }
+);
 
 const SideNav = () => {
     const categories = [
@@ -23,7 +29,7 @@ const SideNav = () => {
     ];
 
     return (
-        <div className="SideNav wrapper">
+        <aside className="SideNav wrapper">
             <nav id="sidebar">
                 <div className="sidebar-header">
                     <div className={"navbar-img"}/>
@@ -53,7 +59,7 @@ const SideNav = () => {
                     </div>
                 </nav>
             </div>*/}
-        </div>
+        </aside>
     );
 };
 

@@ -4,14 +4,15 @@ import Header from "../Header";
 import SideNav from "../SideNav";
 import $ from 'jquery';
 
-const fixSideBar = () =>
+const fixContent = () =>
 {
-    const windowHeight = $(window).height();
-    $('#sidebar').height(windowHeight);
+    const documentHeight = $(document).height();
+    const headerHeight = $('.Header').height();
+    $('.LayoutTemplate .template-content').height(documentHeight - headerHeight);
 };
 
-$(window).resize(fixSideBar);
-$(document).ready(fixSideBar);
+$(document).resize(fixContent);
+$(document).ready(fixContent);
 
 const LayoutTemplate = ({headerTitle, children}) => {
     const [darkModeActived, setDarkModeActived] = useState(false);
@@ -34,10 +35,10 @@ const LayoutTemplate = ({headerTitle, children}) => {
 
     return (
         <div className="LayoutTemplate">
-            <Header darkModeActived={darkModeActived}
+            <Header headerTitle={headerTitle} darkModeActived={darkModeActived}
                     changeTheme={() => setDarkModeActived(!darkModeActived)}/>
             <SideNav/>
-            <div className={"container template-content"}>
+            <div className={"template-content"}>
                 {children}
             </div>
         </div>

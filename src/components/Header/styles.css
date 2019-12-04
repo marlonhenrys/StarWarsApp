@@ -1,5 +1,4 @@
 
 .Header {
-    width: calc(100% - var(--sidenav-width));
-    float: right;
+    padding-left: var(--sidenav-width);
 }

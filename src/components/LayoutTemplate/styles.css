@@ -13,8 +13,7 @@
 }
 
 .LayoutTemplate .template-content {
-    float: right;
-    clear: right;
-    width: calc(100% - var(--sidenav-width));
+    padding-left: var(--sidenav-width);
     color: var(--color-font-standard);
+    background-color: var(--color-bg-main);
 }
