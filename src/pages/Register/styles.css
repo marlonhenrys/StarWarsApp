@@ -1,7 +1,7 @@
 .Register form {
     max-width: 70%;
     margin: 0 auto;
-    padding: 10% 0;
+    padding: 10% 0 0;
 }
 
 .Register .title {
@@ -32,6 +32,9 @@
     width: 100%;
     padding: 10px;
     outline: none;
+    border-color: transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .Register .input-field:focus {
@@ -57,12 +60,20 @@
 
 .Register .i-username {
     background-image: url("../../assets/username_jedi.png");
-    background-size: cover;
+    background-size: 80% 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 .Register .i-password {
     background-image: url("../../assets/password_key.svg");
-    background-size: 100% 100%;
+    background-size: 70% 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 /* --- Form links */
@@ -73,8 +84,8 @@
 }
 
 .Register .link-container {
-    opacity: 0.7;
-    padding: 3px;
+    opacity: 0.75;
+    padding: 4px 8px;
     border-radius: 5px;
 }
 

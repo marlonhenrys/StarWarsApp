@@ -1,11 +1,10 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import './styles.css';
 import Header from "../Header";
 import SideNav from "../SideNav";
 import $ from 'jquery';
 
-const fixContent = () =>
-{
+const fixContent = () => {
     const documentHeight = $(document).height();
     const headerHeight = $('.Header').height();
     $('.LayoutTemplate .template-content').height(documentHeight - headerHeight);
@@ -14,7 +13,7 @@ const fixContent = () =>
 $(document).resize(fixContent);
 $(document).ready(fixContent);
 
-const LayoutTemplate = ({headerTitle, children}) => {
+const LayoutTemplate = ({ headerTitle, children }) => {
     const [darkModeActived, setDarkModeActived] = useState(false);
 
     useEffect(() => {
@@ -35,9 +34,12 @@ const LayoutTemplate = ({headerTitle, children}) => {
 
     return (
         <div className="LayoutTemplate">
-            <Header headerTitle={headerTitle} darkModeActived={darkModeActived}
-                    changeTheme={() => setDarkModeActived(!darkModeActived)}/>
-            <SideNav/>
+            <Header
+                headerTitle={headerTitle}
+                darkModeActived={darkModeActived}
+                changeTheme={() => setDarkModeActived(!darkModeActived)}
+            />
+            <SideNav />
             <div className={"template-content"}>
                 {children}
             </div>
