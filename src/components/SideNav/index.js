@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from "react-router-dom";
 import $ from 'jquery';
 import './styles.css';
@@ -27,6 +27,8 @@ const SideNav = () => {
         { name: 'Species', url: routes.species, icon: '' },
         { name: 'Planets', url: routes.planets, icon: '' },
     ];
+
+    useEffect(() => fixSideBar(), []);
 
     return (
         <aside className="SideNav wrapper">
