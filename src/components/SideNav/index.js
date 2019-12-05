@@ -28,6 +28,7 @@ const SideNav = () => {
         { name: 'Planets', url: routes.planets, icon: '' },
     ];
 
+    // fixSideBar();
     useEffect(() => fixSideBar(), []);
 
     return (

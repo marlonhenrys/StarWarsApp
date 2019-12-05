@@ -1,9 +1,10 @@
 
-export default {
+const routes = {
     index: "/",
     login: "/login",
     register: "/register",
     home: "/home",
+    categories: "/categories",
     people: "/people",
     films: "/films",
     starships: "/starships",
@@ -11,3 +12,5 @@ export default {
     species: "/species",
     planets: "/planets",
 };
+
+export default routes;

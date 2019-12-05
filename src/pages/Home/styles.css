@@ -1,0 +1,18 @@
+.Home {
+    min-height: 100%;
+    text-align: center;
+    padding: 2ch;
+}
+
+.Home .carousel-item img {
+    height: 400px;
+    max-height: 400px;
+}
+
+.Home .jumbotron {
+    background-color: var(--color-bg-main);
+}
+
+.Home .jumbotron > * {
+    margin-top: 20px;
+}
