@@ -1,4 +1,7 @@
 .Home {
+    padding: 0 10%;
+    height: calc(100vh - 92px);
+    overflow-y: auto;
 }
 
 .Home .jumbotron {
@@ -7,6 +10,11 @@
 
 .Home .jumbotron > * {
     margin-top: 20px;
+}
+
+.Home .btn-color {
+    background-color: var(--color-font-feature);
+    color: black;
 }
 
 @media (max-width: 576px) {

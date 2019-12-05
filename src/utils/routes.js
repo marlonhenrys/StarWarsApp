@@ -13,7 +13,6 @@ const routes = {
     vehicles: "/vehicles",
     species: "/species",
     planets: "/planets",
-    categoryList: "/category-list",
 };
 
 export default routes;

@@ -12,12 +12,12 @@ const CategoryList = ({ category }) => {
             .then(response => {
                 setElements([...response.data.results]);
             })
-    }, [elements]);
+    }, [category]);
 
     return (
-        <div className="List">
-            {elements.map(element => (
-                <CardList key={element.name ? element.name : element.title} element={element} />
+        <div className="List col-md-12 flex-wrap d-flex">
+            {elements.map((element, index) => (
+                <CardList key={index} itemId={index + 1} element={element} category={category} />
             ))}
         </div>
     );
