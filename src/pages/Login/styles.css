@@ -45,13 +45,13 @@
 
 /* Set a style for the submit button */
 .Login .btn {
-    background-color: dodgerblue;
-    color: white;
+    /* background-color: dodgerblue; */
+    /* color: white; */
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    width: 100%;
     opacity: 0.9;
+    width: 100%;
     /* font-size: larger; */
 }
 
@@ -79,26 +79,27 @@
 
 /* --- Form links */
 
-.Login .links {
+/* .Login .links {
     color: white;
     text-decoration: underline;
-}
-
+} */
+/* 
 .Login .link-container {
     opacity: 0.75;
     padding: 4px 8px;
     border-radius: 5px;
 }
 
-.Login div .links {
+/* .Login div .links {
     color: white !important;
     text-decoration: none;
-}
+} */
 
 .Login .btns-login {
     margin: 2em auto;
+    
 }
 
 .Login .btns-login > * {
     width: 45%;
-}
+} 

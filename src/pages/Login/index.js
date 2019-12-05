@@ -69,13 +69,20 @@ const Login = (props) => {
                     }
 
                     <div className="btns-login d-flex justify-content-around">
-                        <Link to={routes.index} className="btn links">Come back</Link>
-                        <button type="submit" className="btn">Explore</button>
+                        <Link to={routes.index}>
+                            <Button variant="light">Come back</Button>
+                        </Link>
+                        <Button variant="primary" type="submit" >Explore</Button>
                     </div>
 
-                    <span className={"bg-dark link-container"}>
-                        <Link to={routes.register} className="links">Let me introduce myself</Link>
-                    </span>
+                    <div>
+                    <Link to={routes.register}>
+                        <Button variant="secondary" size="sm">
+                            Let me introduce myself
+                        </Button>
+                    </Link>
+                    </div>
+
                 </form>
             </div>
         </div>

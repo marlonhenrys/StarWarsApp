@@ -5,6 +5,7 @@ import { usernameRegisterConfig, passwordConfig } from '../../utils/userValidati
 import userReducer, { addUser } from "../../utils/userAdministration";
 import './styles.css';
 import routes from "../../utils/routes";
+import { Button } from "react-bootstrap";
 
 const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm();
@@ -74,12 +75,18 @@ const Register = () => {
                     }
 
                     <div className="btns-register d-flex justify-content-around">
-                        <Link to={routes.index} className="btn links">Come back</Link>
-                        <button type="submit" className="btn">Be a padawan</button>
+                        <Link to={routes.index}>
+                            <Button variant="light">Come back</Button>
+                        </Link>
+                        <Button variant="primary" type="submit" >Be a padawan</Button>
                     </div>
 
                     <span className={"bg-dark link-container"}>
-                        <Link to={routes.login} className="links">You already know me</Link>
+                        <Link to={routes.login}>
+                            <Button variant="secondary" size="sm">
+                                You already know me
+                        </Button>
+                        </Link>
                     </span>
                 </form>
             </div>
