@@ -19,7 +19,7 @@ const Header = ({ headerTitle = "Explore this universe" }) => {
                         <Link disabled to={"#"} className={"nav-link"}>{getNameOfLoggedUser()}</Link>
                     </li>
                     <li className="nav-item">
-                        <Link disabled to={"#"} className={"nav-link"}>&#10140;</Link>
+                        <Link disabled to={"#"} className={"nav-link"}> | </Link>
                     </li>
                     <li className="nav-item">
                         <Link to={routes.login} className={"nav-link"}

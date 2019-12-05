@@ -3,6 +3,17 @@ import { Link } from "react-router-dom";
 import $ from 'jquery';
 import './styles.css';
 import routes from "../../utils/routes";
+import lightsaberlight from "../../assets/icons/icons8-lightsaber-light.svg";
+import lightsaberdark from "../../assets/icons/icons8-lightsaber-dark.svg";
+// import milleniumfacon from "../../assets/icons/ic_starwars_icons_millenniumfalcon.xml";
+// import r2d2 from "../../assets/icons/ic_starwars_icons_r2d2.xml";
+// import people from "../../assets/icons/ic_starwars_people_chewbacca.xml";
+// import deathstar from "../../assets/icons/ic_starwars_planets_deathstar.xml";
+// import title from " ../../assets/icons/ic_starwars_title_title.xml";
+// import vehicle from "../../assets/icons/ic_starwars_vehicle_vehicle.xml";
+// import milleniumfalcon2 from  "../../assets/icons/starwars_icons_millenniumfalcon.xml";
+import { Button } from "react-bootstrap";
+
 
 const fixSideBar = () => {
     const documentHeight = $(document).height();
@@ -19,7 +30,7 @@ $(document).ready(
 
 const SideNav = ({ changeTheme, darkModeActived }) => {
     const categories = [
-        { name: 'People', url: routes.people, icon: '' },
+        { name: 'People', url: routes.people, icon: ''},
         { name: 'Films', url: routes.films, icon: '' },
         { name: 'Starships', url: routes.starships, icon: '' },
         { name: 'Vehicles', url: routes.vehicles, icon: '' },
@@ -54,17 +65,18 @@ const SideNav = ({ changeTheme, darkModeActived }) => {
                     )}
                     <li>
                         <div className="round">
-                            <input
+                            <button 
+                                className="button-change-light"
+                                variant="outline-dark" 
+                                onClick={() => changeTheme()} 
                                 type="checkbox"
                                 name="darkMode"
                                 id="checkbox"
                                 checked={darkModeActived}
-                                onChange={() => changeTheme()}
-                            />
-                            <label htmlFor="checkbox"></label>
+                            >
+                                {darkModeActived ? <img src={lightsaberlight} alt="Light lightsaber" /> : <img src={lightsaberdark} alt="Dark lightsaber" />}
+                            </button>
                         </div>
-
-                        <p>Dark Mode</p>
 
                     </li>
                 </ul>
