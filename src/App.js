@@ -120,9 +120,8 @@ const App = () => {
                             component={() => <Home darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
                         <Route path={routes.genericCategory} exact={true}
                             render={(props) => <Category {...props} darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
-
                         <Route path={routes.genericItem} exact={true}
-                            component={Item} />
+                            render={(props) => <Item {...props} darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
                     </Switch>
                 </PrivateRoute>
                 <Route path={"*"} component={Error404} />
