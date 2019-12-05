@@ -2,7 +2,7 @@
   padding-left: var(--sidenav-width);
 }
 
-.bg-color {
+.Header .bg-color {
   background-color: var(--color-bg-items);
 }
 
@@ -14,7 +14,7 @@
   pointer-events: none;
 }
 
-.navbar-brand {
+.Header .navbar-brand {
   width: 100%;
   text-align: start;
 }
@@ -23,4 +23,3 @@
   text-decoration: underline;
   color: var(--color-font-feature);
 }
-

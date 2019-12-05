@@ -35,56 +35,95 @@ const App = () => {
      */
     const [apiData, setApiData] = useState({});
 
-    function fetchUrl(url = API_BASE) {
+    /**
+     * Organização:
+     * 
+     * {
+     *     categoryUrl: numberOfFetchedPages,
+     *     categoryUrl: numberOfFetchedPages,
+     *     categoryUrl: numberOfFetchedPages,
+     * }
+     */
+    const [categoriesPages, setCategoriesPages] = useState({});
+
+    function fetchUrl(url = API_BASE, saveState = false) {
         return new Promise(
             (resolve, reject) => {
-                if (apiData[url]) resolve(apiData[url]);
+                const cached = !!apiData[url];
+
+                if (cached) resolve([apiData[url], cached]);
 
                 else axios.get(url).then(
                     (response) => {
-                        setApiData({ ...apiData, [url]: response.data });
-                        resolve(response.data);
+                        if (saveState) setApiData({ ...apiData, [url]: response.data });
+                        resolve([response.data, cached]);
                     }
                 )
-                    .catch((error) => console.log(error));
+                .catch((error) => console.log(error));
+            }
+        );
+    }
+
+    // A URL já tem que vir com o filtro de page. O parâmetro page desta função
+    // é usado apenas para guardá-lo no objeto buscado
+    function fetchCategoryUrl(url, page = 1) {
+        return new Promise(
+            (resolve, reject) => {
+                fetchUrl(url).then(
+                    (dataAndCacheStatus) => {
+                        const [data, cached] = dataAndCacheStatus;
+
+                        if (!cached)
+                        {
+                            data.url = url;
+                            data.page = page;
+                            
+                            const newApiData = {...apiData, [url]: data};
+                            
+                            // Além de fazer o cache da url da categoria, faz o cache das urls
+                            // de cada um dos itens dela
+                            data.results.forEach((result) => newApiData[result.url] = result);
+                            
+                            setApiData(newApiData);
+                            setCategoriesPages({...categoriesPages, [url]: page});
+                            console.log(data);
+                        }
+
+                        resolve(data);
+                    }
+                );
             }
         );
     }
 
     function fetchCategory(categoryName, page = 1) {
+        const pageQuery = page === 1 ? '' : `?page=${page}`;
+
+        return fetchCategoryUrl(`${API_BASE}${categoryName}/${pageQuery}`, page);
+    }
+
+    function fetchCategoryItemUrl(url) {
         return new Promise(
             (resolve, reject) => {
-                const pageQuery = page === 1 ? '' : `?page=${page}`;
-                const url = `${API_BASE}${categoryName}/${pageQuery}`;
+                fetchUrl(url).then(
+                    (dataAndCacheStatus) => {
+                        const [data, cached] = dataAndCacheStatus;
 
-                fetchUrl(url).then((data) => {
-                    resolve(data);
+                        if (!cached)
+                        {
+                            setApiData({ ...apiData, [url]: data });
+                            console.log(data);
+                        }
 
-                    /*const newApiData = {...apiData};
-
-                    // Além de fazer o cache da url da categoria, faz o cache das urls
-                    // de cada um dos itens dela
-                    data.results.forEach((result) => newApiData[result.url] = result);
-
-                    setApiData(newApiData);*/
-
-                    console.log(data);
-                });
+                        resolve(data);
+                    }
+                );
             }
         );
     }
 
     function fetchCategoryItem(categoryName, id) {
-        return new Promise(
-            (resolve, reject) => {
-                const url = `${API_BASE}${categoryName}/${id}`;
-
-                fetchUrl(url).then((data) => {
-                    resolve(data);
-                    console.log(data);
-                });
-            }
-        );
+        return fetchCategoryItemUrl(`${API_BASE}${categoryName}/${id}`);
     }
 
     useEffect(() => { fetchCategory('people'); }, [apiData]);
@@ -107,7 +146,6 @@ const App = () => {
         }
     }, [darkModeActived]);
 
-
     return (
         <HashRouter>
             <Switch>
@@ -117,9 +155,16 @@ const App = () => {
                 <PrivateRoute>
                     <Switch>
                         <Route path={routes.home} exact={true}
-                            component={() => <Home darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
+                            component={() =>
+                                <Home darkModeActived={darkModeActived}
+                                changeTheme={() => setDarkModeActived(!darkModeActived)} />}
+                        />
+
                         <Route path={routes.genericCategory} exact={true}
-                            render={(props) => <Category {...props} darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
+                            render={(props) =>
+                                <Category {...props} darkModeActived={darkModeActived}
+                                changeTheme={() => setDarkModeActived(!darkModeActived)} />}
+                        />
 
                         <Route path={routes.genericItem} exact={true}
                             component={Item} />
