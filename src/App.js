@@ -134,7 +134,7 @@ const App = () => {
         const root = document.documentElement;
 
         if (darkModeActived) {
-            root.style.setProperty('--color-bg-main', '#000');
+            root.style.setProperty('--color-bg-main', '#222');
             root.style.setProperty('--color-bg-items', '#444');
             root.style.setProperty('--color-font-standard', '#FFF');
             root.style.setProperty('--color-font-feature', 'rgb(231, 212, 28)');
@@ -167,7 +167,7 @@ const App = () => {
                         />
 
                         <Route path={routes.genericItem} exact={true}
-                            component={Item} />
+                            render={(props) => <Item {...props} darkModeActived={darkModeActived} changeTheme={() => setDarkModeActived(!darkModeActived)} />} />
                     </Switch>
                 </PrivateRoute>
                 <Route path={"*"} component={Error404} />

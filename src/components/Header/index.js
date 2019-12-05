@@ -5,11 +5,14 @@ import routes from "../../utils/routes";
 import authReducer, { getNameOfLoggedUser, logout } from "../../utils/authAdministration";
 
 const Header = ({ headerTitle = "Explore this universe" }) => {
+
+    const title = headerTitle.charAt(0).toUpperCase() + headerTitle.slice(1);
+
     return (
         <div className="Header">
             <nav className="navbar navbar-expand-sm bg-color">
 
-                <span className="navbar-brand">{headerTitle}</span>
+                <span className="navbar-brand">{title}</span>
 
                 <ul className="navbar-nav">
                     <li className="nav-item">

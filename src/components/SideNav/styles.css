@@ -136,10 +136,13 @@
   }
 
   .SideNav ul li:first-of-type {
-      margin-top: 15%;
+      margin-top: 0%;
   }
 
   .SideNav ul li:last-of-type {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
       display: flex;
       justify-content: space-evenly;
       padding: 10px;

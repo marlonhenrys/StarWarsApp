@@ -73,7 +73,7 @@ const Home = ({ darkModeActived, changeTheme }) => {
                     {/*<hr className="my-4"/>
                     <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior
                         container.</p>*/}
-                    <Link to={routes.people} className="btn btn-secondary btn-lg" role="button">Explore more</Link>
+                    <Link to={routes.people} className="btn btn-color btn-lg" role="button">Explore more</Link>
                 </div>
             </div>
         </LayoutTemplate>

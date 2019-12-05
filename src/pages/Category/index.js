@@ -8,11 +8,8 @@ const Category = (props) => {
     const category = props.match.params.category;
 
     return (
-        <LayoutTemplate headerTitle={"Explore this universe"} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
-            <div className="Category">
-                {category} category :)
-                <CategoryList category={category} />
-            </div>
+        <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
+            <CategoryList category={category} />
         </LayoutTemplate>
     );
 };
