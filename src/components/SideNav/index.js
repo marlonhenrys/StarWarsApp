@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import React from 'react';
 import { Link } from "react-router-dom";
+=======
+import React, {useEffect} from 'react';
+import {Link} from "react-router-dom";
+>>>>>>> 8a1af6fafa1b62a0ae15ec2c7297ae9c8451382e
 import $ from 'jquery';
 import './styles.css';
 import routes from "../../utils/routes";
@@ -26,6 +31,8 @@ const SideNav = ({ changeTheme, darkModeActived }) => {
         { name: 'Species', url: routes.species, icon: '' },
         { name: 'Planets', url: routes.planets, icon: '' },
     ];
+
+    useEffect(() => fixSideBar(), []);
 
     return (
         <aside className="SideNav wrapper">
