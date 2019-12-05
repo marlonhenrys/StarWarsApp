@@ -1,3 +1,10 @@
+.button-change-light {
+    border: none;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+}
+
 .SideNav {
     min-height: 100%;
     max-height: 100%;
