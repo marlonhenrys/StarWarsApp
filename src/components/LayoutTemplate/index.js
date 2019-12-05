@@ -42,7 +42,9 @@ const LayoutTemplate = ({headerTitle, children}) => {
                     changeTheme={() => setDarkModeActived(!darkModeActived)}/>
             <SideNav/>
             <div className={"template-content"}>
-                {children}
+                <div className={"inner-template-content"}>
+                    {children}
+                </div>
             </div>
         </div>
     );

@@ -1,0 +1,12 @@
+
+.Carousel .carousel-item img {
+    height: 400px;
+    max-height: 400px;
+}
+
+@media (max-width: 576px) {
+    .Carousel .carousel-item img {
+        height: 200px;
+        max-height: 200px;
+    }
+}

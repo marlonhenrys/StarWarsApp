@@ -1,10 +1,12 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import './styles.css';
 
-const Carousel = ({imagesConfig}) => {
+const Carousel = ({imagesConfig, omitControls = false}) => {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-            <ol className="carousel-indicators">
+        <div id="carouselExampleIndicators" className="carousel slide Carousel" data-ride="carousel">
+            { omitControls ? null :
+                <ol className="carousel-indicators">
                 {
                     imagesConfig.map((imagesConfig, index) =>
                         <li data-target="#carouselExampleIndicators"
@@ -13,11 +15,16 @@ const Carousel = ({imagesConfig}) => {
                             className={index === 0 ? "active" : ""}/>
                     )
                 }
-            </ol>
+                </ol>
+            }
             <div className="carousel-inner">
                 {
                     imagesConfig.map((imageConfig, index) =>
-                        <Link to={imageConfig.route} key={imageConfig.title}
+                        <Link to={{
+                                    pathname: imageConfig.route,
+                                    state: {imageConfig}
+                                }}
+                                key={imageConfig.title}
                                 className={"carousel-item" + (index === 0 ? " active" : "")}>
                             <div>
                                 <img className="d-block w-100" src={imageConfig.src} alt={imageConfig.alt}/>
@@ -30,16 +37,21 @@ const Carousel = ({imagesConfig}) => {
                     )
                 }
             </div>
-            <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-               data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Anterior</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleIndicators" role="button"
-               data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Próximo</span>
-            </a>
+            {
+                omitControls ? null :
+                    <span>
+                        <a className={"carousel-control-prev"}
+                           href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Anterior</span>
+                        </a>
+                        <a className={"carousel-control-next"}
+                           href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="sr-only">Próximo</span>
+                        </a>
+                    </span>
+            }
         </div>
     );
 };

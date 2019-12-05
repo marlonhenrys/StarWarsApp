@@ -69,11 +69,11 @@ const Home = () => {
                 <div className="jumbotron">
                     <h1 className="display-4">Welcome, {username}</h1>
                     <p className="lead">We are very happy with your presence. You are
-                        our new padawan. Come into the Star Wars universe!</p>
+                        now our new padawan. Come into the Star Wars universe!</p>
                     {/*<hr className="my-4"/>
                     <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior
                         container.</p>*/}
-                    <Link to={routes.categories} className="btn btn-secondary btn-lg" role="button">Explore more</Link>
+                    <Link to={routes.people} className="btn btn-secondary btn-lg" role="button">Explore more</Link>
                 </div>
             </div>
         </LayoutTemplate>

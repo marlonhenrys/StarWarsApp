@@ -5,6 +5,8 @@ const routes = {
     register: "/register",
     home: "/home",
     categories: "/categories",
+    genericCategory: "/:category",
+    genericItem: "/:category/:id",
     people: "/people",
     films: "/films",
     starships: "/starships",

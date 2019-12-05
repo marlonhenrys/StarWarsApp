@@ -9,6 +9,8 @@ import Register from "./pages/Register";
 import PrivateRoute from "./components/PrivateRoute";
 import Home from "./pages/Home";
 import Error404 from "./pages/Error404";
+import Category from "./pages/Category";
+import Item from "./pages/Item";
 
 const App = () => {
 
@@ -37,7 +39,11 @@ const App = () => {
                 <Route path={routes.login} exact={true} component={Login}/>
                 <Route path={routes.register} exact={true} component={Register}/>
                 <PrivateRoute>
-                    <Route path={routes.home} exact={true} component={Home}/>
+                    <Switch>
+                        <Route path={routes.home} exact={true} component={Home}/>
+                        <Route path={routes.genericCategory} exact={true} component={Category}/>
+                        <Route path={routes.genericItem} exact={true} component={Item}/>
+                    </Switch>
                 </PrivateRoute>
                 <Route path={"*"} component={Error404}/>
             </Switch>
