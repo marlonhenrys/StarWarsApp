@@ -19,3 +19,8 @@
   text-align: start;
 }
 
+.Header a:hover {
+  text-decoration: underline;
+  color: var(--color-font-feature);
+}
+

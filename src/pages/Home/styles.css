@@ -1,0 +1,20 @@
+.Home {
+}
+
+.Home .jumbotron {
+    background-color: var(--color-bg-main);
+}
+
+.Home .jumbotron > * {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .Home .jumbotron .display-4 {
+        font-size: 2.5rem;
+    }
+
+    .Home .jumbotron .lead {
+        font-size: 1rem;
+    }
+}

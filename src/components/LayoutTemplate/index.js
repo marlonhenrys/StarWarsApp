@@ -13,30 +13,28 @@ const fixContent = () => {
 $(document).resize(fixContent);
 $(document).ready(fixContent);
 
-<<<<<<< HEAD
 const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme }) => {
-=======
-const LayoutTemplate = ({headerTitle, children}) => {
-    const [darkModeActived, setDarkModeActived] = useState(false);
 
+    // const [darkModeActived, setDarkModeActived] = useState(false);
+
+    // fixContent();
     useEffect(() => fixContent(), []);
 
-    useEffect(() => {
-        const root = document.documentElement;
+    // useEffect(() => {
+    //     const root = document.documentElement;
 
-        if (darkModeActived) {
-            root.style.setProperty('--color-bg-main', '#000');
-            root.style.setProperty('--color-bg-items', '#444');
-            root.style.setProperty('--color-font-standard', '#FFF');
-            root.style.setProperty('--color-font-feature', 'rgb(231, 212, 28)');
-        } else {
-            root.style.setProperty('--color-bg-main', '#CCC');
-            root.style.setProperty('--color-bg-items', '#FFF');
-            root.style.setProperty('--color-font-standard', '#000');
-            root.style.setProperty('--color-font-feature', 'rgb(88, 90, 155)');
-        }
-    }, [darkModeActived]);
->>>>>>> 8a1af6fafa1b62a0ae15ec2c7297ae9c8451382e
+    //     if (darkModeActived) {
+    //         root.style.setProperty('--color-bg-main', '#000');
+    //         root.style.setProperty('--color-bg-items', '#444');
+    //         root.style.setProperty('--color-font-standard', '#FFF');
+    //         root.style.setProperty('--color-font-feature', 'rgb(231, 212, 28)');
+    //     } else {
+    //         root.style.setProperty('--color-bg-main', '#CCC');
+    //         root.style.setProperty('--color-bg-items', '#FFF');
+    //         root.style.setProperty('--color-font-standard', '#000');
+    //         root.style.setProperty('--color-font-feature', 'rgb(88, 90, 155)');
+    //     }
+    // }, [darkModeActived]);
 
     return (
         <div className="LayoutTemplate">
@@ -48,7 +46,9 @@ const LayoutTemplate = ({headerTitle, children}) => {
                 changeTheme={() => changeTheme()}
             />
             <div className={"template-content"}>
-                {children}
+                <div className={"inner-template-content"}>
+                    {children}
+                </div>
             </div>
         </div>
     );

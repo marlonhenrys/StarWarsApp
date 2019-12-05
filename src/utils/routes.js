@@ -1,9 +1,12 @@
 
-export default {
+const routes = {
     index: "/",
     login: "/login",
     register: "/register",
     home: "/home",
+    categories: "/categories",
+    genericCategory: "/:category",
+    genericItem: "/:category/:id",
     people: "/people",
     films: "/films",
     starships: "/starships",
@@ -12,3 +15,5 @@ export default {
     planets: "/planets",
     categoryList: "/category-list",
 };
+
+export default routes;

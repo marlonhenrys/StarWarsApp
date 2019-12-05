@@ -16,4 +16,11 @@
     padding-left: var(--sidenav-width);
     color: var(--color-font-standard);
     background-color: var(--color-bg-main);
+    /*overflow: scroll;*/
+}
+
+.LayoutTemplate .template-content .inner-template-content {
+    min-height: 100%;
+    text-align: center;
+    padding: 2ch;
 }
