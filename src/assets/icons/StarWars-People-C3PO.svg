@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 750 700"
+	 style="enable-background:new 0 0 750 700;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#C346FF;}
+	.st2{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st3{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9827,6.9698;}
+	.st4{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9801,6.9652;}
+	.st5{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9895,6.9816;}
+	.st6{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0177,7.031;}
+	.st7{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9876,6.9783;}
+	.st8{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9785,6.9623;}
+	.st9{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0001,7.0002;}
+	.st10{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0163,7.0286;}
+	.st11{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0329,7.0576;}
+	.st12{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.972,6.951;}
+	.st13{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0117,7.0205;}
+	.st14{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.982,6.9685;}
+	.st15{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9821,6.9687;}
+	.st16{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;}
+	.st17{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9495,6.9117;}
+	.st18{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9495,6.9117;}
+	.st19{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0092,7.016;}
+	.st20{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9584,6.9271;}
+	.st21{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9584,6.9271;}
+	.st22{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0054,7.0095;}
+	.st23{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0519,7.0909;}
+	.st24{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0519,7.0909;}
+	.st25{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0083,7.0145;}
+	.st26{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0204,7.0356;}
+	.st27{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0204,7.0356;}
+	.st28{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9938,6.9892;}
+	.st29{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9911,6.9843;}
+	.st30{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9911,6.9843;}
+	.st31{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.022,7.0385;}
+	.st32{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.037,7.0648;}
+	.st33{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.037,7.0648;}
+	.st34{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0195,7.0342;}
+	.st35{fill:none;stroke:#000000;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0247,7.0432;}
+	.st36{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0247,7.0432;}
+	.st37{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0243,7.0426;}
+	.st38{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.996,6.993;}
+	.st39{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9922,6.9863;}
+	.st40{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9876,6.9782;}
+	.st41{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0065,7.0114;}
+	.st42{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9927,6.9872;}
+	.st43{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.016,7.0279;}
+	.st44{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.0003,7.0006;}
+	.st45{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9862,5.9724;}
+	.st46{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.7615,3.523;}
+	.st47{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0747,6.1493;}
+	.st48{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9956,5.9911;}
+	.st49{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.134,6.2681;}
+	.st50{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0049,6.0099;}
+	.st51{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1381,6.2761;}
+	.st52{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0571,6.1141;}
+	.st53{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.7741,3.5482;}
+	.st54{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.2195,6.439;}
+	.st55{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.907,5.8141;}
+	.st56{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0065,6.013;}
+	.st57{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0105,6.0211;}
+	.st58{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1295,6.259;}
+	.st59{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9008,5.8015;}
+	.st60{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.1125,4.2249;}
+	.st61{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9396,5.8792;}
+	.st62{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0434,6.0868;}
+	.st63{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9386,5.8772;}
+	.st64{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9576,5.9151;}
+	.st65{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8632,5.7264;}
+	.st66{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.922,5.8439;}
+	.st67{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.1239,4.2478;}
+	.st68{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1666,6.3331;}
+	.st69{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9872,5.9743;}
+	.st70{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.97,5.94;}
+	.st71{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0114,6.0228;}
+	.st72{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0435,6.087;}
+	.st73{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.744,7.4881;}
+	.st74{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.6345,5.269;}
+	.st75{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0146,6.0292;}
+	.st76{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0047,6.0095;}
+	.st77{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9658,5.9315;}
+	.st78{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9151,5.8303;}
+	.st79{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.7743,5.5485;}
+	.st80{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9687,5.9375;}
+	.st81{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0913,6.1826;}
+	.st82{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9327,5.8654;}
+	.st83{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.7565,5.5131;}
+	.st84{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.174,6.348;}
+	.st85{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8057,5.6114;}
+	.st86{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0257,6.0513;}
+	.st87{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.2765,6.5531;}
+	.st88{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.4552,6.9105;}
+	.st89{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.0639,4.1278;}
+	.st90{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.049,6.0981;}
+	.st91{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.03,6.0601;}
+	.st92{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9684,5.9369;}
+	.st93{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0259,6.0519;}
+	.st94{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8234,5.6468;}
+	.st95{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9795,5.959;}
+	.st96{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8873,5.7747;}
+	.st97{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.998,5.996;}
+	.st98{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.6265,5.253;}
+	.st99{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9996,5.9992;}
+	.st100{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0268,6.0536;}
+	.st101{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0486,6.0971;}
+	.st102{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1015,6.203;}
+	.st103{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.047,6.094;}
+	.st104{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9338,5.8675;}
+	.st105{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9319,3.8639;}
+	.st106{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9942,5.9883;}
+	.st107{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9524,5.9047;}
+	.st108{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0191,6.0382;}
+	.st109{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0535,6.1069;}
+	.st110{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.383,6.7659;}
+	.st111{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0718,6.1437;}
+	.st112{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.9441,3.8882;}
+	.st113{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9441,5.8881;}
+	.st114{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9701,5.9402;}
+	.st115{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.6466,5.2931;}
+	.st116{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0049,6.0098;}
+	.st117{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1665,6.3331;}
+	.st118{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0761,6.1521;}
+	.st119{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9605,5.9211;}
+	.st120{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.693,5.386;}
+	.st121{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.011,6.022;}
+	.st122{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9601,5.9203;}
+	.st123{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9412,5.8824;}
+	.st124{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0176,6.0352;}
+	.st125{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9606,5.9212;}
+	.st126{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.4505,6.901;}
+	.st127{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0026,6.0052;}
+	.st128{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.983,5.966;}
+	.st129{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9439,5.8879;}
+	.st130{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9705,5.9409;}
+	.st131{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1114,6.2229;}
+	.st132{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8192,5.6384;}
+	.st133{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.5316,5.0631;}
+	.st134{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.2406,6.4811;}
+	.st135{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9911,5.9822;}
+	.st136{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8929,5.7857;}
+	.st137{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0235,6.047;}
+	.st138{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9667,5.9335;}
+	.st139{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.2432,6.4865;}
+	.st140{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0516,6.1032;}
+	.st141{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9783,5.9566;}
+	.st142{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9394,5.8789;}
+	.st143{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1834,6.3667;}
+	.st144{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0933,6.1866;}
+	.st145{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9395,5.879;}
+	.st146{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9528,5.9055;}
+	.st147{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1028,6.2056;}
+	.st148{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0517,6.1033;}
+	.st149{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9052,5.8103;}
+	.st150{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1055,6.2111;}
+	.st151{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.6419,5.2838;}
+	.st152{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.6824,5.3648;}
+	.st153{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0206,6.0412;}
+	.st154{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0207,6.0415;}
+	.st155{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1618,6.3235;}
+	.st156{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9395,5.8791;}
+	.st157{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9631,5.9263;}
+	.st158{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.7822,5.5644;}
+	.st159{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.961,5.9221;}
+	.st160{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.7199,3.4398;}
+	.st161{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9878,5.9756;}
+	.st162{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9811,5.9622;}
+	.st163{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0024,6.0049;}
+	.st164{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9629,5.9257;}
+	.st165{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9681,5.9363;}
+	.st166{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9384,5.8769;}
+	.st167{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.1851,6.3703;}
+	.st168{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9733,5.9465;}
+	.st169{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9981,5.9961;}
+	.st170{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9433,5.8867;}
+	.st171{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9698,5.9397;}
+	.st172{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9937,5.9875;}
+	.st173{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.187,6.3739;}
+	.st174{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8993,5.7985;}
+	.st175{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0247,6.0495;}
+	.st176{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9725,5.945;}
+	.st177{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.8467,5.6934;}
+	.st178{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9831,5.9663;}
+	.st179{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9921,5.9842;}
+	.st180{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9002,5.8004;}
+	.st181{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0406,6.0812;}
+	.st182{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1.634,3.268;}
+	.st183{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.9366,5.8731;}
+	.st184{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:2.4335,4.867;}
+	.st185{fill:none;stroke:#C346FF;stroke-width:3.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.0006,6.0011;}
+	.st186{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;}
+	.st187{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.5663,6.2411;}
+	.st188{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.33,7.5775;}
+	.st189{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.7326,6.5321;}
+	.st190{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9547,6.9207;}
+	.st191{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.4224,7.7393;}
+	.st192{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.5641,6.2372;}
+	.st193{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.888,6.8039;}
+	.st194{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.6541,6.3946;}
+	.st195{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.4387,7.7677;}
+	.st196{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.4417,7.773;}
+	.st197{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.5389,7.9431;}
+	.st198{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.8857,6.8;}
+	.st199{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4.3619,7.6333;}
+	.st200{fill:none;stroke:#C346FF;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st201{fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st202{fill:none;stroke:#C346FF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st203{fill:none;stroke:#C346FF;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st204{fill:none;stroke:#000000;stroke-width:2.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st205{fill:none;stroke:#C346FF;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st206{fill:none;stroke:#000000;stroke-width:3.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="7750" width="9305.06" x="-3179.06" y="0"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<g id="FILL-BACKGROUND">
+	<rect class="st0" width="750" height="700"/>
+</g>
+<g id="N-DIMENSIONS">
+	<g>
+		<path class="st1" d="M101.79,54.65c-0.73-0.36-1.29-0.83-1.68-1.41s-0.59-1.2-0.62-1.87v-0.04c0-0.11,0.04-0.19,0.12-0.26
+			s0.17-0.1,0.28-0.1h0.98c0.28,0,0.46,0.15,0.54,0.44c0.2,0.72,0.57,1.26,1.11,1.61s1.16,0.53,1.87,0.53
+			c0.91,0,1.66-0.28,2.26-0.83c0.6-0.55,0.9-1.32,0.9-2.29c0-0.89-0.3-1.6-0.9-2.13c-0.6-0.53-1.35-0.79-2.26-0.79
+			c-0.48,0-0.87,0.06-1.16,0.18c-0.29,0.12-0.59,0.29-0.9,0.52c-0.17,0.13-0.32,0.23-0.43,0.29c-0.11,0.06-0.24,0.09-0.37,0.09
+			h-0.96c-0.12,0-0.23-0.04-0.32-0.13c-0.09-0.09-0.13-0.19-0.12-0.31l0.62-6.66c0.04-0.33,0.21-0.5,0.5-0.5h6.92
+			c0.15,0,0.26,0.04,0.34,0.12c0.08,0.08,0.12,0.19,0.12,0.34v0.74c0,0.13-0.04,0.24-0.13,0.32c-0.09,0.08-0.2,0.12-0.33,0.12h-5.76
+			l-0.36,4.02c0.64-0.45,1.5-0.68,2.58-0.68c0.89,0,1.71,0.18,2.44,0.53c0.73,0.35,1.32,0.87,1.75,1.55
+			c0.43,0.68,0.65,1.49,0.65,2.42c0,0.99-0.22,1.84-0.65,2.55c-0.43,0.71-1.03,1.25-1.8,1.62c-0.77,0.37-1.64,0.55-2.63,0.55
+			C103.39,55.19,102.53,55,101.79,54.65z"/>
+		<path class="st1" d="M111.63,44.48c-0.05-0.07-0.07-0.18-0.06-0.31l0.44-2.8c0.05-0.39,0.24-0.58,0.56-0.58h1.28
+			c0.09,0,0.17,0.03,0.23,0.1c0.06,0.07,0.09,0.15,0.09,0.24c0,0.13-0.02,0.24-0.06,0.32l-1.04,2.7c-0.07,0.15-0.14,0.26-0.22,0.33
+			c-0.08,0.07-0.2,0.11-0.36,0.11h-0.62C111.77,44.58,111.69,44.55,111.63,44.48z"/>
+		<path class="st1" d="M118.54,54.86c-0.07-0.09-0.11-0.19-0.11-0.31c0-0.09,0.03-0.18,0.08-0.26l3.08-4.28
+			c-0.32,0.08-0.69,0.12-1.12,0.12c-0.96-0.01-1.8-0.24-2.52-0.67c-0.72-0.43-1.27-1-1.65-1.7c-0.38-0.7-0.57-1.45-0.57-2.25
+			c0-0.8,0.19-1.56,0.57-2.28c0.38-0.72,0.95-1.31,1.7-1.76s1.66-0.68,2.73-0.68c1.07,0,1.98,0.22,2.74,0.66
+			c0.76,0.44,1.33,1.02,1.72,1.73c0.39,0.71,0.58,1.48,0.58,2.29c0,0.73-0.13,1.38-0.39,1.94c-0.26,0.56-0.6,1.14-1.03,1.74
+			l-3.88,5.44c-0.09,0.12-0.18,0.22-0.27,0.29c-0.09,0.07-0.21,0.11-0.37,0.11h-1C118.71,54.99,118.62,54.94,118.54,54.86z
+			 M122.31,48.17c0.48-0.25,0.86-0.61,1.14-1.07s0.42-0.99,0.42-1.59c0-0.61-0.14-1.15-0.42-1.62s-0.66-0.83-1.14-1.08
+			c-0.48-0.25-1.01-0.38-1.58-0.38c-0.56,0-1.08,0.13-1.55,0.38c-0.47,0.25-0.85,0.61-1.13,1.08c-0.28,0.47-0.42,1.01-0.42,1.62
+			c0,0.6,0.14,1.13,0.42,1.59c0.28,0.46,0.65,0.82,1.12,1.07c0.47,0.25,0.99,0.38,1.56,0.38S121.83,48.42,122.31,48.17z"/>
+		<path class="st1" d="M127.98,44.47c-0.06-0.08-0.08-0.18-0.05-0.3l0.44-2.8c0.05-0.39,0.24-0.58,0.56-0.58h1.28
+			c0.09,0,0.17,0.03,0.23,0.1c0.06,0.07,0.09,0.15,0.09,0.24c0,0.13-0.02,0.24-0.06,0.32l-1.04,2.7c-0.07,0.15-0.14,0.26-0.22,0.33
+			c-0.08,0.07-0.2,0.11-0.36,0.11h-0.62C128.13,44.58,128.04,44.54,127.98,44.47z M131.12,44.47c-0.06-0.08-0.08-0.18-0.05-0.3
+			l0.44-2.8c0.05-0.39,0.24-0.58,0.56-0.58h1.28c0.09,0,0.17,0.03,0.23,0.1c0.06,0.07,0.09,0.15,0.09,0.24
+			c0,0.13-0.02,0.24-0.06,0.32l-1.04,2.7c-0.07,0.15-0.14,0.26-0.22,0.33s-0.2,0.11-0.36,0.11h-0.62
+			C131.27,44.58,131.18,44.54,131.12,44.47z"/>
+		<path class="st1" d="M140.99,59.02c-0.08-0.09-0.12-0.2-0.12-0.33V37.53c0-0.13,0.04-0.24,0.12-0.33s0.19-0.13,0.32-0.13h0.74
+			c0.13,0,0.24,0.04,0.33,0.13s0.13,0.2,0.13,0.33v21.16c0,0.13-0.04,0.24-0.13,0.33c-0.09,0.09-0.2,0.13-0.33,0.13h-0.74
+			C141.18,59.15,141.07,59.1,140.99,59.02z"/>
+		<path class="st1" d="M154.11,54.86c-0.08-0.09-0.12-0.2-0.12-0.33V43.25l-3.36,2.58c-0.09,0.08-0.19,0.12-0.3,0.12
+			c-0.12,0-0.23-0.07-0.34-0.2l-0.48-0.62c-0.07-0.09-0.1-0.19-0.1-0.28c0-0.15,0.07-0.27,0.2-0.36l4.34-3.36
+			c0.15-0.09,0.32-0.14,0.52-0.14h0.94c0.13,0,0.24,0.04,0.33,0.13s0.13,0.2,0.13,0.33v13.08c0,0.13-0.04,0.24-0.13,0.33
+			s-0.2,0.13-0.33,0.13h-0.98C154.3,54.99,154.19,54.94,154.11,54.86z"/>
+		<path class="st1" d="M158.9,54.86c-0.09-0.09-0.13-0.2-0.13-0.33v-1.38c0-0.13,0.04-0.25,0.13-0.34c0.09-0.09,0.2-0.14,0.33-0.14
+			h1.38c0.13,0,0.24,0.05,0.33,0.14c0.09,0.09,0.13,0.21,0.13,0.34v1.38c0,0.13-0.04,0.24-0.13,0.33c-0.09,0.09-0.2,0.13-0.33,0.13
+			h-1.38C159.1,54.99,158.99,54.94,158.9,54.86z"/>
+		<path class="st1" d="M164.52,54.86c-0.07-0.09-0.11-0.19-0.11-0.31l0.04-0.18l5-11.7h-6.6c-0.13,0-0.24-0.04-0.33-0.13
+			c-0.09-0.09-0.13-0.2-0.13-0.33v-0.74c0-0.15,0.04-0.26,0.12-0.35s0.19-0.13,0.34-0.13h8.16c0.15,0,0.26,0.04,0.34,0.13
+			s0.12,0.2,0.12,0.35v0.68c0,0.24-0.05,0.5-0.16,0.78l-4.94,11.56c-0.07,0.15-0.14,0.27-0.22,0.36c-0.08,0.09-0.19,0.14-0.34,0.14
+			h-1C164.69,54.99,164.6,54.94,164.52,54.86z"/>
+		<path class="st1" d="M175.23,54.65c-0.73-0.36-1.29-0.83-1.68-1.41s-0.59-1.2-0.62-1.87v-0.04c0-0.11,0.04-0.19,0.12-0.26
+			s0.17-0.1,0.28-0.1h0.98c0.28,0,0.46,0.15,0.54,0.44c0.2,0.72,0.57,1.26,1.11,1.61s1.16,0.53,1.87,0.53
+			c0.91,0,1.66-0.28,2.26-0.83c0.6-0.55,0.9-1.32,0.9-2.29c0-0.89-0.3-1.6-0.9-2.13c-0.6-0.53-1.35-0.79-2.26-0.79
+			c-0.48,0-0.87,0.06-1.16,0.18c-0.29,0.12-0.59,0.29-0.9,0.52c-0.17,0.13-0.32,0.23-0.43,0.29c-0.11,0.06-0.24,0.09-0.37,0.09
+			h-0.96c-0.12,0-0.23-0.04-0.32-0.13c-0.09-0.09-0.13-0.19-0.12-0.31l0.62-6.66c0.04-0.33,0.21-0.5,0.5-0.5h6.92
+			c0.15,0,0.26,0.04,0.34,0.12c0.08,0.08,0.12,0.19,0.12,0.34v0.74c0,0.13-0.04,0.24-0.13,0.32c-0.09,0.08-0.2,0.12-0.33,0.12h-5.76
+			l-0.36,4.02c0.64-0.45,1.5-0.68,2.58-0.68c0.89,0,1.71,0.18,2.44,0.53c0.73,0.35,1.32,0.87,1.75,1.55
+			c0.43,0.68,0.65,1.49,0.65,2.42c0,0.99-0.22,1.84-0.65,2.55c-0.43,0.71-1.03,1.25-1.8,1.62c-0.77,0.37-1.64,0.55-2.63,0.55
+			C176.83,55.19,175.97,55,175.23,54.65z"/>
+		<path class="st1" d="M190.4,54.86c-0.09-0.09-0.13-0.2-0.13-0.33v-9.48c0-0.13,0.04-0.24,0.13-0.33c0.09-0.09,0.2-0.13,0.33-0.13
+			h0.84c0.13,0,0.24,0.04,0.32,0.13c0.08,0.09,0.12,0.2,0.12,0.33v0.68c0.72-0.89,1.69-1.34,2.92-1.34c1.47,0,2.51,0.61,3.12,1.84
+			c0.32-0.56,0.78-1.01,1.37-1.34c0.59-0.33,1.26-0.5,1.99-0.5c1.09,0,1.99,0.37,2.68,1.12c0.69,0.75,1.04,1.83,1.04,3.24v5.78
+			c0,0.13-0.04,0.24-0.13,0.33c-0.09,0.09-0.2,0.13-0.33,0.13h-0.86c-0.13,0-0.24-0.04-0.33-0.13s-0.13-0.2-0.13-0.33v-5.6
+			c0-1.07-0.22-1.83-0.66-2.29c-0.44-0.46-1.02-0.69-1.74-0.69c-0.64,0-1.19,0.24-1.65,0.71c-0.46,0.47-0.69,1.23-0.69,2.27v5.6
+			c0,0.13-0.04,0.24-0.13,0.33s-0.2,0.13-0.33,0.13h-0.88c-0.13,0-0.24-0.04-0.33-0.13s-0.13-0.2-0.13-0.33v-5.6
+			c0-1.05-0.23-1.81-0.69-2.28s-1.03-0.7-1.71-0.7c-0.64,0-1.19,0.23-1.65,0.7s-0.69,1.22-0.69,2.26v5.62
+			c0,0.13-0.04,0.24-0.13,0.33s-0.2,0.13-0.33,0.13h-0.88C190.6,54.99,190.49,54.94,190.4,54.86z"/>
+	</g>
+</g>
+<g id="N-TEXT">
+</g>
+<g id="AG-DIAGRAM">
+	<g id="POLYLINE_4236_">
+		<g>
+			<g>
+				<line class="st2" x1="98.88" y1="642.75" x2="100.88" y2="642.75"/>
+				<line class="st10" x1="107.91" y1="642.75" x2="645.6" y2="642.75"/>
+				<line class="st2" x1="649.12" y1="642.75" x2="651.12" y2="642.75"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="AG-DETAIL-DIAGRAM">
+</g>
+<g id="AG-GUIDES">
+	<g id="POLYLINE_6_">
+		<g>
+			<g>
+				<line class="st186" x1="98.88" y1="74.16" x2="100.88" y2="74.16"/>
+				<line class="st192" x1="107.12" y1="74.16" x2="143.21" y2="74.16"/>
+				<line class="st186" x1="146.33" y1="74.16" x2="148.33" y2="74.16"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="AG-DETAILS">
+	<g id="POLYLINE_813_">
+		<path class="st200" d="M498.37,304.86c2.16-6.2,4.45-12.36,7.04-18.4c0.78-1.82,1.57-3.63,2.38-5.44"/>
+	</g>
+	<g id="POLYLINE_814_">
+		<path class="st200" d="M511.01,307.35c-1.99-3.36-3.91-6.75-5.81-10.15c-1.84-3.28-3.79-6.58-5.07-10.13
+			c-0.69-1.91-1.03-3.88-1.35-5.88"/>
+	</g>
+	<g id="POLYLINE_815_">
+		<path class="st200" d="M489.86,297.69c0.44-5.27,0.92-10.53,1.44-15.8"/>
+	</g>
+	<g id="POLYLINE_816_">
+		<path class="st200" d="M485.59,294.59c-0.32-4.13-0.4-8.26-0.17-12.4"/>
+	</g>
+	<g id="POLYLINE_817_">
+		<path class="st200" d="M503.07,308.93c4.87-6.42,9.44-13.23,12.89-20.53c0.93-1.97,1.75-3.99,2.52-6.03"/>
+	</g>
+	<g id="POLYLINE_818_">
+		<path class="st200" d="M534.17,294.93c-1.15-3.17-1.75-6.52-1.78-9.89"/>
+	</g>
+	<g id="POLYLINE_819_">
+		<path class="st200" d="M539.47,293.74c-0.32-2.57-0.26-5.15,0.15-7.7"/>
+	</g>
+	<g id="POLYLINE_820_">
+		<path class="st200" d="M545.32,292.68c1.39-2.13,2.79-4.26,4.2-6.38"/>
+	</g>
+	<g id="POLYLINE_821_">
+		<line class="st200" x1="560.3" y1="291.23" x2="559.74" y2="284.75"/>
+	</g>
+	<g id="POLYLINE_822_">
+		<line class="st200" x1="554.48" y1="291.54" x2="554.39" y2="285.84"/>
+	</g>
+	<g id="POLYLINE_823_">
+		<path class="st200" d="M495,281.53c-1.51,4.4-2.58,8.88-3.15,13.5c-0.16,1.28-0.28,2.56-0.38,3.85"/>
+	</g>
+	<g id="POLYLINE_824_">
+		<path class="st200" d="M493.84,300.71c0.31-5.09,1-10.14,2.43-15.04c0.43-1.48,0.94-2.94,1.46-4.39"/>
+	</g>
+	<g id="POLYLINE_825_">
+		<path class="st200" d="M525.65,297.7c-0.04-4.69-0.21-9.36-0.5-14.04"/>
+	</g>
+	<g id="POLYLINE_826_">
+		<path class="st200" d="M522.62,283.16c0.34,5.24,0.52,10.47,0.54,15.72"/>
+	</g>
+	<g id="POLYLINE_1564_">
+		<path class="st200" d="M225.64,326.6c-0.12-1.57-0.22-3.14-0.5-4.69c-0.29-1.56-0.87-2.98-1.46-4.44
+			c-0.64-1.59-1.06-3.18-0.88-4.9c0.34-3.19,1.84-6.23,2.98-9.19c1.15-2.99,1.7-6.03,1.99-9.21c0.33-3.64,0.59-7.29,0.5-10.95"/>
+	</g>
+	<g id="POLYLINE_1565_">
+		<path class="st200" d="M189.58,322.74c-1.96-4.36-3.41-8.93-4.02-13.67c-0.63-4.87-0.5-9.79-0.41-14.69
+			c0.05-2.89,0.05-5.74-0.11-8.63"/>
+	</g>
+	<g id="POLYLINE_1566_">
+		<path class="st200" d="M192.77,324.69c-0.59-4.21-1.2-8.43-1.7-12.66c-0.56-4.7-1.12-9.4-1.62-14.12
+			c-0.29-2.83-0.59-5.65-0.88-8.48"/>
+	</g>
+	<g id="POLYLINE_1567_">
+		<path class="st200" d="M183.34,318.25c-0.2-4.52-0.47-9.02-0.98-13.51c-0.49-4.35-1.13-8.68-1.89-12.99
+			c-0.46-2.6-0.98-5.18-1.54-7.76"/>
+	</g>
+	<g id="POLYLINE_1568_">
+		<path class="st200" d="M178.61,313.99c-0.99-7.99-0.54-15.99,1.49-23.79c0.57-2.17,1.26-4.31,2.04-6.41"/>
+	</g>
+	<g id="POLYLINE_1569_">
+		<path class="st200" d="M229.23,324.99c-1.19-5.8-1.34-11.88,1.28-17.31c1.27-2.64,2.98-5.13,3.75-7.99
+			c0.7-2.58,0.6-5.28,0.45-7.93c-0.21-3.82-0.19-7.63-0.32-11.46"/>
+	</g>
+	<g id="POLYLINE_1570_">
+		<path class="st200" d="M259.1,308.99c2.08-6.36,3.07-12.94,2.85-19.63c-0.06-1.89-0.23-3.77-0.47-5.65"/>
+	</g>
+	<g id="POLYLINE_1571_">
+		<path class="st200" d="M264.66,306.37c0.09-5.22,0.83-10.41,2.33-15.42c0.4-1.34,0.86-2.66,1.35-3.97"/>
+	</g>
+	<g id="POLYLINE_1572_">
+		<path class="st200" d="M202.05,328.96c-0.6-4.56-1.03-9.13-1.21-13.72c-0.19-4.65-0.09-9.3,0.18-13.95
+			c0.15-2.59,0.39-5.17,0.68-7.74"/>
+	</g>
+	<g id="POLYLINE_1582_">
+		<path class="st200" d="M233.87,145.83c4.85-0.26,9.66-0.76,14.43-1.69"/>
+	</g>
+	<g id="POLYLINE_1583_">
+		<path class="st200" d="M200.7,144.72c6.25,1.04,12.59,1.15,18.92,1.23c1.7,0.02,3.39,0.03,5.09,0.04"/>
+	</g>
+	<g id="POLYLINE_1584_">
+		<path class="st200" d="M194.53,116.3c2.79,0.55,5.67,0.42,8.49,0.28c1.23-0.06,2.48-0.11,3.58-0.73c0.76-0.44,1.39-1.07,2.02-1.67
+			c3.24-3.1,7.25-5.93,12-5.11c2.2,0.38,4.18,1.58,5.95,2.87c0.93,0.67,2.03,2.02,3.27,1.42c1.21-0.59,2.19-1.65,3.34-2.35
+			c3.2-1.92,7.29-2.37,10.87-1.38c1.66,0.46,3.31,1.23,4.57,2.42c0.51,0.48,0.91,1.03,1.26,1.63c0.53,0.92,0.92,2.46,2.07,2.78
+			c0.47,0.13,0.99,0.06,1.46,0.01"/>
+	</g>
+	<g id="POLYLINE_1587_">
+		<path class="st200" d="M212.13,201.76c1-1.97,1.19-4.51,0.87-6.65c-0.45-3.03-4.59-4.24-7.04-5.13c-2.05-0.74-4.16-1.36-6.28-1.88
+			"/>
+	</g>
+	<g id="POLYLINE_1588_">
+		<path class="st200" d="M196.36,187.38c-5.05-0.93-10.17-1.34-15.3-1"/>
+	</g>
+	<g id="POLYLINE_1592_">
+		<path class="st200" d="M207.33,225.39c0.24-3.56,0.77-7.09,1.47-10.59c0.69-3.49,1.4-7,2.43-10.41c0.93-3.05,2.17-6.16,4.41-8.49
+			c2.24-2.34,5.25-3.72,8.21-4.91c3.75-1.5,7.58-2.85,11.37-4.25"/>
+	</g>
+	<g id="POLYLINE_1593_">
+		<path class="st200" d="M238.45,185.59c5.79-2,11.62-3.87,17.62-5.14c1.52-0.32,3.05-0.6,4.59-0.83"/>
+	</g>
+	<g id="POLYLINE_1596_">
+		<path class="st200" d="M189.27,289.9c-0.15,4.84,0.4,10.13,2.15,14.68c0.82,2.13,2.02,4.1,2.66,6.3c0.7,2.4,0.92,4.94,1.26,7.41
+			c0.38,2.75,0.66,5.5,0.9,8.26"/>
+	</g>
+	<g id="POLYLINE_1597_">
+		<path class="st200" d="M199.54,328.04c-0.39-5.28-0.88-10.62-1.89-15.82c-0.87-4.49-3.5-8.28-4.37-12.77
+			c-0.51-2.63-0.82-5.28-0.86-7.96"/>
+	</g>
+	<g id="POLYLINE_1598_">
+		<path class="st200" d="M214.16,291.6c-0.12,5.04-0.49,10.03-1.33,15.01c-0.86,5.07-2.05,10.08-2.96,15.14
+			c-0.51,2.84-0.92,5.69-1.32,8.55"/>
+	</g>
+	<g id="POLYLINE_1599_">
+		<path class="st200" d="M211.57,330.33c0.74-5.29,1.71-10.52,2.77-15.76c1.05-5.22,2.06-10.41,2.49-15.73
+			c0.23-2.81,0.3-5.63,0.35-8.45"/>
+	</g>
+	<g id="POLYLINE_1600_">
+		<path class="st200" d="M209.89,321.62c-1.62-7.42-3.02-14.87-4.22-22.37c-0.3-1.9-0.57-3.81-0.85-5.72"/>
+	</g>
+	<g id="POLYLINE_1601_">
+		<path class="st200" d="M218.65,329.11c-0.36-4.1-1.24-7.93-2.85-11.73c-0.44-1.03-0.91-2.05-1.41-3.05"/>
+	</g>
+	<g id="POLYLINE_1602_">
+		<path class="st200" d="M212.13,310.39c-1.9-2.88-4.36-4.89-7.07-6.99c-2.62-2.03-5.17-4.37-7.12-7.07
+			c-0.82-1.13-1.35-2.34-1.85-3.63"/>
+	</g>
+	<g id="POLYLINE_1603_">
+		<path class="st200" d="M244.58,279.48c-2.48,5.14-3.99,10.45-5.23,16c-1.19,5.34-2.4,10.87-2.48,16.36
+			c-0.02,1.33,0.04,2.66,0.18,3.97c0.16,1.48,0.26,3.33,0.83,4.71"/>
+	</g>
+	<g id="POLYLINE_1604_">
+		<path class="st200" d="M239.84,319.5c-0.53-2.73-0.89-5.44-0.8-8.22c0.09-2.55,0.47-5.07,0.89-7.58
+			c0.9-5.42,2.03-10.91,3.68-16.16c0.41-1.31,0.89-2.6,1.43-3.86c0.29-0.69,0.6-1.38,0.92-2.06c0.28-0.59,0.75-1.25,0.86-1.9"/>
+	</g>
+	<g id="POLYLINE_1605_">
+		<path class="st200" d="M240.36,291.19c-0.72-3.85-1.23-7.81-0.86-11.73"/>
+	</g>
+	<g id="POLYLINE_1606_">
+		<path class="st200" d="M239.34,316.69c1.13-2.31,2.21-4.65,3.39-6.94c1.16-2.25,2.47-4.45,3.47-6.79
+			c1.66-3.89,1.9-7.96,1.18-12.11c-0.45-2.57-1.21-5.07-2.22-7.47"/>
+	</g>
+	<g id="POLYLINE_1607_">
+		<path class="st200" d="M243.93,280.83c-0.26-0.48-0.54-0.96-0.83-1.43"/>
+	</g>
+	<g id="POLYLINE_1608_">
+		<path class="st200" d="M248.25,314.82c0.09-1.83,0.2-3.68,0.86-5.41c0.83-2.18,1.91-4.27,2.76-6.45
+			c1.68-4.33,2.53-8.95,3.06-13.55c0.3-2.61,0.47-5.24,0.62-7.86"/>
+	</g>
+	<g id="POLYLINE_1609_">
+		<path class="st200" d="M252.52,280.73c-0.3,5.22-0.69,10.44-1.84,15.55c-0.51,2.28-1.22,4.49-2.11,6.64
+			c-0.9,2.17-2.06,4.25-2.74,6.5c-0.71,2.32-0.71,4.76-0.74,7.17"/>
+	</g>
+	<g id="POLYLINE_1610_">
+		<path class="st200" d="M250.03,280.19c0.22,2.81,0.56,5.51,1.94,8.01"/>
+	</g>
+	<g id="POLYLINE_1611_">
+		<path class="st200" d="M254.58,292.08c2.72,3.61,5.23,7.09,6.93,11.31c0.5,1.24,0.96,2.5,1.41,3.76"/>
+	</g>
+	<g id="POLYLINE_1612_">
+		<path class="st200" d="M252.57,312.43c-0.74-1.79-1.47-3.59-2.5-5.24"/>
+	</g>
+	<g id="POLYLINE_1613_">
+		<path class="st200" d="M247.97,304.3c-2.26-2.8-4.93-5.57-6.39-8.91"/>
+	</g>
+</g>
+<g id="AG-POP-CULTURE">
+	<g id="POLYLINE_1307_">
+		<path class="st203" d="M566.31,228.86c-1.46,1.51-3.99,1.41-5.9,1.51c-3,0.16-6.08,0.31-9-0.54c-4.33-1.26-7.12-4.88-8.92-8.85
+			c-2.56-5.65-3.42-12.07-3.29-18.23c0.13-6.14,1.22-12.48,3.94-18.03c2.57-5.25,6.91-9.22,12.72-10.51
+			c5.59-1.25,11.32,0.06,16.33,2.64c5.56,2.87,10.51,7.07,14.81,11.58c1.86,1.95,3.79,4.08,5,6.51c0.38,0.75,0.83,1.76,0.49,2.59
+			c-0.36,0.89-1.55,1.3-2.36,1.66c-5.89,2.63-11.02,6.9-15.15,11.83c-1.91,2.28-3.51,4.78-4.68,7.53c-1.2,2.81-1.73,5.86-2.95,8.64
+			C567.08,227.8,566.76,228.38,566.31,228.86z"/>
+	</g>
+	<g id="POLYLINE_1306_">
+		<path class="st203" d="M467.11,242.04c-1.46,0-2.88-0.67-3.8-1.79c-0.94-1.14-1.09-2.45-1.18-3.87c-0.29-4.87-0.58-9.73-0.86-14.6
+			c-0.38-6.41-0.76-12.82-1.14-19.23c-0.12-2.03-0.24-4.07-0.36-6.1c-0.04-0.68-0.13-1.37-0.07-2.05c0.12-1.46,0.91-2.82,2.12-3.65
+			c1.19-0.82,2.47-0.87,3.86-0.87c4.62,0,9.23,0,13.85,0c6.57,0,13.15,0,19.72,0c4.3,0,8.6,0,12.9,0c1.35,0,2.59,0.2,3.69,1.06
+			c1.13,0.89,1.75,2.19,1.87,3.61c0.3,3.67,0.44,7.35,0.65,11.03c0.39,6.55,0.78,13.1,1.16,19.66c0.23,3.84,0.52,7.68,0.68,11.52
+			c0.06,1.38-0.36,2.71-1.31,3.73c-0.96,1.03-2.27,1.54-3.66,1.56c-3.47,0.07-6.94,0-10.41,0c-6.52,0-13.03,0-19.55,0
+			c-5.23,0-10.46,0-15.7,0C468.75,242.04,467.93,242.04,467.11,242.04z"/>
+	</g>
+	<g id="POLYLINE_1305_">
+		<path class="st203" d="M463.34,190.04c3.79-1.83,8.35-2.09,12.48-2.26c4.07-0.16,8.16-0.14,12.23-0.18
+			c7.08-0.08,14.16-0.16,21.23-0.24c3.83-0.04,7.69-0.18,11.52-0.02c2.62,0.11,7.04,0.22,7.13,3.77c0.03,1.11-0.28,2.22-0.61,3.26
+			c-0.71,2.21-1.6,4.35-2.09,6.62c-0.93,4.32-0.36,8.84,0.49,13.12c0.94,4.68,2.53,9.17,3.71,13.79c0.54,2.1,0.91,4.23,1.12,6.39
+			c0.1,1.03,0.17,2.05,0.21,3.08c0.03,0.87,0.18,1.87-0.04,2.73c-0.41,1.57-1.79,1.92-3.2,1.92c-3.26,0-6.51,0-9.77,0
+			c-0.83,0-1.66,0-2.49,0"/>
+	</g>
+	<g id="POLYLINE_1304_">
+		<path class="st203" d="M472.03,256.43c2.43-1.78,6.03-2.16,8.91-2.58c4.21-0.6,8.47-0.86,12.72-1c4.26-0.14,8.54-0.12,12.8,0.11
+			c4.38,0.23,8.74,0.66,13.07,1.37c4.2,0.68,8.33,1.7,12.47,2.72c4.19,1.03,8.38,2.07,12.66,2.67c4.07,0.57,8.2,0.81,12.31,0.76
+			c4.07-0.06,8.05-0.49,12.01-1.45c0.9-0.22,2.53-0.84,3.44-0.29c1.15,0.69,0.99,3.37,1.07,4.48c0.24,3.17,0.43,6.74-0.66,9.78
+			c-0.84,2.34-2.76,3.43-5.02,4.08c-3.9,1.13-7.94,1.53-11.99,1.67c-3.67,0.13-7.34,0.06-11.01-0.05
+			c-5.82-0.16-11.63-0.32-17.45-0.49c-3.58-0.1-7.16-0.15-10.74-0.17c-3.98-0.01-7.96,0.01-11.94,0.05
+			c-5.72,0.06-11.44,0.13-17.16,0.19c-3.23,0.04-6.76,0.32-9.94-0.32c-1.55-0.31-2.41-1.19-3.02-2.61c-0.79-1.85-1.41-3.8-2.03-5.72
+			c-1.04-3.19-2.31-6.75-1.99-10.16C470.65,258.29,471.02,257.18,472.03,256.43z"/>
+	</g>
+	<g id="POLYLINE_1303_">
+		<path class="st203" d="M467.11,242.04c1.07,5.45,2.35,10.84,3.63,16.25"/>
+	</g>
+	<g id="POLYLINE_1302_">
+		<path class="st203" d="M477.16,277.89c2.42,3.87,6.23,4.47,10.57,4.28c3.95-0.17,7.87-0.76,11.81-1.03
+			c3.64-0.24,7.3-0.27,10.93,0.07c7.81,0.72,15.43,2.77,23.15,4.03c7.35,1.2,14.92,1.66,22.29,0.37c5.13-0.9,11.31-2.64,13.79-7.7
+			c0.3-0.62,0.55-1.26,0.76-1.91"/>
+	</g>
+	<g id="POLYLINE_1301_">
+		<path class="st203" d="M567.67,226.37c4.16,4.53,8.32,9.06,12.48,13.59c3.56,3.87,7.12,7.73,10.58,11.7
+			c3.74,4.29,7.08,8.85,10.45,13.43c1.17,1.59,2.34,3.29,3.86,4.57c1.46,1.23,2.94,1.17,4.54,0.29c2.22-1.22,4.14-3.02,6.08-4.62
+			c2.04-1.69,4.05-3.42,6.02-5.2c1.9-1.72,3.8-3.49,5.46-5.44c0.81-0.96,1.67-2.03,2.03-3.26c0.36-1.23,0.07-2.45-0.48-3.57
+			c-1.04-2.14-2.64-4.05-4.08-5.93c-3.17-4.12-6.44-8.15-9.68-12.21c-3.82-4.78-7.68-9.53-11.45-14.34
+			c-3.34-4.26-6.61-8.59-9.72-13.02c-0.85-1.21-1.7-2.44-2.55-3.66"/>
+	</g>
+	<g id="POLYLINE_1300_">
+		<path class="st203" d="M490.28,167.82c0.04,2.77,2.78,2.66,4.76,2.65c4.47-0.03,8.95-0.06,13.42-0.1
+			c9.07-0.06,18.15-0.07,27.22-0.19c3.71-0.05,2.96-4.1,2.94-6.68c-0.01-1.4-0.13-2.78-1.59-3.44c-0.71-0.32-1.51-0.24-2.27-0.23
+			c-9.79,0.07-19.59,0.14-29.38,0.21c-3.87,0.03-7.75,0.06-11.62,0.08c-0.82,0.01-1.61-0.02-2.33,0.47
+			c-1.43,0.96-1.18,2.65-1.17,4.14C490.26,165.77,490.27,166.8,490.28,167.82z"/>
+	</g>
+	<g id="POLYLINE_1299_">
+		<path class="st203" d="M461.71,229.41c-2.99-4.05-5.36-8.44-7.17-13.13c-1.84-4.76-3.09-9.81-3.06-14.94
+			c0.02-4.4,0.89-8.91,2.93-12.84c1.02-1.96,2.35-3.68,3.91-5.24c1.5-1.5,3.57-2.8,4.7-4.63c1.31-2.12-1.53-1.79-2.76-1.39
+			c-1.97,0.65-3.79,1.75-5.45,2.97c-4.18,3.08-7.73,7.09-10.9,11.18c-2.75,3.55-5.8,7.53-7.14,11.88c-1,3.24-0.18,6.6,1.06,9.66
+			c1.86,4.58,4.87,8.67,8.45,12.05c3.45,3.27,7.45,5.75,12.15,6.7c1.14,0.23,2.29,0.38,3.45,0.51"/>
+	</g>
+	<g id="POLYLINE_1298_">
+		<path class="st203" d="M463.34,177.9c5.4-1.02,10.77-1.41,16.24-1.9c2.76-0.24,5.92-0.4,8.26-2.07c1.44-1.03,2.62-2.48,3.4-4.06"
+			/>
+	</g>
+	<g id="POLYLINE_1297_">
+		<path class="st203" d="M537.88,169.38c2.44,4.64,8.9,3.67,13.27,3.92c2.08,0.12,4.15,0.38,6.22,0.63"/>
+	</g>
+	<g id="POLYLINE_1296_">
+		<path class="st203" d="M617.23,329.63c0.32,1.73,0.82,3.31,2.13,4.53c1.66,1.55,3.86,2.61,6.02,3.25
+			c5.54,1.63,12.41-0.12,16.73-3.93c1.11-0.98,1.87-2.18,2.3-3.59c1.05-3.42,1.04-7.23,1.09-10.77c0.12-7.38-0.22-14.76-0.52-22.13
+			c-0.23-5.75-0.47-11.5-0.7-17.25c-0.13-3.09-0.18-6.2-0.55-9.27c-0.42-3.46-2.23-11.65-7.46-8.93
+			c-5.14,2.67-7.81,8.92-13.34,10.97c-2.52,0.94-5.24,0.47-7.86,0.79c-1.38,0.17-2.71,0.61-3.56,1.78c-0.64,0.88-0.95,1.96-1.1,3.03
+			c-0.44,3.09,0.28,6.28,0.98,9.28c0.97,4.17,1.99,8.32,2.68,12.55c1.3,8,1.67,16.12,2.44,24.18
+			C616.7,325.94,616.89,327.8,617.23,329.63z"/>
+	</g>
+	<g id="POLYLINE_1295_">
+		<line class="st203" x1="607.23" y1="270.66" x2="611.12" y2="275.74"/>
+	</g>
+	<g id="POLYLINE_1294_">
+		<path class="st203" d="M629.33,250.41c1.82,1.24,3.45,2.8,4.72,4.6c1.34,1.91,2.3,4.06,3.58,6.01"/>
+	</g>
+	<g id="POLYLINE_1293_">
+		<path class="st203" d="M617.23,329.63c-2.12,2.54-3.78,5.43-5.09,8.46c-1.03,2.39-1.97,5.03-1.85,7.67
+			c0.07,1.43,0.49,2.82,0.81,4.21c0.41,1.78,0.55,3.54,0.5,5.36c-0.08,3.15-0.82,6.6-0.1,9.72c0.6,2.64,3.39,3.98,5.77,4.72
+			c2.84,0.89,5.87,0.88,8.76,0.22c2.99-0.68,5.89-2.04,8.06-4.24c2.34-2.38,3.75-5.5,4.84-8.62c2.65-7.61,4.05-15.79,5.01-23.77
+			c0.12-0.99,0.22-1.98,0.32-2.98"/>
+	</g>
+	<g id="POLYLINE_1292_">
+		<line class="st203" x1="610.68" y1="283.84" x2="603.96" y2="268.59"/>
+	</g>
+	<g id="POLYLINE_1291_">
+		<line class="st203" x1="595.28" y1="257.16" x2="614.06" y2="299.75"/>
+	</g>
+	<g id="POLYLINE_1290_">
+		<path class="st203" d="M552.04,114.89c0.76,0.12,1.51,0.24,2.27,0.36c-0.34,2.13-0.68,4.26-1.02,6.39
+			c-0.43,2.69-0.7,5.46-1.3,8.12c-0.08,0.38,0.02,0.31-0.24,0.4c-0.51,0.17-1.61-0.26-2.17-0.35"/>
+	</g>
+	<g id="POLYLINE_1289_">
+		<path class="st203" d="M490.49,125.68c-0.32,0.02-1.56,0.28-1.78,0.1c-0.07-0.06-0.04-0.44-0.04-0.54
+			c-0.07-1.18-0.13-2.36-0.2-3.55c-0.19-3.38-0.38-6.76-0.57-10.13c-0.05-0.85-0.09-1.7-0.14-2.54c0.66-0.04,1.31-0.07,1.97-0.11"/>
+	</g>
+	<g id="POLYLINE_1288_">
+		<path class="st203" d="M529.69,90.95c-0.04-4.17-3.07-7.72-6.96-8.98c-3.87-1.25-8.39-0.23-11.1,2.88
+			c-2.6,2.99-2.9,7.34-0.78,10.68c2.23,3.52,6.58,5.28,10.64,4.61c4.05-0.66,7.55-3.76,8.12-7.91
+			C529.66,91.81,529.69,91.38,529.69,90.95z"/>
+	</g>
+	<g id="POLYLINE_1287_">
+		<path class="st203" d="M523.81,90.9c-0.06-3.78-5.19-5.31-7.58-2.56c-2.59,2.97,0.65,6.99,4.14,6.42
+			C522.25,94.45,523.83,92.87,523.81,90.9z"/>
+	</g>
+	<g id="POLYLINE_1286_">
+		<path class="st203" d="M492.28,137.91c-2.06,0.11-1.51,2.69-1.46,4.03c0.1,2.7,0,5.48,0.3,8.16c0.19,1.72,2.66,2.18,3.16,0.38
+			c0.2-0.7,0.02-1.59-0.01-2.29c-0.06-1.71-0.13-3.41-0.19-5.12C494.04,141.69,494.63,137.83,492.28,137.91z"/>
+	</g>
+	<g id="POLYLINE_1285_">
+		<path class="st203" d="M544.68,142.62c-2.04-0.29-2.01,2.33-2.23,3.65c-0.43,2.67-1.08,5.38-1.31,8.07
+			c-0.14,1.69,2.11,2.66,3,1.04c0.36-0.64,0.35-1.57,0.47-2.27c0.28-1.69,0.55-3.38,0.83-5.08
+			C545.65,146.67,547,143.02,544.68,142.62z"/>
+	</g>
+	<g id="POLYLINE_1284_">
+		<path class="st203" d="M500.37,148.63c0.01,3.84-0.28,7.65-0.83,11.45"/>
+	</g>
+	<g id="POLYLINE_1283_">
+		<path class="st203" d="M532.7,151.19c-0.02,2.89-0.02,5.77,0,8.66"/>
+	</g>
+	<g id="POLYLINE_1282_">
+		<line class="st203" x1="494.34" y1="149.99" x2="500.37" y2="150.03"/>
+	</g>
+	<g id="POLYLINE_1281_">
+		<line class="st203" x1="532.67" y1="154.19" x2="541.12" y2="154.54"/>
+	</g>
+	<g id="POLYLINE_1280_">
+		<path class="st203" d="M541.4,152.74c-1.01,1.3-2.12,1.75-3.68,1.16c-1.84-0.69-3.54-1.85-5.24-2.82
+			c-3.07-1.75-6.21-3.42-9.68-4.24c-3.44-0.82-7.04-0.89-10.55-0.54c-1.9,0.19-3.79,0.5-5.66,0.9c-2.04,0.44-4.04,1.1-6.11,1.42
+			c-1.39,0.21-2.76,0.15-3.82-0.9c-1.29-1.26-1.98-3.19-2.59-4.84"/>
+	</g>
+	<g id="POLYLINE_1279_">
+		<path class="st203" d="M492.59,137.93c-1.43-5.91-2.22-11.97-2.62-18.04c-0.4-6.05-0.43-12.16,0.2-18.2
+			c0.59-5.54,1.76-11.15,4.53-16.03c2.78-4.9,7.11-8.6,12.01-11.3c4.7-2.59,10.15-4.65,15.57-4.73c5.29-0.08,10.29,2.23,14.75,4.89
+			c4.75,2.84,9.3,6.56,12.04,11.46c2.77,4.94,3.52,10.72,3.61,16.3c0.1,6.09-0.46,12.22-1.39,18.24
+			c-0.96,6.27-2.33,12.48-4.16,18.56c-0.43,1.43-0.89,2.86-1.37,4.28"/>
+	</g>
+	<g id="POLYLINE_1278_">
+		<line class="st203" x1="572.29" y1="258.67" x2="572.92" y2="232.12"/>
+	</g>
+	<g id="POLYLINE_1277_">
+		<path class="st203" d="M437.11,210.88c-2.82,4.4-5.41,8.93-7.96,13.49c-2.66,4.78-5.18,9.66-7.76,14.49
+			c-2.27,4.26-4.57,8.5-7,12.67c-1.36,2.33-2.97,4.9-2.79,7.71c0.18,2.88,2,5.41,4.05,7.31c3.2,2.96,7.54,5.2,11.84,5.96
+			c2.71,0.48,5.36,0.07,7.62-1.54c3.07-2.19,5.14-5.65,7.07-8.81c2.93-4.81,5.85-9.61,8.78-14.42c2.51-4.13,5.02-8.26,7.37-12.49
+			c0.6-1.09,1.19-2.18,1.77-3.28"/>
+	</g>
+	<g id="POLYLINE_1276_">
+		<path class="st203" d="M412.06,261.42c-3.03,3.65-5.19,7.95-6.32,12.55"/>
+	</g>
+	<g id="POLYLINE_1275_">
+		<path class="st203" d="M426.21,272.23c-2.29,1.4-4.61,2.78-7.33,3.07c-3.12,0.33-6.29-0.55-9.35-1.02
+			c-1.93-0.3-4.06-0.6-5.96,0.02c-0.88,0.29-1.87,0.87-1.77,1.92c0.09,1.06,1.06,2.07,1.75,2.82c2.65,2.85,5.78,5.31,8.69,7.88
+			c2.49,2.2,4.92,4.47,7.31,6.77c5.6,5.4,11.06,10.93,16.32,16.67c4.9,5.35,9.48,11.16,14.92,15.99c1.49,1.32,3.24,2.84,5.25,3.27
+			c1.75,0.38,3.43-0.35,4.99-1.08c5.03-2.36,9.51-6.21,11.51-11.52c0.57-1.52,0.97-3.23,0.51-4.83c-0.55-1.91-2.11-3.46-3.36-4.94
+			c-4.7-5.56-9.43-11.06-14.01-16.72c-4.77-5.87-9.34-12.14-14.71-17.48c-1.28-1.28-2.63-2.49-3.96-3.71"/>
+	</g>
+	<g id="POLYLINE_1274_">
+		<path class="st203" d="M472.08,318.09c0.11,4.89,0.22,9.78,0.34,14.66c0.09,4.07,0.14,8.15,0.38,12.21
+			c0.25,4.15,0.63,8.31,1.32,12.41c0.56,3.28,1.21,6.94,3.08,9.76c1.4,2.11,3.57,3.2,5.95,3.88c3.81,1.09,7.84,1.5,11.78,1.85
+			c4.22,0.38,8.46,0.65,12.69,0.89c4.6,0.26,9.21,0.55,13.82,0.53c4.09-0.02,8.24-0.27,12.2-1.38c3.54-0.99,6.8-2.69,9.33-5.39
+			c0.6-0.64,1.15-1.32,1.69-2.01"/>
+	</g>
+	<g id="POLYLINE_1273_">
+		<path class="st203" d="M457.93,329.66c1.9,3.77,4.28,7.04,7.38,9.91c0.99,0.92,2.02,1.78,3.09,2.6"/>
+	</g>
+	<g id="POLYLINE_1272_">
+		<path class="st203" d="M471.74,309.81c0.84-0.64,1.6-1.3,2.64-1.59c0.72-0.2,1.48-0.24,2.23-0.24c2.47,0,4.97,0.5,7.31,1.28
+			c1.89,0.63,3.68,1.54,5.23,2.8c1.91,1.55,3.38,3.53,4.87,5.47c2.22,2.88,4.72,6.32,8.55,7.04c4.79,0.89,8.21-3.67,11.21-6.62
+			c1.64-1.61,3.42-3.11,5.56-4c2.1-0.87,4.38-1.15,6.64-1.27c5.9-0.3,11.72-0.23,17.56-1.18c6.08-0.99,12.08-2.43,18.19-3.2
+			c2.87-0.36,8.86-1.37,10.54,2.05c0.5,1.02,0.56,2.24,0.53,3.36c-0.08,2.93-0.72,5.84-1.06,8.75c-0.68,5.99-0.79,12.03-1.45,18.02
+			c-0.16,1.44-0.35,2.88-0.58,4.31"/>
+	</g>
+	<g id="POLYLINE_1271_">
+		<path class="st203" d="M476.09,308c-0.68-4.51,0.34-9.15,1.15-13.58c0.19-1.04,0.39-3.06,1.72-3.28c1.61-0.27,3.74,1.43,4.96,2.27
+			c4.19,2.85,8.49,5.85,12.24,9.27c2.77,2.53,5.66,7.31,10.02,6.68c3.7-0.53,6.88-3.35,9.73-5.54c3.88-2.97,7.74-5.5,12.38-7.15
+			c4.73-1.67,9.68-2.7,14.61-3.58c4.99-0.89,10.05-1.56,15.12-1.79c2.38-0.11,4.79-0.15,7.16,0.12c1.57,0.18,3.76,0.44,4.79,1.79
+			c0.51,0.67,0.65,1.54,0.77,2.35c0.18,1.25,0.32,2.5,0.46,3.75c0.25,2.27,0.41,4.56,0.27,6.84c-0.06,0.96-0.17,1.92-0.37,2.87"/>
+	</g>
+	<g id="POLYLINE_1270_">
+		<path class="st203" d="M564.33,291.34c0.16-2.88,0.36-5.75,0.58-8.63"/>
+	</g>
+	<g id="POLYLINE_1269_">
+		<path class="st203" d="M481.89,292.13c-0.02-3.57-0.25-7.1-0.65-10.65"/>
+	</g>
+	<g id="POLYLINE_1268_">
+		<path class="st203" d="M472.75,344.26c-2.45,4.06-2.52,8.74-1.96,13.33c0.41,3.38,1.13,6.72,1.79,10.06
+			c0.43,2.15,0.76,4.45,1.84,6.39c2.22,3.98,7.56,5.31,11.64,6.31c6.51,1.6,13.19,2.31,19.83,3.1c2.29,0.27,4.85,0.32,7.05,1.08
+			c1.13,0.39,2,1.13,2.66,2.12c0.22,0.34,0.41,0.69,0.59,1.05"/>
+	</g>
+	<g id="POLYLINE_1267_">
+		<path class="st203" d="M552.26,472.13c-2.64,0.25-4.27,3.2-5.07,5.4c-1.37,3.77-1.68,8.78,0.44,12.36
+			c0.67,1.13,1.72,2.17,3.1,2.29c1.21,0.1,2.31-0.53,3.15-1.35c2.82-2.73,3.68-7.35,3.45-11.1c-0.16-2.56-1.04-6.71-4-7.51
+			C552.98,472.13,552.62,472.09,552.26,472.13z"/>
+	</g>
+	<g id="POLYLINE_1266_">
+		<path class="st203" d="M551.07,459.11c-3.16,0.4-5.85,2.44-7.77,4.89c-2.83,3.58-4.36,8.12-5.15,12.57
+			c-0.86,4.82-0.92,9.91,0.23,14.69c0.98,4.06,2.99,8.37,6.73,10.56c1.56,0.91,3.38,1.4,5.19,1.32c2.84-0.14,5.41-1.73,7.33-3.75
+			c3-3.15,4.72-7.4,5.72-11.58c1.16-4.85,1.45-10.04,0.61-14.97c-0.72-4.22-2.38-8.75-5.8-11.54c-1.64-1.34-3.69-2.16-5.82-2.24
+			C551.92,459.04,551.49,459.06,551.07,459.11z"/>
+	</g>
+	<g id="POLYLINE_1265_">
+		<path class="st203" d="M471.51,453.34c-4.51,1.28-7.53,5.46-9.31,9.56c-2.61,5.99-3.45,12.97-2.56,19.44
+			c0.44,3.22,1.38,6.44,3.11,9.22"/>
+	</g>
+	<g id="POLYLINE_1264_">
+		<path class="st203" d="M506.72,607.78c0.6,0.35,1.46-0.08,2.04-0.31c1-0.4,1.99-0.85,3.04-1.11c1.17-0.29,2.35-0.27,3.53-0.05
+			c2.52,0.47,4.87,1.64,7.24,2.56c2.36,0.92,4.76,1.61,7.3,1.72c3.76,0.17,8.17-0.65,10.92-3.42c2.37-2.38,2.62-5.69,2.31-8.87
+			c-0.55-5.54-1.77-10.92-1.97-16.51c-0.2-5.61,0.1-11.24,0.66-16.82c0.55-5.56,1.39-11.1,2.48-16.58
+			c1.14-5.69,2.53-11.34,3.61-17.04c1.02-5.35,1.82-10.84,1.03-16.27c-0.72-4.93-2.85-9.21-6.28-12.81
+			c-1.84-1.93-3.88-3.64-5.9-5.36c-2.01-1.71-4.03-3.39-6.19-4.91c-3.76-2.65-8.15-5-12.89-4.76c-2.25,0.11-4.52,0.85-6.1,2.52
+			c-2.58,2.73-3.03,7-3.36,10.56c-0.53,5.7-0.58,11.46-0.64,17.18c-0.05,5.87,0.06,11.73,0.22,17.6c0.14,5.03,0.41,10.07,0.73,15.09
+			c0.4,6.31,0.92,12.62,1.13,18.93c0.19,5.68,0.18,11.38-0.39,17.04c-0.57,5.57-1.88,11-2.74,16.52
+			C506.35,603.71,505.54,606.98,506.72,607.78z"/>
+	</g>
+	<g id="POLYLINE_1263_">
+		<path class="st203" d="M516.95,457.74c-5.31,0.17-9.14,4.99-11.17,9.42c-3.04,6.65-3.91,14.71-2.44,21.86
+			c0.75,3.65,2.23,7.4,4.98,10.01"/>
+	</g>
+	<g id="POLYLINE_1262_">
+		<path class="st203" d="M548.68,513.7c2.15-3.35,3.55-7.12,4.12-11.06"/>
+	</g>
+	<g id="POLYLINE_1261_">
+		<path class="st203" d="M501.69,501.05c2.31-0.5,3.99-2.2,4.62-4.48"/>
+	</g>
+	<g id="POLYLINE_1260_">
+		<path class="st203" d="M472.53,337.39c-1.67,1.54-3.29,3.18-4.37,5.21c-1.01,1.91-1.44,4.05-1.65,6.19
+			c-0.63,6.63,0.4,13.47,0.98,20.07c0.55,6.26,0.98,12.52,1.22,18.8c0.26,6.8,0.42,13.6,0.58,20.41c0.16,7.03,0.34,14.06,0.57,21.08
+			c0.21,6.42,0.46,12.85,1.07,19.24c0.29,3.03,0.58,6.17,1.44,9.1c0.66,2.23,1.89,4.08,4.25,4.71c2.29,0.61,4.8,0.39,7.12,0.05
+			c3.09-0.45,6.13-1.26,9.07-2.32c3.03-1.09,5.97-2.46,9.08-3.31c2.75-0.75,5.69-0.91,8.37-1.9c1.11-0.41,1.84-1.03,2.18-2.19
+			c0.41-1.43,0.56-2.97,0.8-4.44c0.51-3.08,0.97-6.18,1.41-9.27c0.24-1.7,0.46-3.41,0.69-5.11"/>
+	</g>
+	<g id="POLYLINE_1259_">
+		<path class="st203" d="M512.28,452.97c0.84,1.58,1.85,3.51,1.85,5.35"/>
+	</g>
+	<g id="POLYLINE_1258_">
+		<path class="st203" d="M508.12,607.71c-1.74,6.69-3.07,13.47-3.7,20.36c-0.35,3.82-1.02,8.63,2.23,11.45
+			c3.66,3.18,9.45,3.13,13.99,3.21c6.54,0.12,13.09-0.02,19.63-0.04c8.64-0.03,17.28-0.07,25.91-0.1c2.62-0.01,5.24-0.05,7.86-0.11
+			c3.28-0.08,6.63-0.1,9.87-0.6c2.27-0.35,4.05-1.23,4.78-3.58c0.77-2.45,0.69-5.2,0.46-7.72c-0.19-2.05-0.51-4.2-1.59-5.99
+			c-1.01-1.67-2.63-2.77-4.37-3.58c-6.24-2.91-13.34-2.86-19.94-4.46c-6.24-1.51-12.17-4.49-17.35-8.25c-1.29-0.94-2.54-1.94-3.74-3
+			"/>
+	</g>
+	<g id="POLYLINE_1257_">
+		<path class="st203" d="M462.52,492.4c0.98-3.85,2.72-6.86,6.2-8.92c3.25-1.93,7.27-3,11.01-2.05c4.06,1.04,7.35,4.22,10.26,7.06
+			c2.01,1.97,3.94,4.04,6.19,5.75c1.41,1.07,3.05,1.98,4.13,3.41c2.01,2.67,1.74,6.58,1.54,9.71c-0.31,4.93-1.11,9.81-1.89,14.68
+			c-1.23,7.66-2.47,15.31-3.7,22.97c-0.8,4.97-1.49,9.96-2.11,14.96c-0.74,5.88-1.33,11.79-1.71,17.71
+			c-0.37,5.82-0.57,11.66-0.29,17.49c0.15,3.07,0.48,6.12,0.78,9.18c0.11,1.16,0.24,2.32,0.27,3.49c0.02,0.66,0.08,1.48-0.15,2.12
+			c-0.69,1.92-4.31-1.79-4.96-2.31c-1.97-1.59-4.1-2.96-6.45-3.93c-3.65-1.5-7.36-1.75-11.11-0.49c-2.51,0.84-4.83,2.17-7.36,2.94
+			c-0.67,0.2-1.46,0.44-2.15,0.28c-1.03-0.23-1.15-1.31-1.14-2.21c0.03-2.56,0.81-5.19,1.3-7.68c0.52-2.64,0.89-5.32,1.15-8
+			c0.56-5.75,0.52-11.52,0.21-17.29c-0.35-6.42-0.93-12.84-1.44-19.25c-0.43-5.4-0.76-10.81-0.94-16.22
+			c-0.2-5.99-0.24-11.98-0.1-17.97c0.14-5.88,0.42-11.77,1.12-17.61C461.49,497.58,461.89,494.97,462.52,492.4z"/>
+	</g>
+	<g id="POLYLINE_1256_">
+		<path class="st203" d="M461.11,606.45c-1.77,7.38-2.67,14.94-2.8,22.52c-0.05,2.94-0.22,6.31,0.78,9.13
+			c0.78,2.22,2.85,3.12,4.96,3.66c3.56,0.9,7.38,0.98,11.03,0.97c3.68-0.01,7.41-0.18,11.06-0.75c2.21-0.34,4.73-0.82,6.47-2.34
+			c1.23-1.07,1.69-2.57,1.82-4.15c0.27-3.41-0.45-6.88-0.66-10.27c-0.26-4.12-0.45-8.25-0.98-12.34c-0.1-0.77-0.22-1.54-0.35-2.31"
+			/>
+	</g>
+	<g id="POLYLINE_1255_">
+		<line class="st203" x1="444.61" y1="277.06" x2="454.75" y2="241.49"/>
+	</g>
+	<g id="POLYLINE_1254_">
+		<line class="st203" x1="447.04" y1="254.2" x2="441.5" y2="273.63"/>
+	</g>
+	<g id="POLYLINE_1253_">
+		<path class="st203" d="M560.72,464.16c-2.28-3.39-5.57-6.05-9.72-6.55c-4.43-0.53-8.81,1.23-12.5,3.53
+			c-2.05,1.27-3.95,2.81-6.24,3.63c-1.82,0.66-3.76,0.85-5.68,0.83c-2.03-0.02-4.25-0.18-6.14-0.98c-2.35-0.99-2.9-4.15-3.39-6.38
+			c-1.23-5.61-1.28-11.56-1.48-17.27c-0.25-6.95-0.38-13.89-0.55-20.84c-0.14-5.79-0.28-11.57-0.3-17.36
+			c-0.01-2.82,0.05-5.65,0.27-8.46c0.18-2.23,0.41-4.57,1.24-6.67c1.28-3.27,4.31-3.79,7.45-4.23c4.77-0.67,9.66-1.33,13.31-4.76
+			c3.71-3.48,5.9-8.41,7.65-13.09c1.79-4.79,3.13-10.22,6.93-13.88c3.72-3.59,8.89-5.5,13.9-6.35c2.36-0.4,4.91-0.78,7.31-0.57
+			c1.56,0.13,2.94,0.74,3.58,2.25c0.63,1.48,0.64,3.21,0.63,4.78c-0.02,2.35-0.24,4.69-0.45,7.03c-0.62,6.88-1.2,13.77-1.87,20.64
+			c-0.6,6.19-1.29,12.37-2.11,18.53c-0.81,6.15-1.77,12.27-2.95,18.36c-1.13,5.83-2.53,11.62-4.11,17.34
+			c-1.73,6.27-3.63,12.49-5.49,18.73c-0.81,2.71-1.62,5.43-2.43,8.14"/>
+	</g>
+	<g id="POLYLINE_580_">
+		<path class="st203" d="M224.72,147.09c3.06-0.05,6.11-0.1,9.17-0.15c-0.02-1.41-0.05-2.81-0.07-4.22c0-0.26,0.16-1.48-0.03-1.68
+			c-0.09-0.1-0.58-0.02-0.74-0.02c-2.81,0.05-5.62,0.09-8.43,0.14C224.66,143.14,224.69,145.11,224.72,147.09z"/>
+	</g>
+	<g id="POLYLINE_579_">
+		<path class="st203" d="M243.73,153.75c-4.1,5.06-10.54,8.34-17.09,8.17c-3.74-0.1-7.5-0.91-11.02-2.16
+			c-3.03-1.08-5.88-2.59-8.19-4.87c-2.83-2.79-4.9-6.33-6.6-9.89c-1.78-3.72-3.15-7.62-4.12-11.62c-1.91-7.95-2.62-16.37-2.06-24.53
+			c0.47-6.97,2.11-14.15,6.63-19.66c4.25-5.19,10.66-8.13,17.15-9.36c4.11-0.78,8.25-0.71,12.33,0.24c3.57,0.83,7.18,2.02,10.35,3.9
+			c6.21,3.68,9.86,10.34,11.63,17.16c2.05,7.9,0.72,15.85-0.63,23.75c-0.73,4.27-1.42,8.56-2.28,12.81
+			c-0.81,3.99-1.72,8.07-3.46,11.77C245.66,151,244.79,152.44,243.73,153.75z"/>
+	</g>
+	<g id="POLYLINE_578_">
+		<path class="st203" d="M223.33,120.89c0-2.48-1.6-4.76-3.94-5.59c-2.34-0.84-5.02-0.09-6.59,1.82c-1.57,1.92-1.78,4.69-0.51,6.82
+			s3.82,3.26,6.25,2.78c2.43-0.48,4.34-2.48,4.72-4.93C223.31,121.5,223.33,121.2,223.33,120.89z"/>
+	</g>
+	<g id="POLYLINE_577_">
+		<path class="st203" d="M246.24,120.89c0-2.48-1.6-4.76-3.94-5.59c-2.34-0.84-5.02-0.09-6.59,1.82c-1.57,1.92-1.78,4.69-0.51,6.82
+			c1.27,2.13,3.82,3.26,6.25,2.78c2.43-0.48,4.34-2.48,4.72-4.93C246.22,121.5,246.24,121.2,246.24,120.89z"/>
+	</g>
+	<g id="POLYLINE_576_">
+		<line class="st203" x1="207.46" y1="154.91" x2="208.7" y2="165.38"/>
+	</g>
+	<g id="POLYLINE_575_">
+		<line class="st203" x1="243.73" y1="153.75" x2="244.6" y2="161.13"/>
+	</g>
+	<g id="POLYLINE_574_">
+		<path class="st203" d="M199.55,157.4c-1.67-0.03-1.3-2.14-1.3-3.22c0-1.53,0-3.06,0-4.6c0-0.76-0.1-1.59,0-2.35
+			c0.17-1.31,2-1.74,2.51-0.39c0.21,0.56,0.08,1.33,0.08,1.91c0,1.44,0,2.88,0,4.33C200.85,154.22,201.47,157.37,199.55,157.4z"/>
+	</g>
+	<g id="POLYLINE_573_">
+		<line class="st203" x1="200.85" y1="154.66" x2="207.2" y2="154.66"/>
+	</g>
+	<g id="POLYLINE_572_">
+		<path class="st203" d="M250.96,131.65c1.53,0.22,3.07,0.44,4.6,0.65c0.72-5.07,1.44-10.14,2.16-15.21
+			c-1.43-0.2-2.87-0.41-4.3-0.61"/>
+	</g>
+	<g id="POLYLINE_571_">
+		<path class="st203" d="M196.57,132.73c-1.42,0.22-2.84,0.44-4.25,0.65c-0.41-2.64-0.81-5.27-1.22-7.91
+			c-0.27-1.78-0.55-3.55-0.82-5.33c-0.05-0.34-0.52-1.95-0.3-2.2c0.1-0.12,0.76-0.12,0.91-0.14c0.52-0.08,1.03-0.16,1.55-0.24
+			c0.71-0.11,1.41-0.22,2.12-0.33"/>
+	</g>
+	<g id="POLYLINE_570_">
+		<path class="st203" d="M198.36,146.77c-2.1-4.34-3.66-8.89-4.76-13.58"/>
+	</g>
+	<g id="POLYLINE_569_">
+		<path class="st203" d="M191.58,117.7c-0.17-4.46-0.11-8.93,0.52-13.35c0.57-4.01,1.62-7.99,3.41-11.63
+			c1.61-3.28,3.85-6.25,6.61-8.65c3.43-2.98,7.61-4.65,11.55-6.81c3.45-1.89,6.76-4.38,10.83-4.62c2.2-0.13,4.11,0.54,6,1.64
+			c3.99,2.33,8,4.64,11.96,7.01c3.41,2.04,6.21,4.74,8.4,8.05c2.31,3.5,3.92,7.45,4.9,11.52c1.02,4.22,1.26,8.55,0.94,12.87
+			c-0.08,1.06-0.19,2.11-0.31,3.16"/>
+	</g>
+	<g id="POLYLINE_568_">
+		<path class="st203" d="M249.6,156.88c1.67-0.03,1.3-2.14,1.3-3.22c0-1.53,0-3.06,0-4.6c0-0.76,0.1-1.59,0-2.35
+			c-0.17-1.31-2-1.74-2.51-0.39c-0.21,0.56-0.08,1.33-0.08,1.91c0,1.44,0,2.88,0,4.33C248.3,153.69,247.67,156.84,249.6,156.88z"/>
+	</g>
+	<g id="POLYLINE_567_">
+		<line class="st203" x1="248.3" y1="154.13" x2="243.78" y2="154.13"/>
+	</g>
+	<g id="POLYLINE_566_">
+		<path class="st203" d="M253.91,132.07c-0.84,4.77-1.69,9.55-3.12,14.19"/>
+	</g>
+	<g id="POLYLINE_565_">
+		<path class="st203" d="M172.92,235.67c-4.74,0.06-8.52-2.39-11.94-5.53c-4.57-4.2-8.53-9.34-11.78-14.61
+			c-1.09-1.77-2.35-3.72-2.78-5.78c-0.46-2.22,1.17-4.39,2.32-6.15c3.47-5.32,8.08-9.83,12.93-13.89c2.08-1.74,4.32-3.77,6.86-4.8
+			c1.74-0.71,3.74-0.75,5.57-0.46c0.47,0.07,0.93,0.18,1.38,0.31"/>
+	</g>
+	<g id="POLYLINE_564_">
+		<path class="st203" d="M151.14,282.38c3.01-6.77,6.03-13.54,9.04-20.31c2.52-5.67,4.95-11.39,7.41-17.09
+			c1.34-3.1,2.68-6.21,4.02-9.31"/>
+	</g>
+	<g id="POLYLINE_563_">
+		<path class="st203" d="M114.75,333.79c-0.83,1.82-0.51,3.94-0.55,5.87c-0.07,3.67-0.73,7.34-1.22,10.97
+			c-0.92,6.75-1.55,13.5,0.01,20.21c1.46,6.27,4.32,12.6,8.38,17.62c2.47,3.06,6.02,6.16,10.24,5.12c2.63-0.65,5.16-2.22,7.41-3.68
+			c2.35-1.53,4.28-3.37,5.86-5.7c0.93-1.37,1.79-2.78,2.81-4.09c0.44-0.56,0.88-1.13,1.17-1.79c0.68-1.52,0.35-3.23-0.05-4.77
+			c-0.85-3.27-2.31-6.34-3.68-9.42c-1.39-3.11-2.14-6.51-2.9-9.82c-0.74-3.24-1.44-6.53-1.53-9.86c-0.08-3.13-0.37-6.11-1.42-9.08
+			c-0.75-2.11-1.83-4.27-3.91-5.33c-2.14-1.09-4.8-1.18-7.13-1.41c-4.33-0.42-8.97-0.1-12.14,3.24
+			C115.55,332.43,115.08,333.07,114.75,333.79z"/>
+	</g>
+	<g id="POLYLINE_562_">
+		<path class="st203" d="M147.57,212.65c-3.42,7.28-6.81,14.57-9.93,21.98c-3.19,7.57-6.31,15.18-9.16,22.89
+			c-1.69,4.58-3.35,9.17-4.98,13.78"/>
+	</g>
+	<g id="POLYLINE_561_">
+		<path class="st203" d="M140.56,296.42c1.87-5.94,3.74-11.88,5.61-17.82c2.48-7.89,4.97-15.78,7.45-23.67
+			c0.44-1.39,1.23-3.1-0.26-4.18c-1.59-1.15-3.08,0.13-3.56,1.66c-2.25,7.15-4.5,14.3-6.75,21.45c-2.19,6.95-4.38,13.91-6.57,20.86
+			c-0.04,0.12-0.08,0.25-0.12,0.37"/>
+	</g>
+	<g id="POLYLINE_557_">
+		<path class="st203" d="M139.71,336.71c2.79-8.42,4.9-17.02,7.03-25.63c2.04-8.22,4.07-16.48,5.83-24.77
+			c0.32-1.49,0.78-3.25-1.05-3.83c-1.98-0.62-4.14-0.75-6.17-1.27"/>
+	</g>
+	<g id="POLYLINE_556_">
+		<path class="st203" d="M141.14,279.92c-3.28-1.16-6.53-2.43-9.63-4.01c-2.84-1.45-5.42-3.45-8.32-4.75
+			c-1.51-0.68-3.19-0.71-4.29,0.74c-1.64,2.15-1.92,5.41-2.21,7.98c-0.77,7-0.48,14.08-1.04,21.09c-0.59,7.34-1.74,14.62-2.59,21.93
+			c-0.4,3.44-0.84,6.92-0.79,10.39c0.03,1.74,0.25,3.38,1.01,4.95c0.3,0.62,0.63,1.21,0.91,1.84"/>
+	</g>
+	<g id="POLYLINE_555_">
+		<path class="st203" d="M152.87,257.32c1.53-0.38,2.77-1.58,3.19-3.1c0.37-1.36,0.06-2.85-0.82-3.94
+			c-0.99-1.23-2.61-1.83-4.16-1.56c-1.54,0.27-2.86,1.37-3.39,2.85c-0.48,1.33-0.28,2.85,0.54,4.01c0.13,0.18,0.27,0.36,0.43,0.52"
+			/>
+	</g>
+	<g id="POLYLINE_554_">
+		<line class="st203" x1="173.81" y1="236.39" x2="172.09" y2="265.38"/>
+	</g>
+	<g id="POLYLINE_553_">
+		<path class="st203" d="M240.6,259.38c5.79-0.08,11.57,0.15,17.35,0.58c2.75,0.2,5.5,0.47,8.24,0.86c2.49,0.36,5.1,0.74,7.43,1.73
+			c0.5,0.21,1.01,0.46,1.44,0.81c0.84,0.69,0.74,1.49,0.52,2.47c-0.63,2.75-1.06,5.5-1.48,8.29c-0.43,2.83-0.82,5.68-1.41,8.48
+			c-0.26,1.2-0.68,4.65-2.22,5.04c-0.8,0.2-1.88-0.52-2.55-0.85c-1.38-0.67-2.74-1.37-4.13-2.02c-2.43-1.15-4.91-2.17-7.47-2.97
+			c-5.08-1.6-10.48-2.57-15.81-2.36c-4.83,0.19-9.11,1.56-13.05,4.38c-2.17,1.56-4.24,3.25-6.53,4.64c-2.18,1.33-4.52,2.4-6.93,3.23
+			c-4.49,1.55-9.33,2.29-14.07,1.75c-4.42-0.51-9.49-1.95-12.76-5.13c-1.92-1.88-3.04-4.48-6.02-4.62
+			c-0.91-0.04-1.81,0.16-2.65,0.51c-0.82,0.34-1.59,0.81-2.32,1.31c-0.58,0.39-1.9,1.71-2.7,1.48c-0.78-0.23-1.16-1.6-1.38-2.3
+			c-0.34-1.1-0.56-2.23-0.76-3.36c-0.45-2.59-0.71-5.23-0.74-7.86c-0.02-2.09,0.03-4.3,0.63-6.32c0.23-0.76,0.55-1.59,1.26-2.02
+			c0.66-0.4,1.46-0.35,2.19-0.49c1.86-0.34,2.14-2.03,2.49-3.61c0.52-2.35,1.11-4.63,2.06-6.84c2.09-4.87,5.19-9.44,9.1-13.04
+			c3.93-3.61,8.83-5.97,14.03-7.11c4.62-1.01,9.53-1.14,14.17-0.14c4.14,0.89,7.98,2.77,11.26,5.43c4.18,3.4,7.5,7.87,9.94,12.65
+			C238.91,254.31,239.9,256.8,240.6,259.38z"/>
+	</g>
+	<g id="POLYLINE_552_">
+		<path class="st203" d="M223.26,271.82c3.26-7.86,2.09-17.54-4.16-23.61c-6.18-6-15.68-6.54-22.89-2.05
+			c-7.13,4.43-11.28,12.89-10.62,21.23c0.66,8.49,6.55,16.14,15.12,17.73c8.59,1.59,17.04-3.3,21.27-10.69
+			C222.45,273.59,222.88,272.72,223.26,271.82z"/>
+	</g>
+	<g id="POLYLINE_551_">
+		<path class="st203" d="M212,267.09c1.26-3.03,0.93-6.84-1.51-9.2c-2.28-2.21-5.75-2.3-8.38-0.66c-2.83,1.77-4.48,5.17-4.23,8.48
+			c0.23,3.12,2.29,6.03,5.48,6.64c3.33,0.64,6.55-1.41,8.15-4.24C211.68,267.78,211.85,267.44,212,267.09z"/>
+	</g>
+	<g id="POLYLINE_550_">
+		<path class="st203" d="M274.59,263.03c0.51-5.05,1.07-10.1,1.62-15.14c0.44-4.06,0.62-8.33,1.77-12.26
+			c0.58-1.96,1.64-3.56,2.8-5.22"/>
+	</g>
+	<g id="POLYLINE_549_">
+		<path class="st203" d="M280.79,230.41c-1.64-0.26-2.94-1.29-4.09-2.43c-2-1.97-4.03-4.02-5.46-6.46
+			c-2.9-4.96-3.66-11.21-4.16-16.83c-0.53-6.05-0.76-12.3,0.27-18.31c0.7-4.13,2.16-8.53,5.72-11.07c3.05-2.18,6.53-1.81,9.92-0.65
+			c5.6,1.92,10.43,5.36,14.93,9.13c2.44,2.05,4.78,4.2,7.13,6.34c1.18,1.08,2.36,2.15,3.54,3.24c0.7,0.65,1.64,1.39,1.65,2.43
+			c0.02,2.05-2.55,3.74-3.88,4.88c-2.18,1.86-4.09,3.94-5.77,6.26c-3.65,5.01-6.69,10.54-9.43,16.09c-1.04,2.11-1.75,4.56-3.87,5.83
+			c-1.22,0.73-2.62,1.24-4.03,1.48C282.43,230.48,281.6,230.53,280.79,230.41z"/>
+	</g>
+	<g id="POLYLINE_548_">
+		<path class="st203" d="M248.64,170.68c2.64,1.49,5.3,2.85,8.29,3.48c3.13,0.66,6.39,0.75,9.59,0.78c2.34,0.02,4.68,0.03,7.02,0.05
+			"/>
+	</g>
+	<g id="POLYLINE_547_">
+		<path class="st203" d="M309.55,197.58c4.79,6.08,9.61,12.14,14.49,18.16c4.08,5.04,8.23,10.05,12.45,14.97
+			c3.03,3.53,6.06,7.06,9.09,10.59"/>
+	</g>
+	<g id="POLYLINE_546_">
+		<path class="st203" d="M312.9,300.98c-4.69,2.79-4.2,9.03-5.04,13.7c-1.19,6.57-4.51,12.82-7.98,18.45
+			c-1.8,2.92-3.85,5.62-5.88,8.38c-1.2,1.63-2.04,3.35-1.64,5.43c0.48,2.48,1.97,4.75,3.39,6.79c1.83,2.63,3.92,5.12,6.14,7.44
+			c1.5,1.57,3.35,3.39,5.65,3.52c2.31,0.14,4.58-1.25,6.5-2.36c3.04-1.74,6.19-3.4,8.84-5.71c2.09-1.82,3.74-4.03,5.07-6.45
+			c3.18-5.79,4.9-12.4,6.16-18.84c0.67-3.41,1.18-6.86,1.59-10.31c0.4-3.34,0.9-6.72,0.92-10.09c0.03-4.31-1.39-8.36-5.44-10.4
+			c-4.56-2.29-10.91-2.17-15.7-0.67C314.58,300.14,313.7,300.5,312.9,300.98z"/>
+	</g>
+	<g id="POLYLINE_545_">
+		<path class="st203" d="M308.8,237.72c0.95-1.03,1.37-2.47,1.07-3.84c-0.32-1.49-1.45-2.73-2.91-3.19
+			c-1.26-0.39-2.66-0.17-3.74,0.59c-1.25,0.88-1.95,2.4-1.79,3.93c0.15,1.52,1.13,2.88,2.53,3.5c0.15,0.07,0.3,0.12,0.45,0.17"/>
+	</g>
+	<g id="POLYLINE_544_">
+		<path class="st203" d="M303.41,235.19c1.76,6.47,3.52,12.94,5.28,19.41c1.2,4.41,2.4,8.81,3.59,13.22c0.54,2,0.97,4.08,1.64,6.04
+			c0.78,2.28,4.25,2.06,4.44-0.46c0.05-0.58-0.18-1.17-0.33-1.73c-0.34-1.26-0.69-2.53-1.03-3.79c-2.4-8.84-4.81-17.69-7.21-26.53
+			c-0.66-2.41-1.23-4.86-1.97-7.24c-0.61-1.95-3.34-2.5-4.28-0.45C303.31,234.13,303.27,234.68,303.41,235.19z"/>
+	</g>
+	<g id="POLYLINE_543_">
+		<path class="st203" d="M336.06,317.9c1.26-1.4,2.47-2.82,3.31-4.52c0.74-1.51,1.22-3.13,1.68-4.74
+			c1.44-5.11,2.83-10.23,4.43-15.29c1.68-5.3,3.45-10.56,5.24-15.82c1.61-4.72,3.38-9.37,5.11-14.05c1.35-3.66,2.35-7.3,1.47-11.19
+			c-0.77-3.44-2.52-7.11-5.3-9.36c-1.89-1.53-4.55-2.48-6.86-1.43c-4.48,2.03-8.79,4.42-13.13,6.72c-3.44,1.82-7.4,3.52-9.9,6.64
+			c-2.52,3.15-3.33,7.42-4.03,11.28c-0.21,1.17-0.4,2.34-0.6,3.51"/>
+	</g>
+	<g id="POLYLINE_542_">
+		<path class="st203" d="M316.57,275.44c-1.01,6.55-2.08,13.1-2.94,19.68c-0.26,1.95-0.5,3.91-0.74,5.86"/>
+	</g>
+	<g id="POLYLINE_541_">
+		<line class="st203" x1="289.82" y1="225.79" x2="305.86" y2="244.2"/>
+	</g>
+	<g id="POLYLINE_540_">
+		<path class="st203" d="M312.72,252.14c2.23,2.54,4.53,4.98,7,7.29"/>
+	</g>
+	<g id="POLYLINE_539_">
+		<path class="st203" d="M136.36,295.1c-0.82,2.68,3.29,4.05,4.19,1.36"/>
+	</g>
+	<g id="POLYLINE_538_">
+		<path class="st203" d="M216.8,484.05c-2.29,0.25-4,2.31-4.97,4.24c-1.51,3.02-2.01,7.15-0.32,10.22c1.4,2.54,4.24,3.08,6.5,1.35
+			c2.69-2.06,3.9-5.86,3.85-9.12c-0.05-2.52-1.01-5.97-3.85-6.61C217.61,484.03,217.2,484.01,216.8,484.05z"/>
+	</g>
+	<g id="POLYLINE_537_">
+		<path class="st203" d="M216.73,471.48c-3.15,0.57-5.95,2.4-8.14,4.69c-2.89,3.01-4.87,6.85-6.1,10.81
+			c-1.17,3.77-1.7,7.8-1.39,11.75c0.32,4.11,1.65,8.33,4.53,11.39c2.28,2.42,5.47,3.77,8.81,3.53c3.17-0.23,6.09-1.83,8.4-3.94
+			c3.04-2.79,5.17-6.49,6.55-10.34c1.34-3.73,2.02-7.74,1.91-11.7c-0.11-4.09-1.13-8.3-3.62-11.62c-2.07-2.76-5.14-4.59-8.62-4.72
+			C218.28,471.28,217.5,471.34,216.73,471.48z"/>
+	</g>
+	<g id="POLYLINE_536_">
+		<path class="st203" d="M221.24,471.62c0.58-6.51,1.19-13,1.98-19.48c0.81-6.64,2.01-13.24,3.1-19.84
+			c0.96-5.84,1.88-11.69,2.33-17.59c0.23-3,0.34-6.01,0.29-9.02c-0.02-1.43-0.08-2.86-0.23-4.29c-0.1-0.97-0.18-2.12-0.65-3
+			c-1.06-2-4.81-1.99-6.67-2.3c-2.87-0.48-5.65-1.25-8.36-2.3c-2.89-1.11-5.69-2.42-8.43-3.85c-2.58-1.35-5.15-2.77-7.43-4.6
+			c-4.4-3.54-6.31-8.55-8.35-13.64c-2.14-5.33-4.59-10.69-8.05-15.29c-1.61-2.15-3.62-4.06-4.82-6.48
+			c-1.12-2.25-1.55-4.76-2.54-7.06c-0.36-0.83-0.84-1.75-1.76-2.08c-1.18-0.43-1.39,0.97-1.47,1.84c-0.28,3.03,0.16,6.18,0.31,9.2
+			c0.26,5.35,0.24,10.72,0.16,16.08c-0.13,8.11-0.27,16.23-0.4,24.34c-0.09,5.36-0.08,10.73,0.02,16.09
+			c0.12,6.42,0.27,12.84,0.66,19.26c0.4,6.64,0.93,13.25,1.71,19.85c0.71,6.08,1.67,12.15,2.94,18.14c0.97,4.6,1.75,10.2,5.16,13.72
+			c1.9,1.96,4.38,2.76,7.07,2.34c5.87-0.93,11.21-4.81,16.1-7.94c3.52-2.25,7.32-4.79,11.69-4.1
+			C217.59,469.9,219.45,470.72,221.24,471.62z"/>
+	</g>
+	<g id="POLYLINE_535_">
+		<path class="st203" d="M175.71,466.23c-3.44,3.32-5.69,7.77-6.96,12.34c-1.25,4.53-1.65,9.48-0.62,14.1
+			c0.99,4.46,3.54,8.98,7.92,10.81c1.25,0.52,2.61,0.81,3.91,1.17c3.43,0.96,6.86,1.92,10.29,2.88c6.7,1.87,13.4,3.75,20.1,5.62
+			c0.13,0.04,0.26,0.07,0.39,0.11"/>
+	</g>
+	<g id="POLYLINE_534_">
+		<path class="st203" d="M181.1,504.97c1.24,4.54,2.48,9.06,3.34,13.69c0.8,4.32,1.33,8.69,1.89,13.04
+			c0.67,5.25,1.31,10.51,2.05,15.75c0.74,5.2,1.62,10.38,2.43,15.57c0.65,4.15,1.26,8.3,1.68,12.47c0.45,4.49,0.7,9,0.62,13.51
+			c-0.07,4.49-0.45,9.01-1.45,13.39c-0.5,2.17-1.22,4.26-1.99,6.35c-0.58,1.6-1.33,3.25-1.52,4.96c-0.17,1.5,0.53,2.47,1.87,3.1
+			c1.7,0.8,3.6,1.21,5.37,1.8c4.4,1.48,8.76,3.17,12.8,5.47c1.9,1.08,3.72,2.34,5.69,3.29c0.92,0.45,1.95,0.88,2.99,0.87
+			c3.23-0.02,4.98-4.78,5.86-7.18c1.26-3.4,1.19-6.53,0.44-10.03c-0.93-4.41-1.8-8.66-1.76-13.19c0.03-4.55,0.57-9.09,1.28-13.58
+			c0.8-5.02,1.9-9.98,2.94-14.95c0.91-4.34,1.8-8.69,2.41-13.09c0.61-4.44,0.91-8.91,0.91-13.39c0-4.65-0.3-9.31-0.82-13.93
+			c-0.54-4.74-1.32-9.45-2.34-14.11c-0.48-2.17-1.02-4.32-1.6-6.46"/>
+	</g>
+	<g id="POLYLINE_533_">
+		<path class="st203" d="M190.18,616.88c-0.92,1.28-1.66,2.66-2.89,3.67c-1.24,1.02-2.77,1.61-4.29,2.07
+			c-5.03,1.55-10.34,2.2-15.49,3.2c-2.45,0.47-4.92,0.97-7.28,1.79c-1.71,0.6-3.43,1.46-4.5,2.98c-0.91,1.28-1.35,2.94-1.74,4.43
+			c-0.3,1.16-0.4,2.36,0.28,3.42c1.66,2.58,5.69,3.23,8.41,3.62c5.14,0.74,10.38,0.7,15.56,0.74c5.68,0.04,11.37,0.07,17.05,0.11
+			c5.03,0.03,10.09,0.17,15.12,0.01c2.44-0.08,4.91-0.21,7.31-0.7c1.74-0.36,3.84-0.92,4.8-2.57c0.96-1.64,0.6-3.81,0.5-5.6
+			c-0.15-2.51-0.13-5.03-0.41-7.53c-0.14-1.22-0.34-2.43-0.63-3.61"/>
+	</g>
+	<g id="POLYLINE_532_">
+		<path class="st203" d="M173.54,343.16c-0.16-6.61,0.04-13.22-0.08-19.83c-0.06-3.45-0.25-6.93-0.08-10.37
+			c0.04-0.83,0-2.11,0.46-2.86c0.61-1,1.71,0.48,2.17,0.99c2.16,2.41,4.32,4.7,6.83,6.75c2.5,2.05,5.14,3.92,7.89,5.62
+			c4.86,3.01,10.2,5.74,15.91,6.61c5.19,0.79,10.32-0.24,15.22-1.98c5.86-2.09,11.44-4.99,16.89-7.99
+			c6.24-3.43,12.4-7.03,18.73-10.28c3-1.54,6.02-3,9.14-4.26c1.44-0.58,2.89-1.15,4.38-1.58c1.15-0.33,1.79-0.19,2.35,0.94
+			c1.22,2.43,1.57,5.4,2.08,8.04c0.61,3.14,1.13,6.3,1.59,9.47c0.99,6.69,1.78,13.41,2.08,20.16c0.07,1.69,0.12,3.37,0.17,5.06"/>
+	</g>
+	<g id="POLYLINE_531_">
+		<path class="st203" d="M173.48,323.85c3.84,3.92,7.68,7.85,11.52,11.77c2.99,3.06,5.96,6.14,8.81,9.33
+			c3.24,3.63,6.05,7.5,8.97,11.38c2.34,3.11,5.09,5.53,8.96,6.43c3.22,0.75,6.82,0.57,9.77-1.02c3.56-1.92,5.91-5.54,8.26-8.71
+			c2.79-3.77,5.78-7.33,9.08-10.66c3.5-3.53,7.19-6.86,10.95-10.11c3.66-3.17,7.39-6.26,11.23-9.21c3.58-2.76,7.32-5.37,11.53-7.06
+			c1.06-0.43,2.14-0.8,3.22-1.19"/>
+	</g>
+	<g id="POLYLINE_530_">
+		<path class="st203" d="M173.97,286.9c1,6.44,1.83,12.9,2.32,19.4c0.14,1.83,0.24,3.67,0.34,5.5"/>
+	</g>
+	<g id="POLYLINE_529_">
+		<path class="st203" d="M269.28,304.54c-0.41-4.48-0.38-8.96,0.2-13.42c0.15-1.17,0.34-2.33,0.56-3.48"/>
+	</g>
+	<g id="POLYLINE_528_">
+		<line class="st203" x1="228.6" y1="400.41" x2="229.99" y2="400.35"/>
+	</g>
+	<g id="POLYLINE_527_">
+		<path class="st203" d="M240.43,471.25c0.35,1.56,0.89,3.1,1.87,4.38c1.2,1.56,2.94,2.63,4.63,3.58c2.42,1.36,4.92,2.67,7.65,3.27
+			c2.59,0.57,5.3,0.57,7.9,0.09c5.37-0.99,10.3-4.15,14.33-7.73c2.24-1.98,4.23-4.24,5.91-6.71c1.01-1.48,1.83-3.04,2.11-4.82
+			c0.38-2.35,0.23-4.83,0.23-7.2c0-4.64,0-9.28,0-13.92c0-4.02-0.02-8.04-0.05-12.06c-0.05-9.13-0.11-18.25-0.16-27.38
+			c-0.05-8.36-0.1-16.72-0.15-25.08c-0.03-4.87,0.01-9.73,0.09-14.6c0.05-3.2,0.19-6.4,0.32-9.6c0.12-2.87,0.47-5.88,0.07-8.74
+			c-0.24-1.67-1.87-5.03-3.7-2.71c-1.52,1.93-1.91,4.76-2.61,7.04c-0.22,0.71-0.53,1.98-1.29,2.31c-0.97,0.42-2.05-0.8-2.57-1.45
+			c-1.13-1.43-1.23-3.3-2.22-4.79c-2.65-4-9.11-0.15-11.96,1.46c-5.24,2.96-10.44,6.47-14.86,10.57c-4.15,3.85-7.04,8.36-8.43,13.86
+			c-1.5,5.93-1.74,12.1-4,17.83c-1.03,2.6-2.45,5.11-3.17,7.83c-0.52,1.99-0.42,4.01-0.15,6.03c0.95,7.06,2.55,14.09,3.87,21.08
+			c1.17,6.19,2.11,12.42,2.88,18.68c0.85,6.86,1.48,13.75,2.26,20.63C239.53,465.84,239.98,468.54,240.43,471.25z"/>
+	</g>
+	<g id="POLYLINE_526_">
+		<line class="st203" x1="287.13" y1="464.27" x2="284.56" y2="464.51"/>
+	</g>
+	<g id="POLYLINE_525_">
+		<path class="st203" d="M252.75,513.43c2.15-1.93,4.38-3.4,7.17-4.24c2.89-0.87,5.96-1.21,8.97-1.15c3.19,0.07,6.34,0.66,9.4,1.52
+			c1.59,0.44,3.16,0.95,4.69,1.56c0.98,0.39,1.83,0.83,2.91,0.8c2.3-0.06,5-0.76,6.86-2.18"/>
+	</g>
+	<g id="POLYLINE_524_">
+		<path class="st203" d="M240.22,470c-1.11,2.74-1.12,6.02-1.15,8.93c-0.04,3.71,0.2,7.42,0.61,11.1c0.4,3.62,0.95,7.22,1.72,10.78
+			c0.75,3.49,1.62,7.1,3.19,10.33c0.45,0.92,1.16,2.45,2.22,2.77c0.64,0.19,1.6-0.08,2.23-0.14c1.24-0.11,2.48-0.23,3.72-0.34"/>
+	</g>
+	<g id="POLYLINE_523_">
+		<path class="st203" d="M252.75,513.43c-0.55,4.28-0.29,8.43,0.15,12.71c0.57,5.6,1.21,11.2,1.82,16.8
+			c0.48,4.45,0.98,8.89,1.51,13.34c0.55,4.56,1.35,9.09,1.89,13.66c0.54,4.61,0.75,9.25,0.7,13.9c-0.05,4.78-0.33,9.55-0.81,14.31
+			c-0.48,4.71-1.22,9.38-2.1,14.03c-0.91,4.81-2.05,9.57-2.99,14.37c-0.19,0.98-0.85,3.59,0.96,2.97c1.77-0.61,3.39-2,4.94-3
+			c3.04-1.94,6.55-3.83,10.25-3.85c3.77-0.02,7.15,2.18,10.38,3.83c1.64,0.84,3.37,1.69,5.16,2.13c1.24,0.31,2.42,0.29,2.23-1.31
+			c-0.22-1.81-0.83-3.56-1.08-5.36c-0.3-2.19-0.4-4.4-0.42-6.6c-0.05-4.7,0.27-9.41,0.75-14.09c0.49-4.81,1.16-9.59,1.96-14.36
+			c0.7-4.21,1.53-8.4,2.36-12.58c1.05-5.33,2.16-10.65,3.16-15.99c0.86-4.58,1.54-9.2,1.92-13.84c0.38-4.59,0.42-9.22,0.17-13.82
+			c-0.25-4.7-0.74-9.39-1.52-14.03c-0.39-2.31-0.85-4.61-1.36-6.9"/>
+	</g>
+	<g id="POLYLINE_522_">
+		<path class="st203" d="M256.71,627.89c-0.78,2.14-1.13,4.42-1.3,6.69c-0.11,1.5-0.24,3.09,0.11,4.58c0.66,2.85,3.62,3.2,6.08,3.42
+			c5.22,0.48,10.51,0.2,15.74,0.13c1.98-0.03,4,0.01,5.96-0.26c1.63-0.22,3.43-0.75,3.8-2.59c0.3-1.52-0.16-3.21-0.58-4.65
+			c-0.57-1.96-1.25-3.91-2.24-5.7c-0.23-0.41-0.47-0.81-0.73-1.2"/>
+	</g>
+	<g id="POLYLINE_521_">
+		<path class="st203" d="M293.39,499.71c-0.55-4-1.1-8-1.65-12c-0.39-2.86-0.78-5.72-1.18-8.58c-0.15-1.07-0.29-2.13-0.44-3.2
+			c-0.05-0.35-0.37-1.34-0.23-1.68c0.15-0.37,1.63-0.35,2.08-0.41c1.21-0.17,2.43-0.33,3.64-0.5c0.55,4,1.1,8,1.65,12
+			c0.39,2.86,0.78,5.72,1.18,8.58c0.15,1.07,0.29,2.13,0.44,3.2c0.05,0.35,0.37,1.34,0.23,1.68c-0.15,0.37-1.63,0.35-2.08,0.41
+			C295.81,499.38,294.6,499.54,293.39,499.71z"/>
+	</g>
+	<g id="POLYLINE_520_">
+		<path class="st203" d="M292.12,473.83c-0.32-1.18-3.18-11.66-5.7-9.18c-1.18,1.16-1.37,3.61-1.54,5.13
+			c-0.27,2.39-0.31,4.8-0.26,7.2c0.11,5.15,0.64,10.29,1.5,15.37c0.81,4.81,1.79,9.86,3.88,14.31c0.46,0.97,1.54,3.41,2.93,3.04
+			c1.56-0.41,1.85-3.64,2.03-4.91c0.08-0.56,0.13-1.12,0.18-1.68"/>
+	</g>
+	<g id="POLYLINE_519_">
+		<path class="st203" d="M294.64,499.54c0.89,6.52,1.54,13.12,2.69,19.59c0.37,2.08,3.34,2.01,3.27-0.21
+			c-0.03-0.9-0.25-1.84-0.37-2.73c-0.29-2.08-0.57-4.16-0.86-6.24c-0.5-3.62-0.99-7.24-1.49-10.87"/>
+	</g>
+	<g id="POLYLINE_518_">
+		<path class="st203" d="M193.73,192.9c-0.6,1.22,0.29,2.71,1.68,2.68c1.31-0.03,1.68-1.2,2.09-2.2c2.23-5.41,4.45-10.83,6.68-16.25
+			c0.92-2.23,1.83-4.46,2.75-6.7c0.34-0.83,0.91-2.35-0.6-2.42c-1.13-0.05-1.61,1.84-1.98,2.61c-1.21,2.54-2.42,5.07-3.63,7.61
+			c-2.29,4.79-4.57,9.58-6.86,14.37C193.82,192.71,193.77,192.8,193.73,192.9z"/>
+	</g>
+	<g id="POLYLINE_517_">
+		<path class="st203" d="M200.74,178.2c-3.01,0.44-5.98,1.06-8.93,1.8c-3.4,0.85-6.81,1.58-10.22,2.37
+			c-4.41,1.02-7.89,2.99-10.09,7.02c-2.86,5.23-3.54,11.59-3.57,17.46c-0.03,6.43,0.77,12.89,2.06,19.18
+			c0.6,2.91,1.23,5.95,2.43,8.68c0.4,0.91,0.92,1.86,2.05,1.68c1.11-0.18,2.2-0.98,3.12-1.57c2.79-1.79,5.52-3.66,8.57-4.99
+			c2.74-1.2,5.62-2.03,8.54-2.66c6.29-1.36,12.82-1.97,19.24-2.25c6.42-0.28,12.69,0.26,18.9,1.92c5.74,1.53,11.74,4.01,17.78,3.49
+			c5.87-0.5,11.76-3.61,16.4-7.09c1.24-0.93,2.42-1.94,3.51-3.05"/>
+	</g>
+	<g id="POLYLINE_516_">
+		<path class="st203" d="M222.27,182.47c0-3.5-4.58-5.04-6.7-2.27c-1.98,2.59,0.26,6.43,3.5,5.96
+			C220.88,185.91,222.27,184.3,222.27,182.47z"/>
+	</g>
+	<g id="POLYLINE_515_">
+		<path class="st203" d="M236.69,190.91c0.48,1.45,2.47,1.72,3.3,0.43c0.61-0.95,0.08-1.87-0.3-2.78c-2.25-5.4-4.5-10.8-6.75-16.19
+			c-0.93-2.23-1.86-4.45-2.79-6.68c-0.35-0.83-1.05-2.32-2.15-1.27c-0.8,0.77,0.19,2.44,0.47,3.24c0.94,2.65,1.87,5.3,2.81,7.94
+			c1.77,5,3.53,10,5.3,15.01C236.62,190.71,236.65,190.81,236.69,190.91z"/>
+	</g>
+	<g id="POLYLINE_514_">
+		<path class="st203" d="M204.69,175.88c7.47-0.69,14.93-1.76,22.38-2.64c1.08-0.13,2.16-0.26,3.24-0.38"/>
+	</g>
+	<g id="POLYLINE_513_">
+		<path class="st203" d="M233,172.53c3.03-0.36,6.06-0.72,9.09-1.08c1.79-0.21,3.58-0.42,5.36-0.63c0.7-0.08,1.5-0.08,2.12-0.47
+			c0.77-0.49,1.08-1.32,1.02-2.19c-0.12-1.67-0.39-3.34-0.59-4.99c-0.19-1.57-1.19-2.51-2.8-2.34c-5.98,0.63-11.95,1.41-17.92,2.12
+			c-7.56,0.89-15.12,1.79-22.68,2.68c-1.15,0.14-2.91,0.03-3.94,0.69c-0.77,0.49-1.08,1.32-1.02,2.19c0.12,1.67,0.39,3.34,0.59,4.99
+			c0.04,0.37,0.08,0.73,0.23,1.07"/>
+	</g>
+</g>
+<g id="AG-OUTLINE">
+	<g id="POLYLINE_827_">
+		<path class="st205" d="M552.04,114.89c0.42-4.26,0.74-8.54,0.66-12.82c-0.07-3.98-0.49-8.01-1.74-11.8
+			c-1.18-3.6-3.17-6.78-5.81-9.49c-2.85-2.93-6.25-5.31-9.83-7.26c-3.21-1.74-6.66-3.29-10.32-3.76c-3.62-0.46-7.27,0.2-10.71,1.3
+			c-3.84,1.23-7.54,3.02-10.87,5.31c-3.18,2.19-5.98,4.89-8.05,8.17c-2.04,3.23-3.33,6.86-4.15,10.57
+			c-0.91,4.13-1.3,8.37-1.45,12.59c-0.01,0.41,0.1,1.02-0.19,1.2c-0.36,0.22-1.38,0.08-1.82,0.1c0.26,4.64,0.52,9.28,0.78,13.91
+			c0.04,0.71-0.13,1.93,0.15,2.6c0.09,0.21-0.04,0.14,0.11,0.24c0.36,0.25,1.35-0.36,1.69-0.09c0.16,0.13,0.15,1.26,0.17,1.47
+			c0.06,0.49,0.13,0.98,0.19,1.47c0.13,0.96,0.28,1.91,0.43,2.87c0.35,2.16,0.79,4.3,1.31,6.43c-1-0.15-1.8,0.61-1.86,1.58
+			c-0.09,1.36,0.1,2.8,0.15,4.16c0.07,1.97,0.14,3.93,0.22,5.9c0.03,0.85,0.18,1.68,1.09,2c1.05,0.37,2.19-0.46,2.15-1.58
+			c2.01,0.02,4.02,0.03,6.03,0.05c-0.03,2.3-0.18,4.58-0.42,6.87c-0.06,0.59-0.05,2.9-0.48,3.19c-0.29,0.19-1.37,0.01-1.71,0.01
+			c-0.9,0.01-1.8,0.01-2.71,0.02c-1.64,0.01-3.59-0.28-4.5,1.45c-0.29,0.55-0.31,1.11-0.3,1.71c0.01,1.47-0.02,2.95,0.03,4.42
+			c0.02,0.65,0.16,1.24,0.57,1.76c0.37,0.48,0.36,0.54,0.05,1.06c-0.2,0.34-0.41,0.66-0.64,0.98c-0.74,1.02-1.65,1.95-2.71,2.64
+			c-2.27,1.47-5.24,1.62-7.84,1.85c-4.82,0.44-9.66,0.64-14.42,1.54c-0.65,0.12-1.29,0.25-1.94,0.37c0.35-1.82-2.79-0.79-3.6-0.48
+			c-2.09,0.79-4.01,2.04-5.76,3.42c-4.08,3.22-7.57,7.23-10.69,11.36c-2.59,3.43-5.55,7.32-6.65,11.56
+			c-0.32,1.22-0.4,2.48-0.26,3.73c0.1,0.9,0.28,1.8,0.52,2.68c0.08,0.28,0.2,0.55,0.14,0.81c-0.08,0.33-0.47,0.72-0.65,1.01
+			c-0.3,0.47-0.59,0.94-0.88,1.41c-2.63,4.28-5.14,8.64-7.51,13.07c-3.14,5.89-6.28,11.77-9.42,17.66
+			c-1.04,1.95-2.13,3.88-3.25,5.79c-1.18,2.03-2.54,4.07-3.29,6.31c-0.3,0.9-0.48,1.85-0.45,2.8c0.01,0.45,0.07,0.89,0.17,1.33
+			c0.05,0.22,0.12,0.43,0.17,0.65c0.1,0.44,0.07,0.47-0.24,0.86c-1.42,1.78-2.64,3.74-3.66,5.77c-0.57,1.13-1.08,2.29-1.49,3.49
+			c-0.18,0.54-0.35,1.09-0.5,1.64c-0.08,0.28-0.11,0.61-0.22,0.87c-0.16,0.36-0.04,0.23-0.35,0.34c-1,0.33-1.98,0.15-2.9,0.8
+			c-1.68,1.18-0.12,3.05,0.86,4.13c1.67,1.84,3.63,3.43,5.49,5.07c2.25,1.99,4.5,3.99,6.71,6.02c3.89,3.57,7.67,7.26,11.37,11.03
+			c3.65,3.72,7.23,7.51,10.72,11.38c3.94,4.38,7.76,8.97,12.06,13.01c1.41,1.33,2.91,2.69,4.65,3.59c0.75,0.39,1.55,0.67,2.4,0.71
+			c0.31,0.02,0.94-0.15,1.16,0c0.38,0.27,0.71,1.38,0.95,1.81c1.12,2.01,2.44,3.89,3.99,5.6c0.86,0.95,1.77,1.85,2.72,2.72
+			c0.51,0.46,1.02,0.91,1.55,1.34c0.26,0.21,0.52,0.42,0.78,0.63c0.38,0.3,0.41,0.23,0.28,0.64c-0.31,0.97-0.86,1.85-1.13,2.85
+			c-0.27,0.99-0.43,2-0.54,3.01c-0.28,2.55-0.25,5.13-0.12,7.69c0.3,5.86,0.95,11.71,1.46,17.55c0.42,4.83,0.66,9.7,0.82,14.54
+			c0.16,4.74,0.32,9.49,0.44,14.23c0.2,7.77,0.4,15.54,0.61,23.32c0.12,4.45,0.23,8.89,0.48,13.33c0.15,2.72,0.31,5.44,0.56,8.15
+			c0.13,1.38,0.26,2.77,0.43,4.15c0.04,0.32,0.43,1.78,0.28,2.03c-0.07,0.12-0.76,0.25-0.91,0.31c-3.09,1.21-5.43,3.8-7.07,6.6
+			c-2.45,4.2-3.66,9.11-4.06,13.93c-0.39,4.66-0.06,9.52,1.59,13.93c0.38,1.01,0.83,2,1.38,2.94c0.34,0.59,0.21,0.84,0.04,1.5
+			c-0.15,0.61-0.28,1.22-0.41,1.83c-0.53,2.64-0.87,5.33-1.14,8.01c-0.55,5.46-0.78,10.96-0.9,16.45
+			c-0.13,5.56-0.06,11.12,0.11,16.68c0.16,5.08,0.45,10.17,0.85,15.23c0.47,6.03,0.98,12.05,1.39,18.09
+			c0.36,5.3,0.54,10.62,0.23,15.93c-0.31,5.44-1.26,10.71-2.29,16.04c-0.25,1.28-1.1,4.21,0.04,5.3c0.14,0.14,0.36,0.17,0.49,0.28
+			c0.26,0.23,0.21,0.18,0.1,0.67c-0.15,0.68-0.31,1.36-0.46,2.04c-0.28,1.29-0.53,2.59-0.75,3.89c-0.88,5.18-1.33,10.46-1.43,15.72
+			c-0.05,2.46-0.05,4.96,0.31,7.39c0.24,1.61,0.68,3.2,2.05,4.22c1.1,0.82,2.49,1.24,3.81,1.54c2.44,0.56,4.98,0.73,7.48,0.82
+			c5.17,0.18,10.59,0.09,15.67-0.96c2.53-0.52,5.43-1.48,6.38-4.15c0.42-1.19,0.47-2.49,0.44-3.74c-0.06-2.66-0.47-5.3-0.66-7.95
+			c-0.36-5.11-0.52-10.25-1.37-15.31c1.01-0.13,0.77-2.37,0.74-3.04c-0.09-2.06-0.35-4.13-0.56-6.18
+			c-0.39-3.92-0.62-7.84-0.62-11.78c-0.01-8.36,0.68-16.72,1.6-25.03c0.8-7.28,1.84-14.53,3.01-21.76
+			c1.5-9.34,3.21-18.66,4.46-28.04c0.5-3.75,1.01-7.58,0.85-11.37c-0.02-0.46-0.39-2.09-0.15-2.35c0.14-0.15,0.82-0.23,1.04-0.31
+			c1.24-0.48,2.19-1.41,2.83-2.57c0.28-0.5,0.5-1.03,0.65-1.57c0.38,0.59,0.8,1.15,1.27,1.67c0.19,0.21,0.51,0.43,0.64,0.67
+			c0.17,0.32,0.05,0.74,0.01,1.14c-0.18,1.8-0.28,3.61-0.36,5.42c-0.19,4.08-0.27,8.16-0.3,12.24c-0.07,7.87,0.12,15.73,0.46,23.59
+			c0.35,8.11,1,16.2,1.47,24.3c0.42,7.28,0.47,14.65-0.38,21.91c-0.48,4.03-1.28,8.02-2.03,12.01c-0.31,1.64-0.63,3.27-0.8,4.93
+			c-0.09,0.83-0.33,2.3,0.19,3.06c0.38,0.56,1.04,0.41,1.59,0.22c-0.11,0.04-0.33,1.44-0.37,1.6c-0.13,0.5-0.25,0.99-0.38,1.49
+			c-0.25,1.03-0.49,2.06-0.72,3.09c-0.44,2.04-0.82,4.09-1.15,6.16c-0.66,4.09-1.25,8.26-1.29,12.41c-0.02,2.08,0.19,4.27,1.49,5.98
+			c1.1,1.46,2.76,2.38,4.47,2.97c3.48,1.2,7.32,1.27,10.96,1.32c2.97,0.04,5.95,0,8.92-0.01c11.38-0.04,22.76-0.09,34.14-0.13
+			c2.96-0.01,5.92-0.03,8.88-0.09c3.88-0.08,8.03,0.05,11.84-0.8c1.16-0.26,2.29-0.72,3.03-1.7c0.79-1.05,1.07-2.44,1.24-3.71
+			c0.41-3.1,0.27-6.6-0.64-9.61c-1.83-6.05-9.32-7.39-14.72-8.32c-4.08-0.7-8.21-1.13-12.2-2.27c-3.84-1.1-7.51-2.77-10.96-4.77
+			c-1.61-0.93-3.18-1.94-4.69-3.03c-0.78-0.57-1.55-1.16-2.3-1.77c-0.36-0.3-1.02-0.67-1.26-1.08c-0.17-0.28-0.08-0.3,0.06-0.63
+			c1.01-2.25,0.9-4.79,0.61-7.18c-0.49-4.13-1.37-8.2-1.7-12.35c-0.33-4.09-0.31-8.21-0.12-12.3c0.39-8.48,1.53-16.91,3.2-25.23
+			c1.64-8.18,4.01-16.35,4.69-24.69c0.17-2.11,0.2-4.23,0.01-6.33c-0.04-0.48-0.1-0.95-0.16-1.42c-0.06-0.43-0.32-1.11-0.25-1.53
+			c0.12-0.76,1.01-1.77,1.38-2.49c0.93-1.81,1.64-3.73,2.14-5.7c0.12-0.47,0.23-0.94,0.32-1.42c0.08-0.38,0.07-1.29,0.31-1.55
+			c0.21-0.22,0.89-0.36,1.18-0.5c5.65-2.82,8.37-9.6,9.57-15.42c1.47-7.11,1.39-15.63-2.53-22c-0.8-1.31-1.77-2.53-2.88-3.59
+			c-0.43-0.41-0.61-0.4-0.49-0.95c0.18-0.83,0.5-1.66,0.74-2.47c1.58-5.3,3.17-10.6,4.75-15.9c2.31-7.74,4.41-15.55,6.03-23.47
+			c1.68-8.2,2.95-16.49,3.91-24.81c1.06-9.13,1.92-18.26,2.75-27.41c0.36-3.99,0.79-7.99,1.03-12c0.14-2.33,0.43-5.23-0.68-7.41
+			c-1.2-2.35-4.29-2.06-6.5-1.9c0.78-4.97,1.07-10,1.41-15.02c0.33-4.76,1.01-9.43,1.53-14.17c0.15-1.36,0.27-2.79-0.02-4.14
+			c-0.07-0.34-0.17-0.67-0.31-0.99c-0.17-0.38-0.4-0.74-0.7-1.03c-0.11-0.11-0.51-0.32-0.56-0.45c-0.05-0.14,0.11-0.58,0.14-0.73
+			c0.71-4.23,0.13-8.78-0.53-12.98c-0.23-1.47-0.8-2.55-2.22-3.14c-0.44-0.18-0.91-0.31-1.37-0.42c-0.44-0.1-0.88-0.18-1.33-0.24
+			c-0.26-0.04-1.28,0.01-1.44-0.16c-0.21-0.21,0.1-1.82,0.12-2.15c0.03-0.53,0.07-1.06,0.1-1.59c0.09-1.32,0.19-2.65,0.29-3.97
+			c0.05-0.63-0.05-0.81,0.45-1.14c0.35-0.23,0.71-0.44,1.05-0.68c0.64-0.46,1.24-0.98,1.77-1.56c0.88-0.96,1.53-2.1,2.01-3.31
+			c0.16-0.41,0.23-0.79,0.53-1.08c0.15-0.15,0.37-0.26,0.53-0.4c0.59-0.51,1.06-1.14,1.39-1.85c1.39-2.98,1.15-6.78,0.94-9.97
+			c-0.07-1.05-0.14-2.11-0.3-3.15c-0.05-0.35-0.11-0.71-0.24-1.03c-0.13-0.33-0.52-0.53-0.64-0.78c-0.17-0.37,0.02-1.22,0.03-1.61
+			c0.03-1.29,0.05-2.59,0.08-3.88c0.14-6.55,0.3-13.1,0.45-19.66c0.01-0.47,0.02-0.94,0.03-1.42c4.52,4.91,9.07,9.8,13.56,14.74
+			c2.26,2.49,4.49,5.02,6.64,7.62c0.72,0.87,1.65,1.78,2.2,2.76c0.35,0.63,0.6,1.35,0.89,2.01c3.43,7.79,6.87,15.58,10.3,23.37
+			c1.74,3.95,3.48,7.9,5.22,11.84c0.75,1.71,1.8,3.48,2.33,5.28c0.41,1.37,0.45,2.98,0.62,4.4c0.19,1.58,0.37,3.17,0.52,4.76
+			c0.31,3.28,0.59,6.57,0.87,9.86c0.28,3.3,0.49,6.61,0.99,9.88c0.03,0.23,0.22,0.76,0.16,0.98c-0.06,0.22-0.43,0.53-0.57,0.71
+			c-0.37,0.47-0.73,0.96-1.07,1.45c-0.75,1.08-1.43,2.21-2.05,3.38c-1.99,3.76-3.89,8.13-2.99,12.46c0.31,1.5,0.76,2.97,0.95,4.49
+			c0.16,1.34,0.14,2.7,0.09,4.04c-0.11,2.77-0.61,5.7-0.16,8.47c0.69,4.2,6.26,5.71,9.9,5.84c4.75,0.16,9.91-1.56,13.15-5.12
+			c3.85-4.23,5.37-10.45,6.63-15.87c0.75-3.24,1.37-6.5,1.92-9.78c0.26-1.56,0.49-3.13,0.7-4.7c0.2-1.51,0.21-3.12,0.53-4.61
+			c0.23-1.08,0.58-2.12,0.74-3.23c0.23-1.55,0.34-3.11,0.41-4.67c0.15-3.13,0.14-6.28,0.09-9.42c-0.09-6.11-0.35-12.21-0.6-18.32
+			c-0.29-7.21-0.42-14.45-0.92-21.65c-0.18-2.61-0.46-5.28-1.39-7.74c-0.57-1.5-1.43-3.23-2.91-4.03c-0.52-0.28-1.02-0.36-1.6-0.37
+			c-0.48-0.01-0.45,0.07-0.74-0.38c-0.2-0.31-0.4-0.63-0.59-0.95c-0.77-1.29-1.43-2.64-2.23-3.91c-0.73-1.15-1.59-2.2-2.56-3.15
+			c-0.48-0.48-0.99-0.92-1.53-1.34c-0.25-0.2-0.55-0.37-0.79-0.59c-0.33-0.3-0.29-0.35-0.34-0.8c-0.17-1.57-1.13-2.99-1.99-4.25
+			c-1.82-2.65-3.85-5.16-5.84-7.68c-4.61-5.83-9.28-11.61-13.91-17.42c-3.67-4.59-7.31-9.21-10.79-13.95
+			c-1.9-2.59-3.73-5.21-5.57-7.85c2.26-1.17,1.15-3.32,0.09-4.98c-1.78-2.79-4.15-5.24-6.54-7.52c-4.71-4.5-10.09-8.73-16.27-10.97
+			c-2.61-0.95-5.37-1.49-8.15-1.49c-1.49,0-2.88,0.22-4.37,0.04c-1.81-0.22-3.62-0.41-5.44-0.49c-2.95-0.13-6.14,0.08-9-0.81
+			c-0.96-0.3-1.84-0.77-2.54-1.5c-0.29-0.3-1.09-1.1-1.09-1.54c0-0.33,0.63-0.99,0.71-1.45c0.12-0.65,0.04-1.36,0.03-2.01
+			c-0.01-1.38,0.34-3.29-0.29-4.6c-0.52-1.08-1.54-1.51-2.66-1.52c-0.59-0.01-1.18,0.01-1.77,0.01c-0.2,0-1.08,0.14-1.23,0
+			c-0.11-0.11-0.01-1.07-0.01-1.22c0-0.68-0.01-1.36-0.01-2.03c-0.01-0.8,0-1.6,0-2.39c2.25,0.09,4.49,0.19,6.74,0.28
+			c0.43,0.02,0.93-0.03,1.35,0.06c0.47,0.1,0.19-0.07,0.38,0.3c0.29,0.58,0.37,1.07,1.08,1.31c1.21,0.41,1.99-0.56,2.17-1.63
+			c0.42-2.48,0.81-4.97,1.21-7.45c0.14-0.84,0.33-1.68,0.41-2.52c0.06-0.56-0.22-1.01-0.11-1.52c0.4-1.86,1.21-3.7,1.73-5.54
+			c0.56-1.96,1.08-3.93,1.55-5.91c0.1-0.44,0.14-0.98,0.32-1.39c0.06-0.15,0.02-0.31,0.14-0.37c0.15-0.08,0.76,0.12,0.93,0.15
+			c0.17,0.03,1.23,0.32,1.37,0.22c0.06-0.05,0.06-0.38,0.07-0.46c0.89-4.8,1.54-9.65,2.32-14.47
+			C553.55,115.13,552.79,115.01,552.04,114.89z"/>
+	</g>
+	<g id="POLYLINE_1622_">
+		<path class="st205" d="M256.38,116.9c0.54-4.79,0.67-9.57-0.26-14.33c-0.91-4.65-2.61-9.19-5.22-13.16
+			c-1.16-1.76-2.49-3.41-4.03-4.85c-1.78-1.67-3.79-2.9-5.88-4.14c-2.24-1.33-4.53-2.55-6.78-3.87c-1.9-1.12-3.72-2.49-5.78-3.31
+			c-2.34-0.92-4.91-0.74-7.26,0.06c-2.35,0.8-4.45,2.2-6.58,3.43c-2.25,1.29-4.6,2.4-6.91,3.59c-3.89,2.02-7.26,4.84-9.81,8.41
+			c-2.57,3.59-4.18,7.78-5.13,12.07c-1.04,4.7-1.32,9.54-1.24,14.34c0.01,0.62,0.03,1.23,0.05,1.85c0.01,0.39,0.1,0.55-0.14,0.72
+			c-0.31,0.23-1.01-0.04-1.31,0.2c-0.35,0.28,0.09,1.7,0.17,2.22c0.55,3.61,1.11,7.22,1.66,10.83c0.12,0.8,0.25,1.61,0.37,2.41
+			c0.25-0.04,1.13-0.3,1.3-0.18c0.17,0.12,0.28,1.16,0.34,1.43c0.21,0.84,0.44,1.68,0.68,2.51c0.49,1.65,1.04,3.29,1.67,4.9
+			c0.57,1.48,1.39,2.91,1.9,4.4c0.15,0.44,0.04,0.91,0.04,1.41c0,1.15,0,2.3,0,3.45c0,1.26,0,2.52,0,3.78
+			c0,0.46-0.08,1.02,0.08,1.47c0.4,1.09,1.98,1.12,2.42,0.05c0.21-0.51-0.15-1.72,0.2-1.94c0.19-0.12,0.92,0,1.13,0
+			c0.68,0,1.37,0,2.05,0c0.64,0,1.29,0,1.93,0c0.26,0,0.87-0.12,1.11,0c0.43,0.2,0.36,0.81,0.4,1.22c0.29,2.47,0.58,4.93,0.88,7.4
+			c0.04,0.33,0.44,1.79,0.25,2.08c-0.2,0.29-2.07,0.26-2.44,0.31c-1.31,0.16-3.28,0-4.18,1.2c-0.9,1.2-0.24,3.19-0.09,4.51
+			c0.1,0.87,0.14,1.77,0.31,2.62c0.15,0.77-0.09,1.1-0.45,1.86c-0.33,0.71-0.67,2.11-1.39,2.38c-0.8,0.3-1.89,0.29-2.74,0.45
+			c-3.51,0.65-6.95,1.6-10.42,2.44c-3.16,0.76-6.47,1.15-9.49,2.41c-0.54,0.23-1.08,0.48-1.59,0.78c-0.63,0.36-0.71,0.44-1.41,0.28
+			c-1.15-0.26-2.35-0.34-3.53-0.27c-2.26,0.15-4.03,1.13-5.84,2.44c-2.81,2.03-5.46,4.31-7.98,6.7c-2.56,2.42-4.98,4.99-7.09,7.82
+			c-0.98,1.31-1.9,2.68-2.72,4.1c-0.63,1.1-1.37,2.32-1.32,3.63c0.02,0.59,0.18,1.16,0.38,1.71c0.19,0.54,0.48,1.04,0.68,1.58
+			c0.24,0.64-0.18,1.12-0.48,1.75c-1.78,3.79-3.53,7.6-5.26,11.41c-2.96,6.53-5.73,13.15-8.41,19.81
+			c-2.7,6.72-5.31,13.49-7.72,20.32c-0.67,1.9-1.35,3.81-2.02,5.71c-0.71-0.36-1.52-0.64-2.33-0.63c-1.86,0.04-2.78,1.78-3.32,3.34
+			c-1.41,4.07-1.45,8.63-1.58,12.89c-0.16,5.23-0.27,10.46-0.75,15.67c-0.51,5.51-1.3,11-1.99,16.49
+			c-0.56,4.45-1.21,8.95-1.26,13.45c-0.01,1.39,0.02,2.81,0.4,4.16c0.39,1.4,1.57,2.66,1.49,4.12c-0.27,4.99-1.29,9.91-1.81,14.87
+			c-0.49,4.74-0.54,9.51,0.42,14.2c0.93,4.53,2.66,8.92,4.88,12.97c1.92,3.5,4.3,7.12,7.64,9.4c2.03,1.39,4.3,1.94,6.69,1.25
+			c1.88-0.54,3.63-1.56,5.32-2.53c1.64-0.95,3.23-2,4.64-3.27c1.65-1.5,2.86-3.35,4.08-5.2c0.85-1.29,1.96-2.47,2.69-3.83
+			c1.23-2.31,0.16-5.24-0.64-7.5c-0.82-2.34-1.85-4.59-2.87-6.85c-0.92-2.04-1.53-4.17-2.09-6.34c-1.21-4.68-2.33-9.45-2.43-14.31
+			c-0.05-2.21-0.29-4.34-0.85-6.48c-0.28-1.06,0.52-2.4,0.86-3.42c0.36-1.13,0.71-2.26,1.04-3.39c1.47-5.03,2.71-10.13,3.99-15.21
+			c1.32-5.25,2.57-10.52,3.83-15.79c1.08-4.52,2.26-9.05,3.13-13.61c0.31-1.63,0.32-2.91-1.55-3.35c3.25-7.29,6.5-14.59,9.74-21.88
+			c3.18-7.15,6.21-14.36,9.31-21.55c0.32-0.74,0.64-1.49,0.96-2.23c0.1-0.22,0.24-0.87,0.44-1.02c0.1-0.07,0.45-0.02,0.58-0.02
+			c0.51,0,0.6-0.01,0.95,0.26c0.33,0.25,0.56,0.34,0.66,0.66c0.12,0.39-0.06,1.07-0.08,1.48c-0.05,0.87-0.1,1.75-0.15,2.62
+			c-0.14,2.47-0.29,4.94-0.43,7.41c-0.29,4.94-0.58,9.88-0.87,14.82c-0.05,0.84,0.07,1.92-0.32,2.65c-0.46,0.86-0.78,1.64-0.96,2.6
+			c-0.58,3.04-0.45,6.26-0.15,9.32c0.16,1.66,0.4,3.32,0.73,4.95c0.25,1.21,0.5,2.53,1.13,3.62c0.26,0.46,0.67,1.1,1.29,0.83
+			c-0.12,0.04,0.62,3.99,0.71,4.63c0.25,1.78,0.48,3.56,0.7,5.34c0.39,3.13,0.69,6.28,0.92,9.42c0.14,1.83,0.24,3.67,0.34,5.5
+			c-0.5-0.57-1.28-1.78-2.06-2.02c-0.78-0.24-0.93,0.79-1.03,1.36c-0.33,1.95-0.24,4-0.2,5.97c0.11,5.7,0.15,11.4,0.12,17.1
+			c-0.01,2.98-0.01,5.96,0.07,8.94c-0.35-0.87-2.01-3.69-3.02-2c-0.81,1.36-0.39,3.81-0.31,5.28c0.27,5.14,0.51,10.26,0.49,15.41
+			c-0.02,5-0.11,9.99-0.19,14.98c-0.09,5.72-0.22,11.44-0.28,17.16c-0.05,4.78-0.04,9.56,0.05,14.33c0.1,5.54,0.27,11.08,0.52,16.62
+			c0.22,4.96,0.58,9.93,1.03,14.88c0.48,5.14,1.11,10.26,1.89,15.36c0.38,2.48,0.8,4.96,1.28,7.43c0.11,0.56,0.21,1.13,0.33,1.69
+			c0.11,0.56,0.51,1.53,0.3,2.03c-0.13,0.31-0.66,0.67-0.9,0.93c-0.34,0.38-0.68,0.77-0.99,1.18c-2.65,3.38-4.4,7.47-5.35,11.64
+			c-0.91,4.04-1.15,8.34-0.28,12.41c0.86,4.04,2.95,8.14,6.6,10.31c1.63,0.97,3.48,1.36,5.29,1.86c0.44,0.12,0.93,0.14,1.16,0.48
+			c0.34,0.5,0.42,1.53,0.57,2.11c0.35,1.27,0.7,2.54,1.03,3.82c1.25,4.9,2.16,9.87,2.85,14.88c0.77,5.68,1.45,11.37,2.18,17.06
+			c0.58,4.53,1.32,9.04,2.02,13.56c0.82,5.26,1.71,10.52,2.35,15.8c0.59,4.86,0.95,9.74,0.98,14.64c0.03,4.78-0.27,9.62-1.23,14.31
+			c-0.46,2.26-1.13,4.45-1.93,6.62c-0.68,1.85-1.59,3.79-1.81,5.76c-0.18,1.58,0.62,2.55,2.03,3.17c-1.13,1.58-2.02,3.17-3.69,4.24
+			c-2.12,1.35-4.74,1.9-7.16,2.44c-6.38,1.42-13.17,1.88-19.34,4.13c-2.01,0.73-3.87,1.85-4.83,3.84c-0.71,1.49-1.44,3.41-1.43,5.1
+			c0.03,4.14,6.45,5.09,9.38,5.48c5.66,0.75,11.42,0.66,17.12,0.69c8.4,0.05,16.79,0.11,25.19,0.16c2.58,0.02,5.17-0.01,7.74-0.19
+			c2.43-0.17,5.08-0.37,7.32-1.42c2.53-1.18,2.74-3.55,2.6-6.02c-0.19-3.26-0.15-6.56-0.61-9.8c-0.11-0.77-0.35-1.55-0.43-2.32
+			c-0.07-0.74,0.47-1.57,0.74-2.3c0.47-1.29,0.81-2.62,0.94-3.99c0.22-2.31-0.26-4.57-0.75-6.82c-0.68-3.12-1.35-6.22-1.51-9.42
+			c-0.16-3.25,0.02-6.51,0.35-9.74c0.67-6.72,2.07-13.31,3.46-19.9c1.33-6.33,2.66-12.67,3.27-19.12c0.6-6.39,0.51-12.83-0.03-19.22
+			c-0.56-6.65-1.61-13.26-3.14-19.76c-0.19-0.81-0.39-1.62-0.6-2.42c-0.17-0.68-0.72-1.84-0.41-2.41c0.32-0.59,0.94-1.13,1.34-1.68
+			c0.43-0.59,0.82-1.19,1.2-1.81c1.46-2.42,2.54-5.06,3.28-7.79c1.41-5.22,1.72-11.07-0.09-16.23c-0.92-2.64-2.44-5.17-4.65-6.93
+			c-0.9-0.72-1.91-1.3-2.99-1.7c-0.19-0.07-1.1-0.22-1.2-0.37c-0.2-0.29,0.14-1.59,0.17-1.93c0.62-6.96,1.28-13.92,2.25-20.85
+			c0.97-6.96,2.26-13.87,3.37-20.81c0.98-6.17,1.74-12.39,1.9-18.64c0.08-2.98,0.1-6.02-0.32-8.98c0.37-0.01,1.21-0.18,1.39,0.06
+			c0.18,0.23,0.09,1.17,0.12,1.49c0.11,1.01,0.28,2.01,0.44,3.01c0.31,1.82,0.65,3.63,0.99,5.44c0.93,4.93,1.87,9.86,2.8,14.79
+			c1.44,7.64,2.42,15.35,3.26,23.08c0.55,5.01,1.06,10.02,1.64,15.02c0.24,2.02,0.55,4.03,0.87,6.04c0.2,1.21-0.48,2.59-0.66,3.82
+			c-0.57,3.9-0.46,7.92-0.21,11.84c0.26,4.17,0.76,8.33,1.49,12.44c0.69,3.86,1.53,7.73,2.89,11.41c0.49,1.33,1.04,2.7,1.86,3.86
+			c0.35,0.49,0.82,1.12,1.45,1.25c0.71,0.14,1.68-0.13,2.39-0.2c1.15-0.11,2.29-0.21,3.44-0.32c-1,7.81,0.49,15.83,1.33,23.6
+			c0.88,8.11,1.72,16.22,2.85,24.31c0.59,4.21,1.26,8.41,1.59,12.64c0.3,3.92,0.36,7.86,0.27,11.79c-0.2,8.21-1.03,16.41-2.52,24.49
+			c-0.81,4.43-1.79,8.82-2.71,13.22c-0.31,1.47-0.71,2.96-0.87,4.46c-0.05,0.46-0.19,1.29,0.24,1.61c0.47,0.34,1.31-0.17,1.73-0.4
+			c0.71-0.38,1.38-0.82,2.05-1.26c-0.78,2.14-1.13,4.42-1.3,6.69c-0.11,1.5-0.24,3.09,0.11,4.58c0.66,2.85,3.62,3.2,6.08,3.42
+			c5.22,0.48,10.51,0.2,15.74,0.13c1.98-0.03,4,0.01,5.96-0.26c1.63-0.22,3.43-0.75,3.8-2.59c0.3-1.52-0.16-3.21-0.58-4.65
+			c-0.57-1.96-1.25-3.91-2.24-5.7c-0.23-0.41-0.47-0.81-0.73-1.2c0.78,0.27,2.68,1.04,3.23,0.08c0.52-0.91-0.34-2.99-0.53-3.81
+			c-0.87-3.84-0.96-7.81-0.89-11.73c0.15-8.3,1.14-16.61,2.5-24.8c1.54-9.24,3.47-18.41,5.28-27.59c1.48-7.47,2.58-15.04,2.66-22.67
+			c0.09-8.34-0.69-16.72-2.35-24.89c-0.21-1.06-0.45-2.12-0.68-3.17c2.05-0.28,2.24-5.26,2.36-6.62c0.44,3.19,0.87,6.38,1.31,9.56
+			c0.25,1.82,0.5,3.65,0.75,5.47c0.1,0.74,0.09,1.61,0.69,2.14c0.72,0.64,1.85,0.51,2.41-0.27c0.45-0.63,0.27-1.34,0.17-2.05
+			c-0.52-3.82-1.05-7.64-1.57-11.45c-0.26-1.87-0.51-3.75-0.77-5.62c-0.06-0.45-0.26-1.05-0.21-1.51c0.05-0.51,0.11-0.29,0.77-0.41
+			c0.56-0.11,0.36,0.03,0.39-0.39c0.03-0.42-0.13-0.95-0.19-1.37c-0.23-1.66-0.46-3.33-0.68-4.99c-0.59-4.3-1.18-8.59-1.77-12.89
+			c-0.21-1.56-0.43-3.13-0.64-4.69c-0.04-0.26,0-0.92-0.16-1.14c-0.17-0.25-0.35-0.11-0.76-0.06c-0.5,0.07-0.99,0.14-1.49,0.2
+			c-0.22,0.03-1.02,0.28-1.21,0.17c-0.29-0.16-0.47-1.51-0.59-1.91c-0.38-1.27-0.8-2.53-1.32-3.75c-0.56-1.33-1.53-3.92-3.28-3.88
+			c-0.81,0.02-1.63,0.15-2.43,0.23c0.9-3.07,0.49-6.67,0.49-9.83c0-5.44,0.01-10.87,0-16.31c-0.01-2.3-0.03-4.6-0.04-6.91
+			c-0.03-5.8-0.07-11.6-0.1-17.4c-0.04-6.85-0.08-13.69-0.12-20.54c-0.03-5.3-0.06-10.6-0.09-15.9c-0.01-2.39-0.02-4.77,0.01-7.15
+			c0.05-4.54,0.07-9.07,0.26-13.61c0.11-2.52,0.23-5.04,0.32-7.56c0.06-1.74,0.14-3.55-0.23-5.27c-0.25-1.14-1.15-3.21-2.68-2.72
+			c-1.16,0.37-1.76,2.21-2.13,3.22c-0.37,1.03-0.67,2.08-0.97,3.12c-0.2-6.66-0.63-13.27-1.51-19.88c-0.9-6.73-1.74-13.62-3.5-20.19
+			c-0.28-1.05-0.57-2.26-1.2-3.17c-0.88-1.25-2.64-0.26-3.77,0.13c0-1.7-0.27-3.42-0.29-5.13c-0.02-1.61,0.03-3.22,0.15-4.82
+			c0.11-1.47,0.27-2.95,0.48-4.41c0.1-0.69,0.12-1.54,0.36-2.19c0.18-0.47,0.12-0.25,0.56-0.39c0.27-0.09,0.47-0.29,0.64-0.51
+			c0.6-0.78,0.86-1.91,1.11-2.84c0.4-1.53,0.69-3.09,0.95-4.65c0.61-3.57,1.03-7.17,1.67-10.73c0.24-1.35,0.89-2.83,0.85-4.2
+			c-0.02-0.6-0.31-1-0.77-1.37c-0.34-0.27-0.32-0.18-0.36-0.57c-0.06-0.52,0.12-1.19,0.17-1.7c0.37-3.65,0.78-7.29,1.18-10.94
+			c0.36-3.34,0.67-6.69,1.13-10.01c0.38-2.72,0.9-5.41,2.39-7.77c0.33-0.53,0.89-1.7,1.41-1.88c0.34-0.12,1.04,0.06,1.44,0.03
+			c0.83-0.06,1.64-0.24,2.43-0.49c1.66-0.52,3.41-1.35,4.37-2.86c0.27-0.42,0.48-0.87,0.69-1.31c2.56,2.94,5.13,5.89,7.69,8.83
+			c1.81,2.08,3.62,4.16,5.44,6.24c0.64,0.73,1.27,1.46,1.91,2.19c0.3,0.34,0.74,0.71,0.97,1.11c0.36,0.64,0.45,1.58,0.65,2.29
+			c0.6,2.22,1.21,4.43,1.81,6.65c1.45,5.35,2.91,10.7,4.36,16.05c0.41,1.52,0.78,3.06,1.24,4.56c0.36,1.16,1.38,1.98,2.64,1.74
+			c-0.07,0.01-0.2,1.44-0.21,1.55c-0.18,1.19-0.36,2.38-0.54,3.58c-0.34,2.24-0.68,4.49-1.03,6.73c-0.52,3.37-0.98,6.75-1.41,10.13
+			c-0.1,0.81-0.2,1.61-0.3,2.42c-0.03,0.25,0.01,0.91-0.14,1.13c-0.11,0.17-0.51,0.32-0.68,0.45c-0.84,0.62-1.54,1.41-2.06,2.32
+			c-1.26,2.2-1.47,4.84-1.79,7.31c-0.42,3.34-1.05,6.54-2.25,9.69c-1.25,3.28-2.82,6.43-4.54,9.49c-1.68,2.99-3.55,5.86-5.58,8.62
+			c-1.34,1.82-3.26,3.7-3.67,6.02c-0.41,2.3,0.82,4.66,1.94,6.57c1.62,2.76,3.64,5.28,5.75,7.68c1.57,1.79,3.24,3.83,5.39,4.95
+			c2.27,1.18,4.58,0.38,6.71-0.69c5.6-2.83,11.43-6.15,14.86-11.58c3.49-5.51,5.33-12.07,6.69-18.39c0.74-3.42,1.31-6.87,1.76-10.34
+			c0.11-0.87,0.22-1.74,0.32-2.62c0.1-0.83,0.01-2.05,0.47-2.75c0.77-1.16,1.84-2.09,2.58-3.3c1.35-2.22,1.96-4.79,2.66-7.26
+			c1.09-3.87,2.15-7.75,3.33-11.59c2.11-6.86,4.37-13.68,6.75-20.44c1.33-3.76,2.73-7.49,4.13-11.22c0.95-2.54,1.9-5.16,1.99-7.9
+			c0.17-4.77-2.19-10.68-6.2-13.47c-1.32-0.92-2.99-1.56-4.62-1.51c-0.34,0.01-1.05,0.3-1.29,0.24c-0.34-0.1-0.9-1.03-1.12-1.29
+			c-1.63-1.89-3.26-3.78-4.88-5.68c-4.66-5.43-9.27-10.91-13.82-16.44c-4.85-5.91-9.6-11.9-14.33-17.91
+			c-0.53-0.67-1.18-1.33-1.63-2.06c-0.24-0.39-0.2-0.25-0.01-0.66c0.45-0.94,0.65-1.75-0.03-2.66c-0.74-0.99-1.81-1.78-2.72-2.61
+			c-1.68-1.54-3.36-3.08-5.04-4.61c-4.83-4.38-9.95-8.74-15.93-11.46c-3.53-1.61-7.84-3.19-11.6-1.39c-0.25,0.12-0.48,0.3-0.73,0.4
+			c-0.5,0.2-1.09,0.1-1.64,0.1c-1.99-0.01-3.99-0.01-5.98-0.04c-3.26-0.05-6.6-0.15-9.79-0.92c-2.75-0.67-5.22-1.95-7.67-3.34
+			c1.12-0.14,1.96-1.09,1.98-2.21c0.04-1.78-0.4-3.69-0.63-5.45c-0.14-1.05-0.69-1.96-1.81-2.19c-0.69-0.14-1.46,0.06-2.14,0.14
+			c-0.27,0.03-1.16,0.3-1.4,0.16c-0.1-0.06-0.09-0.39-0.11-0.53c-0.25-2.16-0.51-4.31-0.76-6.47c0.59,0,1.18,0,1.77,0
+			c0.49,0,0.98,0,1.46,0c0.28,0,0.82-0.11,1.07,0c0.31,0.14,0.05-0.11,0.22,0.2c0.15,0.27-0.03,0.9,0,1.22
+			c0.03,0.35,0.1,0.64,0.34,0.91c0.5,0.55,1.39,0.56,1.9,0.02c0.53-0.56,0.36-1.48,0.36-2.17c0-1.8,0-3.61,0-5.41
+			c0-0.86-0.14-1.84-0.1-2.67c0.03-0.56,0.37-1.23,0.52-1.77c0.17-0.62,0.34-1.25,0.49-1.88c0.31-1.25,0.59-2.5,0.84-3.76
+			c0.27-1.35,0.53-2.69,0.78-4.04c0.13-0.7,0.09-1.84,0.43-2.46c0.17-0.31,0.01-0.22,0.5-0.18c0.4,0.04,0.79,0.11,1.19,0.17
+			c0.72-5.07,1.44-10.14,2.16-15.21C257.27,117.03,256.83,116.96,256.38,116.9z"/>
+	</g>
+	<g id="POLYLINE_1632_">
+		<path class="st205" d="M471.74,309.81c-3.26-4.37-7.13-8.29-10.6-12.5c-4.18-5.07-8.27-10.21-12.4-15.31
+			c-0.66-0.82-1.34-1.63-2.01-2.44c-0.38-0.46-0.77-0.92-1.15-1.37c-0.23-0.28-0.9-0.82-0.96-1.18c-0.07-0.46,0.38-1.34,0.51-1.78
+			c0.38-1.32,0.75-2.64,1.13-3.96c2.23-7.81,4.45-15.61,6.68-23.42c0.59-2.05,1.01-4.27,1.78-6.26c0.36-0.92,1.01-1.77,1.5-2.63
+			c0.8-1.38,1.57-2.77,2.35-4.17c0.3-0.55,0.6-1.1,0.9-1.66c0.14-0.26,0.34-0.92,0.58-1.09c0.19-0.13,0.45-0.04,0.71-0.01
+			c0.24,0.03,0.68-0.01,0.89,0.11c0.31,0.17,0.16-0.01,0.25,0.39c0.2,0.88,0.11,1.92,0.17,2.82c0.07,1.25,0.02,2.59,0.55,3.76
+			c0.55,1.22,1.59,2.18,2.85,2.62c0.38,0.13,1.44,0.13,1.66,0.34c0.32,0.32,0.31,1.58,0.41,2.07c0.32,1.56,0.66,3.12,1,4.68
+			c0.65,2.98,1.39,5.95,2.09,8.92c0.13,0.54,0.02,0.89-0.05,1.43c-0.11,0.85-0.09,1.72,0,2.57c0.27,2.54,1.04,5.03,1.82,7.45
+			c0.71,2.23,1.37,4.62,2.43,6.71c0.26,0.5,0.57,0.98,1.02,1.34c0.37,0.29,0.83,0.34,1.2,0.58c0.54,0.36,0.93,1.22,1.41,1.72
+			c0.71,0.76,1.5,1.24,2.4,1.73c0.38,0.21,0.37,0.1,0.45,0.6c0.12,0.71,0.17,1.45,0.24,2.16c0.13,1.34,0.23,2.68,0.29,4.02
+			c0.06,1.35,0.07,2.69,0.08,4.04c-0.81-0.46-1.91-1.11-2.88-0.99c-0.93,0.12-1.26,1.08-1.47,1.87c-0.85,3.18-1.33,6.65-1.57,9.94
+			c-0.12,1.68-0.13,3.38,0.13,5.05C474.33,308.07,473.12,308.76,471.74,309.81z"/>
+	</g>
+</g>
+</svg>

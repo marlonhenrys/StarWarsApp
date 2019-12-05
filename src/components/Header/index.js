@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import routes from "../../utils/routes";
 import authReducer, { getNameOfLoggedUser, logout } from "../../utils/authAdministration";
 
-const Header = ({ headerTitle = "Explore this universe"}) => {
+const Header = ({ headerTitle = "Explore this universe" }) => {
     return (
         <div className="Header">
             <nav className="navbar navbar-expand-sm bg-color">
@@ -16,7 +16,7 @@ const Header = ({ headerTitle = "Explore this universe"}) => {
                         <Link disabled to={"#"} className={"nav-link"}>{getNameOfLoggedUser()}</Link>
                     </li>
                     <li className="nav-item">
-                        <Link disabled to={"#"} className={"nav-link"}>&#10140;</Link>
+                        <Link disabled to={"#"} className={"nav-link"}> | </Link>
                     </li>
                     <li className="nav-item">
                         <Link to={routes.login} className={"nav-link"}
