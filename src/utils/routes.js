@@ -10,4 +10,5 @@ export default {
     vehicles: "/vehicles",
     species: "/species",
     planets: "/planets",
+    categoryList: "/category-list",
 };

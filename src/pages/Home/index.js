@@ -2,9 +2,9 @@ import React from 'react';
 import LayoutTemplate from "../../components/LayoutTemplate";
 import './styles.css';
 
-const Home = () => {
+const Home = ({ darkModeActived, changeTheme }) => {
     return (
-        <LayoutTemplate headerTitle={"Explore this universe"}>
+        <LayoutTemplate darkModeActived={darkModeActived} changeTheme={changeTheme} >
             <div className="Home">
                 Home :)
             </div>

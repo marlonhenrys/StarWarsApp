@@ -1,10 +1,10 @@
 import React from 'react';
 import './styles.css';
 
-const CardList = () => {
+const CardList = ({ element }) => {
     return (
         <div className="card">
-            <div className="card-header">Item List</div>
+            <div className="card-header">{element.name ? element.name : element.title}</div>
             <div className="card-body">
                 <p>Text card body</p>
             </div>

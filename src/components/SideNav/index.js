@@ -43,7 +43,7 @@ const SideNav = ({ changeTheme, darkModeActived }) => {
                     {categories.map(
                         (category) =>
                             <li key={category.url} className="active category-link-container">
-                                <Link to={category.url}>
+                                <Link to={{ pathname: routes.categoryList, search: '?category=' + category.name.toLowerCase() }}>
                                     <i className={"fas " + category.icon} />
                                     {category.name}
                                 </Link>
