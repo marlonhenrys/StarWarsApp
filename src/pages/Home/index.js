@@ -4,6 +4,10 @@ import './styles.css';
 import lukeSkyWalker from '../../assets/carousel/starwars_people_lukeskywalker.png';
 import tethTve from '../../assets/carousel/starwars_planets_tethtve.png';
 import millennium from '../../assets/carousel/starwars_spaceship_millenniumfalcon.png';
+import films from '../../assets/carousel/starwars_films_right_order.jpg';
+import top_10_species from '../../assets/carousel/starwars_species_top_10.jpg';
+import fifty_vehicles from '../../assets/carousel/starwars_vehicles_fifty.png';
+import twelve_planets from '../../assets/carousel/starwars_planets_twelve.jpg';
 import Carousel from "../../components/Carousel";
 import {getNameOfLoggedUser} from "../../utils/authAdministration";
 import {Link} from "react-router-dom";
@@ -15,18 +19,43 @@ const imagesConfig = [
         title: 'People',
         paragraph: '',
         alt: 'People category',
+        route: routes.people,
     },
     {
-        src: tethTve,
-        title: 'Planets',
+        src: films,
+        title: 'Films',
         paragraph: '',
-        alt: 'Planets category',
+        alt: 'Films category',
+        route: routes.films,
     },
     {
         src: millennium,
         title: 'Starships',
         paragraph: '',
         alt: 'Starships category',
+        route: routes.starships,
+    },
+    {
+        src: fifty_vehicles,
+        title: 'Vehicles',
+        paragraph: '',
+        alt: 'Vehicles category',
+        route: routes.vehicles,
+    },
+    {
+        src: top_10_species,
+        title: 'Species',
+        paragraph: '',
+        alt: 'Species category',
+        route: routes.species,
+    },
+    {
+        // src: tethTve,
+        src: twelve_planets,
+        title: 'Planets',
+        paragraph: '',
+        alt: 'Planets category',
+        route: routes.planets,
     },
 ];
 

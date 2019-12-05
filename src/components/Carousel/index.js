@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const Carousel = ({imagesConfig}) => {
     return (
@@ -16,14 +17,16 @@ const Carousel = ({imagesConfig}) => {
             <div className="carousel-inner">
                 {
                     imagesConfig.map((imageConfig, index) =>
-                        <div key={imageConfig.title}
+                        <Link to={imageConfig.route} key={imageConfig.title}
                                 className={"carousel-item" + (index === 0 ? " active" : "")}>
-                            <img className="d-block w-100" src={imageConfig.src} alt={imageConfig.alt}/>
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>{imageConfig.title}</h5>
-                                <p>{imageConfig.paragraph}</p>
+                            <div>
+                                <img className="d-block w-100" src={imageConfig.src} alt={imageConfig.alt}/>
+                                <div className="carousel-caption d-none d-md-block">
+                                    <h3>{imageConfig.title}</h3>
+                                    <p>{imageConfig.paragraph}</p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                     )
                 }
             </div>
