@@ -12,21 +12,21 @@ import routes from "../../utils/routes";
 const imagesConfig = [
     {
         src: lukeSkyWalker,
-        title: 'Pessoas',
+        title: 'People',
         paragraph: '',
-        alt: 'Categoria pessoas',
+        alt: 'People category',
     },
     {
         src: tethTve,
-        title: 'Planetas',
+        title: 'Planets',
         paragraph: '',
-        alt: 'Categoria planetas',
+        alt: 'Planets category',
     },
     {
         src: millennium,
-        title: 'Naves estelares',
+        title: 'Starships',
         paragraph: '',
-        alt: 'Categoria naves estelares',
+        alt: 'Starships category',
     },
 ];
 
