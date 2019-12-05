@@ -1,6 +1,6 @@
-import React, {useRef, useState} from 'react';
+import React, { useRef, useState } from 'react';
 import useForm from 'react-hook-form';
-import {Link, Redirect} from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import { usernameRegisterConfig, passwordConfig } from '../../utils/userValidationRules';
 import userReducer, { addUser } from "../../utils/userAdministration";
 import './styles.css';
@@ -8,8 +8,8 @@ import routes from "../../utils/routes";
 
 const Register = () => {
     const { register, handleSubmit, watch, errors } = useForm();
-    const [ isToRedirect, setIsToRedirect ] = useState(false);
-    const [ userData, setUserData ] = useState({});
+    const [isToRedirect, setIsToRedirect] = useState(false);
+    const [userData, setUserData] = useState({});
 
     const redirect = () => isToRedirect ? <Redirect to={{
         pathname: '/login',
@@ -32,55 +32,57 @@ const Register = () => {
     };
 
     return (
-        <div className="Register">
-            {redirect()}
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <h2 className="title">Register Form</h2>
+        <div className="container ">
+            <div className="Register">
+                {redirect()}
+                <form onSubmit={handleSubmit(onSubmit)}>
+                    <h2 className="title">Register Form</h2>
 
-                <div className="input-container"> {/* Username input */}
-                    {/*<i className="fa fa-user icon"></i>*/}
-                    <i className="i-username icon"></i>
-                    <input className="input-field" type="text" name="username"
-                            placeholder="Who are you?" ref={ register(usernameRegisterConfig) }
-                            autoFocus/>
-                </div>
+                    <div className="input-container"> {/* Username input */}
+                        {/*<i className="fa fa-user icon"></i>*/}
+                        <i className="i-username icon"></i>
+                        <input className="input-field" type="text" name="username"
+                            placeholder="Who are you?" ref={register(usernameRegisterConfig)}
+                            autoFocus />
+                    </div>
 
-                { errors.username && /* Username error */
-                    <div className="alert alert-danger">{errors.username.message}</div>
-                }
+                    {errors.username && /* Username error */
+                        <div className="alert alert-danger">{errors.username.message}</div>
+                    }
 
-                <div className="input-container"> {/* Password input */}
-                    {/*<i className="fa fa-key icon"></i>*/}
-                    <i className="i-password fa fa-key icon"></i>
-                    <input className="input-field" type="password" name="password"
-                            placeholder="What's your password?" ref={ register(passwordConfig) }/>
-                </div>
+                    <div className="input-container"> {/* Password input */}
+                        {/*<i className="fa fa-key icon"></i>*/}
+                        <i className="i-password fa fa-key icon"></i>
+                        <input className="input-field" type="password" name="password"
+                            placeholder="What's your password?" ref={register(passwordConfig)} />
+                    </div>
 
-                { errors.password && /* Password error */
-                    <div className="alert alert-danger">{errors.password.message}</div>
-                }
+                    {errors.password && /* Password error */
+                        <div className="alert alert-danger">{errors.password.message}</div>
+                    }
 
-                <div className="input-container"> {/* Password confirm input */}
-                    {/*<i className="fa fa-key icon"></i>*/}
-                    <i className="i-password fa fa-key icon"></i>
-                    <input className="input-field" type="password" name="password-confirm"
+                    <div className="input-container"> {/* Password confirm input */}
+                        {/*<i className="fa fa-key icon"></i>*/}
+                        <i className="i-password fa fa-key icon"></i>
+                        <input className="input-field" type="password" name="password-confirm"
                             id="password-confirm" placeholder="Repeat your password"
-                            ref={ register(passwordConfirmConfig) }/>
-                </div>
+                            ref={register(passwordConfirmConfig)} />
+                    </div>
 
-                { errors['password-confirm'] && /* Password confirm error */
-                    <div className="alert alert-danger">{errors['password-confirm'].message}</div>
-                }
+                    {errors['password-confirm'] && /* Password confirm error */
+                        <div className="alert alert-danger">{errors['password-confirm'].message}</div>
+                    }
 
-                <div className="btns-register d-flex justify-content-around">
-                    <Link to={routes.index} className="btn links">Come back</Link>
-                    <button type="submit" className="btn">Be a padawan</button>
-                </div>
+                    <div className="btns-register d-flex justify-content-around">
+                        <Link to={routes.index} className="btn links">Come back</Link>
+                        <button type="submit" className="btn">Be a padawan</button>
+                    </div>
 
-                <span className={"bg-dark link-container"}>
-                    <Link to={routes.login} className="links">You already know me</Link>
-                </span>
-            </form>
+                    <span className={"bg-dark link-container"}>
+                        <Link to={routes.login} className="links">You already know me</Link>
+                    </span>
+                </form>
+            </div>
         </div>
     );
 };

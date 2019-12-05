@@ -1,22 +1,23 @@
 import React, { useState, useEffect } from 'react';
 import {Link} from "react-router-dom";
 import './styles.css';
+import {Button} from "react-bootstrap";
 
 const Index = () => {
     return (
         <div className="Index">
-            <img src={ require("../../assets/starwars_title.svg") } alt={"Star Wars Logo"} className={"title"}/>
-            {/*<h1 className="title">Star Wars</h1>*/}
+            <img src={ require("../../assets/starwars_title.svg") } alt={"Star Wars Logo"} className={"title"} />
 
             <div className="btns-introduction d-flex justify-content-around">
                 <Link to={"/register"}>
-                    <button type="button" className="btn btn-primary btn-lg">Introduce myself</button>
+                    <Button variant="primary" size="lg">Introduce myself</Button>
                 </Link>
                 <Link to={"/login"}>
-                    <button type="button" className="btn btn-primary btn-lg">Explore</button>
+                    <Button variant="primary" size="lg">Explore</Button>
                 </Link>
             </div>
         </div>
+
     );
 };
 

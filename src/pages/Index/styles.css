@@ -1,6 +1,6 @@
 .Index * {
     color: white;
-    /* background-color: transparent; */
+    /* background-color: rgba(245, 245, 245, 0.4);  */
 }
 
 .Index .title {
@@ -14,5 +14,6 @@
     width: 70%;
     text-align: center;
     margin: 0 auto;
+    opacity: 90%;
 }
   
