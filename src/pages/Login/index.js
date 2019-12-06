@@ -76,11 +76,11 @@ const Login = (props) => {
                     </div>
 
                     <div>
-                    <Link to={routes.register}>
-                        <Button variant="secondary" size="sm">
-                            Let me introduce myself
-                        </Button>
-                    </Link>
+                        <Link to={routes.register}>
+                            <Button variant="secondary" size="sm">
+                                Let me introduce myself
+                            </Button>
+                        </Link>
                     </div>
 
                 </form>

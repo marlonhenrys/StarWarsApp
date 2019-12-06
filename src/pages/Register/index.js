@@ -85,7 +85,7 @@ const Register = () => {
                         <Link to={routes.login}>
                             <Button variant="secondary" size="sm">
                                 You already know me
-                        </Button>
+                            </Button>
                         </Link>
                     </span>
                 </form>

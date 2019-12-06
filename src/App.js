@@ -117,7 +117,6 @@ const App = () => {
     }
 
     function fetchNextCategoryPageUrl(url) {
-        debugger;
         const page = categoriesPages[url] ? categoriesPages[url].page + 1 : 1;
         const pageQuery = page === 1 ? '' : `?page=${page}`;
 
