@@ -3,15 +3,20 @@ import CardList from '../../components/CardList';
 import api from '../../services/api';
 import './styles.css';
 
-const CategoryList = ({ category }) => {
+const CategoryList = ({ category, fetchNextCategoryPageByName }) => {
 
     const [elements, setElements] = useState([]);
 
     useEffect(() => {
-        api.get(`/${category}`)
-            .then(response => {
-                setElements([...response.data.results]);
-            })
+        fetchNextCategoryPageByName(category.toLowerCase()).then(
+            (categoryPage) => {
+                if (categoryPage !== null) setElements([...categoryPage.results]);
+            }
+        );
+        // api.get(`/${category}`)
+        //     .then(response => {
+        //         setElements([...response.data.results]);
+        //     })
     }, [category]);
 
     return (
