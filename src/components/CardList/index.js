@@ -5,6 +5,7 @@ import './styles.css';
 const CardList = ({ element, itemId, category }) => {
 
     const title = element.name ? element.name : element.title;
+    // debugger;
 
     return (
         <div className="CardList col-lg-4 col-md-6">
@@ -14,7 +15,7 @@ const CardList = ({ element, itemId, category }) => {
             </div>
             <div className="card-footer">
                 <Link
-                    to={category + '/' + itemId}
+                    to={itemId}
                     className="btn btn-color"
                 >I want more</Link>
             </div>

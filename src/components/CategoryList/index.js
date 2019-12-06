@@ -40,7 +40,7 @@ const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPa
         <div className="List col-md-12 flex-wrap d-flex">
             <div className="col-md-12 flex-wrap d-flex">
                 {elements.map((element, index) => (
-                    <CardList key={index} itemId={index + 1} element={element} category={category} />
+                    <CardList key={index} itemId={element.url.split('/')[5]} element={element} category={category} />
                 ))}
             </div>
             <div className="container container-options flex-wrap d-flex">
