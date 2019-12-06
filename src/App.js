@@ -164,6 +164,12 @@ const App = () => {
         return fetchCategoryItemUrl(`${API_BASE}${categoryName}/${id}`);
     }
 
+    function clearCategoryPages(categoryName) {
+        const urlBase = `${API_BASE}${categoryName}/`;
+
+        setCategoriesPages({...categoriesPages, [urlBase]: null});
+    }
+
     // useEffect(() => { fetchCategory('people'); }, [apiData]);
 
     const [darkModeActived, setDarkModeActived] = useState(false);
@@ -202,7 +208,8 @@ const App = () => {
                             render={(props) =>
                                 <Category {...props} darkModeActived={darkModeActived}
                                 changeTheme={() => setDarkModeActived(!darkModeActived)}
-                                fetchNextCategoryPageByName={fetchNextCategoryPageByName} />}
+                                fetchNextCategoryPageByName={fetchNextCategoryPageByName}
+                                clearCategoryPages={clearCategoryPages} />}
                         />
 
                         <Route path={routes.genericItem} exact={true}

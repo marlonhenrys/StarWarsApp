@@ -4,7 +4,7 @@ import api from '../../services/api';
 import './styles.css';
 import { Button } from "react-bootstrap";
 
-const CategoryList = ({ category, fetchNextCategoryPageByName }) => {
+const CategoryList = ({ category, fetchNextCategoryPageByName, clearCategoryPages }) => {
 
     const [elements, setElements] = useState([]);
 
@@ -12,6 +12,10 @@ const CategoryList = ({ category, fetchNextCategoryPageByName }) => {
         fetchNextCategoryPageByName(category.toLowerCase()).then(
             (categoryPage) => {
                 if (categoryPage !== null) setElements([...elements, ...categoryPage.results]);
+                else
+                {
+                    clearCategoryPages(category.toLowerCase());
+                }
             }
         );
     };

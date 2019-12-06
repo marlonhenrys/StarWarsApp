@@ -9,7 +9,7 @@ const Category = (props) => {
 
     return (
         <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
-            <CategoryList category={category} fetchNextCategoryPageByName={props.fetchNextCategoryPageByName}/>
+            <CategoryList category={category} clearCategoryPages={props.clearCategoryPages} fetchNextCategoryPageByName={props.fetchNextCategoryPageByName}/>
         </LayoutTemplate>
     );
 };
