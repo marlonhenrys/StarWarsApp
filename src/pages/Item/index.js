@@ -7,6 +7,7 @@ const Item = (props) => {
     const [dataKeys, setDataKeys] = useState([]);
     const [dataValues, setDataValues] = useState([]);
     const [title, setTitle] = useState('');
+    const [loading, setLoading] = useState(true);
 
 
     useEffect(() => {
@@ -22,11 +23,13 @@ const Item = (props) => {
         const values = Object.values(data);
         setDataKeys(keys);
         setDataValues(values);
+        setLoading(false);
     }
 
 
     return (
         <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
+        {loading ? <p>Loading...</p> : null }
             <div className="Item">
                 {dataKeys.map((key, index) => {
                     const value = dataValues[index];
