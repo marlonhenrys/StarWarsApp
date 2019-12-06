@@ -40,6 +40,8 @@ const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme })
         <div className="LayoutTemplate">
             <Header
                 headerTitle={headerTitle}
+                darkModeActived={darkModeActived}
+                changeTheme={() => changeTheme()}
             />
             <SideNav
                 darkModeActived={darkModeActived}

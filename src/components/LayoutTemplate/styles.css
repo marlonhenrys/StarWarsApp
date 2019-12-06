@@ -24,3 +24,9 @@
     text-align: center;
     padding: 2ch;
 }
+
+@media (max-width: 992px) {
+    .LayoutTemplate .template-content {
+        padding-left: 0;
+    }
+}

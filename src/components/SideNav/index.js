@@ -13,7 +13,7 @@ import lightsaberdark from "../../assets/icons/icons8-lightsaber-dark.svg";
 // import vehicle from "../../assets/icons/ic_starwars_vehicle_vehicle.xml";
 // import milleniumfalcon2 from  "../../assets/icons/starwars_icons_millenniumfalcon.xml";
 import { Button } from "react-bootstrap";
-
+import categories from '../../utils/categories';
 
 const fixSideBar = () => {
     const documentHeight = $(document).height();
@@ -29,14 +29,6 @@ $(document).ready(
 );
 
 const SideNav = ({ changeTheme, darkModeActived }) => {
-    const categories = [
-        { name: 'People', url: routes.people, icon: ''},
-        { name: 'Films', url: routes.films, icon: '' },
-        { name: 'Starships', url: routes.starships, icon: '' },
-        { name: 'Vehicles', url: routes.vehicles, icon: '' },
-        { name: 'Species', url: routes.species, icon: '' },
-        { name: 'Planets', url: routes.planets, icon: '' },
-    ];
 
     // fixSideBar();
     useEffect(() => fixSideBar(), []);
