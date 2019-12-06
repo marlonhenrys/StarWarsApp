@@ -4,13 +4,16 @@ import api from '../../services/api';
 import './styles.css';
 import { Button } from "react-bootstrap";
 
-const CategoryList = ({ category, fetchNextCategoryPageByName, clearCategoryPages }) => {
+const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPageByName, clearCategoryPages }) => {
 
     const [elements, setElements] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     const fetchMoreElements = () => {
+        setLoading(true);
         fetchNextCategoryPageByName(category.toLowerCase()).then(
             (categoryPage) => {
+                setLoading(false);
                 if (categoryPage !== null) setElements([...elements, ...categoryPage.results]);
                 else
                 {
@@ -21,12 +24,17 @@ const CategoryList = ({ category, fetchNextCategoryPageByName, clearCategoryPage
     };
 
     useEffect(() => {
-        fetchMoreElements();
+        /* if (clearItems)
+        {
+            setElements([]);
+            setClearItems(false);
+        }
+        else  */fetchMoreElements();
         // api.get(`/${category}`)
         //     .then(response => {
         //         setElements([...response.data.results]);
         //     })
-    }, [category]);
+    }, [category, clearItems]);
 
     return (
         <div className="List col-md-12 flex-wrap d-flex">
@@ -36,6 +44,7 @@ const CategoryList = ({ category, fetchNextCategoryPageByName, clearCategoryPage
                 ))}
             </div>
             <div className="container container-options flex-wrap d-flex">
+                {loading ? <p>Loading...</p> : null }
                 <button type="button" id="btn-show-more" className="btn btn-secondary"
                         onClick={fetchMoreElements}>
                     Show me more

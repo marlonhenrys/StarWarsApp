@@ -124,6 +124,7 @@ const App = () => {
     }
 
     function fetchNextCategoryPageByName(name) {
+        // debugger;
         return fetchNextCategoryPageUrl(`${API_BASE}${name}/`);
     }
 
