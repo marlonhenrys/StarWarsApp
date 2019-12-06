@@ -71,12 +71,11 @@ const App = () => {
 
     // A URL já tem que vir com o filtro de page. O parâmetro page desta função
     // é usado apenas para guardá-lo no objeto buscado
-    function fetchCategoryUrl(url, page = 1) {
+    function fetchCategoryUrl(urlBase, url, page = 1) {
         return new Promise(
             (resolve, reject) => {
                 fetchUrl(url).then(
                     (dataAndCacheStatus) => {
-
                         if (dataAndCacheStatus === null) resolve(null);
 
                         else
@@ -97,7 +96,7 @@ const App = () => {
                                 setApiData(newApiData);
     
                                 const categoryInfo = {page, maxReached: false};
-                                setCategoriesPages({...categoriesPages, [url]: categoryInfo});
+                                setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
                                 console.log(data);
                             }
     
@@ -109,7 +108,7 @@ const App = () => {
                     (error) => {
                         console.log(error);
                         const categoryInfo = {page, maxReached: true};
-                        setCategoriesPages({...categoriesPages, [url]: categoryInfo});
+                        setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
                         resolve(null);
                     }
                 );
@@ -118,7 +117,11 @@ const App = () => {
     }
 
     function fetchNextCategoryPageUrl(url) {
-        return fetchCategoryUrl(url, categoriesPages[url] ? categoriesPages[url].page + 1 : 1);
+        debugger;
+        const page = categoriesPages[url] ? categoriesPages[url].page + 1 : 1;
+        const pageQuery = page === 1 ? '' : `?page=${page}`;
+
+        return fetchCategoryUrl(url, `${url}${page === 1 ? '' : `?page=${page}`}`, page);
     }
 
     function fetchNextCategoryPageByName(name) {
@@ -127,8 +130,9 @@ const App = () => {
 
     function fetchCategory(categoryName, page = 1) {
         const pageQuery = page === 1 ? '' : `?page=${page}`;
+        const urlBase = `${API_BASE}${categoryName}/`;
 
-        return fetchCategoryUrl(`${API_BASE}${categoryName}/${pageQuery}`, page);
+        return fetchCategoryUrl(urlBase, `${urlBase}${pageQuery}`, page);
     }
 
     function fetchCategoryItemUrl(url) {

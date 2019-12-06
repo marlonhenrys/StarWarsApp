@@ -5,6 +5,18 @@
   overflow-y: auto;
 }
 
+.List .container-options {
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.List #btn-show-more {
+  text-align: center;
+  margin: 0 auto;
+}
+
 .card:first-of-type {
   margin-top: 0;
 }
