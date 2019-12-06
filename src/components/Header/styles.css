@@ -1,13 +1,13 @@
 .Header {
-  padding-left: var(--sidenav-width);
+  padding-left: var(--sidenav-width) !important;
 }
 
 .Header .bg-color {
-  background-color: var(--color-bg-items);
+  background-color: var(--color-bg-items) !important;
 }
 
 .Header a, span {
-  color: var(--color-font-feature);
+  color: var(--color-font-feature) !important;
 }
 
 .Header a[disabled] {
@@ -21,5 +21,35 @@
 
 .Header a:hover {
   text-decoration: underline;
-  color: var(--color-font-feature);
+  color: var(--color-font-feature) !important;
+}
+
+.Header .navbar-toggler {
+  background-color: var(--color-bg-main) !important;
+  color: var(--color-font-standard) !important;
+}
+
+.Header .navbar-toggler-icon {
+}
+
+.Header .nav-item.toggle-lg {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .Header {
+    padding-left: 0 !important;
+  }
+
+  .Header .nav-item.pipe {
+    display: none;
+  }
+
+  .Header .nav-item.toggle-lg {
+    display: block;
+  }
+
+  .Header .nav-item.toggle-lg > div {
+    padding: 10px;
+  }
 }

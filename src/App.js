@@ -71,12 +71,11 @@ const App = () => {
 
     // A URL já tem que vir com o filtro de page. O parâmetro page desta função
     // é usado apenas para guardá-lo no objeto buscado
-    function fetchCategoryUrl(url, page = 1) {
+    function fetchCategoryUrl(urlBase, url, page = 1) {
         return new Promise(
             (resolve, reject) => {
                 fetchUrl(url).then(
                     (dataAndCacheStatus) => {
-
                         if (dataAndCacheStatus === null) resolve(null);
 
                         else {
@@ -93,9 +92,9 @@ const App = () => {
                                 data.results.forEach((result) => newApiData[result.url] = result);
 
                                 setApiData(newApiData);
-
-                                const categoryInfo = { page, maxReached: false };
-                                setCategoriesPages({ ...categoriesPages, [url]: categoryInfo });
+    
+                                const categoryInfo = {page, maxReached: false};
+                                setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
                                 console.log(data);
                             }
 
@@ -103,30 +102,35 @@ const App = () => {
                         }
                     }
                 )
-                    .catch(
-                        (error) => {
-                            console.log(error);
-                            const categoryInfo = { page, maxReached: true };
-                            setCategoriesPages({ ...categoriesPages, [url]: categoryInfo });
-                            resolve(null);
-                        }
-                    );
+                .catch(
+                    (error) => {
+                        console.log(error);
+                        const categoryInfo = {page, maxReached: true};
+                        setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
+                        resolve(null);
+                    }
+                );
             }
         );
     }
 
     function fetchNextCategoryPageUrl(url) {
-        return fetchCategoryUrl(url, categoriesPages[url] ? categoriesPages[url].page + 1 : 1);
+        const page = categoriesPages[url] ? categoriesPages[url].page + 1 : 1;
+        const pageQuery = page === 1 ? '' : `?page=${page}`;
+
+        return fetchCategoryUrl(url, `${url}${page === 1 ? '' : `?page=${page}`}`, page);
     }
 
     function fetchNextCategoryPageByName(name) {
+        // debugger;
         return fetchNextCategoryPageUrl(`${API_BASE}${name}/`);
     }
 
     function fetchCategory(categoryName, page = 1) {
         const pageQuery = page === 1 ? '' : `?page=${page}`;
+        const urlBase = `${API_BASE}${categoryName}/`;
 
-        return fetchCategoryUrl(`${API_BASE}${categoryName}/${pageQuery}`, page);
+        return fetchCategoryUrl(urlBase, `${urlBase}${pageQuery}`, page);
     }
 
     function fetchCategoryItemUrl(url) {
@@ -155,6 +159,12 @@ const App = () => {
 
     function fetchCategoryItem(categoryName, id) {
         return fetchCategoryItemUrl(`${API_BASE}${categoryName}/${id}`);
+    }
+
+    function clearCategoryPages(categoryName) {
+        const urlBase = `${API_BASE}${categoryName}/`;
+
+        setCategoriesPages({...categoriesPages, [urlBase]: null});
     }
 
     // useEffect(() => { fetchCategory('people'); }, [apiData]);
@@ -194,8 +204,9 @@ const App = () => {
                         <Route path={routes.genericCategory} exact={true}
                             render={(props) =>
                                 <Category {...props} darkModeActived={darkModeActived}
-                                    changeTheme={() => setDarkModeActived(!darkModeActived)}
-                                    fetchNextCategoryPageByName={fetchNextCategoryPageByName} />}
+                                changeTheme={() => setDarkModeActived(!darkModeActived)}
+                                fetchNextCategoryPageByName={fetchNextCategoryPageByName}
+                                clearCategoryPages={clearCategoryPages} />}
                         />
 
                         <Route path={routes.genericItem} exact={true}

@@ -17,8 +17,8 @@ const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme })
 
     // const [darkModeActived, setDarkModeActived] = useState(false);
 
-    // fixContent();
-    useEffect(() => fixContent(), []);
+    fixContent();
+    // useEffect(() => fixContent(), []);
 
     // useEffect(() => {
     //     const root = document.documentElement;
@@ -40,6 +40,8 @@ const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme })
         <div className="LayoutTemplate">
             <Header
                 headerTitle={headerTitle}
+                darkModeActived={darkModeActived}
+                changeTheme={() => changeTheme()}
             />
             <SideNav
                 darkModeActived={darkModeActived}
