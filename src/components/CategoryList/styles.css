@@ -1,5 +1,4 @@
 .List {
-  width: 100px;
   padding: 2% 8%;
   height: calc(100vh - 110px);
   overflow-y: auto;

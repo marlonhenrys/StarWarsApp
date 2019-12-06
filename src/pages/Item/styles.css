@@ -1,0 +1,6 @@
+.Item {
+  width: 100%;
+  padding: 2% 8%;
+  height: calc(100vh - 110px);
+  overflow-y: auto;
+}

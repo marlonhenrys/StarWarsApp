@@ -59,12 +59,12 @@ const App = () => {
                         resolve([response.data, cached]);
                     }
                 )
-                .catch(
-                    (error) => {
-                        console.log(error);
-                        resolve(null);
-                    }
-                );
+                    .catch(
+                        (error) => {
+                            console.log(error);
+                            resolve(null);
+                        }
+                    );
             }
         );
     }
@@ -79,40 +79,38 @@ const App = () => {
 
                         if (dataAndCacheStatus === null) resolve(null);
 
-                        else
-                        {
+                        else {
                             const [data, cached] = dataAndCacheStatus;
-    
-                            if (!cached)
-                            {
+
+                            if (!cached) {
                                 data.url = url;
                                 data.page = page;
-                                
-                                const newApiData = {...apiData, [url]: data};
-                                
+
+                                const newApiData = { ...apiData, [url]: data };
+
                                 // Além de fazer o cache da url da categoria, faz o cache das urls
                                 // de cada um dos itens dela
                                 data.results.forEach((result) => newApiData[result.url] = result);
-                                
+
                                 setApiData(newApiData);
-    
-                                const categoryInfo = {page, maxReached: false};
-                                setCategoriesPages({...categoriesPages, [url]: categoryInfo});
+
+                                const categoryInfo = { page, maxReached: false };
+                                setCategoriesPages({ ...categoriesPages, [url]: categoryInfo });
                                 console.log(data);
                             }
-    
+
                             resolve(data);
                         }
                     }
                 )
-                .catch(
-                    (error) => {
-                        console.log(error);
-                        const categoryInfo = {page, maxReached: true};
-                        setCategoriesPages({...categoriesPages, [url]: categoryInfo});
-                        resolve(null);
-                    }
-                );
+                    .catch(
+                        (error) => {
+                            console.log(error);
+                            const categoryInfo = { page, maxReached: true };
+                            setCategoriesPages({ ...categoriesPages, [url]: categoryInfo });
+                            resolve(null);
+                        }
+                    );
             }
         );
     }
@@ -139,16 +137,14 @@ const App = () => {
 
                         if (dataAndCacheStatus === null) resolve(null);
 
-                        else
-                        {
+                        else {
                             const [data, cached] = dataAndCacheStatus;
-    
-                            if (!cached)
-                            {
+
+                            if (!cached) {
                                 setApiData({ ...apiData, [url]: data });
                                 console.log(data);
                             }
-    
+
                             resolve(data);
                         }
                     }
@@ -192,20 +188,21 @@ const App = () => {
                         <Route path={routes.home} exact={true}
                             component={() =>
                                 <Home darkModeActived={darkModeActived}
-                                changeTheme={() => setDarkModeActived(!darkModeActived)} />}
+                                    changeTheme={() => setDarkModeActived(!darkModeActived)} />}
                         />
 
                         <Route path={routes.genericCategory} exact={true}
                             render={(props) =>
                                 <Category {...props} darkModeActived={darkModeActived}
-                                changeTheme={() => setDarkModeActived(!darkModeActived)}
-                                fetchNextCategoryPageByName={fetchNextCategoryPageByName} />}
+                                    changeTheme={() => setDarkModeActived(!darkModeActived)}
+                                    fetchNextCategoryPageByName={fetchNextCategoryPageByName} />}
                         />
 
                         <Route path={routes.genericItem} exact={true}
                             render={(props) =>
                                 <Item {...props} darkModeActived={darkModeActived}
-                                changeTheme={() => setDarkModeActived(!darkModeActived)} />}
+                                    changeTheme={() => setDarkModeActived(!darkModeActived)}
+                                    fetchCategoryItem={fetchCategoryItem} />}
                         />
                     </Switch>
                 </PrivateRoute>
