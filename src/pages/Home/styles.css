@@ -1,6 +1,6 @@
 .Home {
     padding: 0 10%;
-    height: calc(100vh - 92px);
+    height: calc(100vh - 100px);
     overflow-y: auto;
 }
 

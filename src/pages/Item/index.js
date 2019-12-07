@@ -29,21 +29,23 @@ const Item = (props) => {
 
     return (
         <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
-        {loading ? <p>Loading...</p> : null }
+            {loading ? <p>Loading...</p> : null}
             <div className="Item">
-                {dataKeys.map((key, index) => {
-                    const value = dataValues[index];
-                    if (!String(value).startsWith('http')) {
-                        return (
-                            <div key={index}>
-                                <div className="card-body">
-                                    <strong>{key}: </strong>
-                                    <span>{dataValues[index]}</span>
-                                </div>
-                            </ div>
-                        )
-                    }
-                })}
+                <div className="card">
+                    {dataKeys.map((key, index) => {
+                        const value = dataValues[index];
+                        if (!String(value).startsWith('http')) {
+                            return (
+                                <div key={index}>
+                                    <div className="card-body">
+                                        <strong>{key}: </strong>
+                                        <span>{dataValues[index]}</span>
+                                    </div>
+                                </ div>
+                            )
+                        }
+                    })}
+                </div>
             </div>
         </LayoutTemplate >
     );

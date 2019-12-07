@@ -1,6 +1,13 @@
 .Item {
   width: 100%;
   padding: 2% 8%;
-  height: calc(100vh - 110px);
+  height: calc(100vh - 150px);
   overflow-y: auto;
+  opacity: 80% !important;
+  border-radius: 10px !important;
+
+}
+
+.Item .card {
+  margin: 0 20%;
 }

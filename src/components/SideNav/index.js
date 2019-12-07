@@ -31,7 +31,7 @@ $(document).ready(
 const SideNav = ({ changeTheme, darkModeActived }) => {
 
     fixSideBar();
-    // useEffect(() => fixSideBar(), []);
+    useEffect(() => fixSideBar(), []);
 
     return (
         <aside className="SideNav wrapper">
