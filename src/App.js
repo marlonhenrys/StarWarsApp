@@ -171,6 +171,8 @@ const App = () => {
 
     const [darkModeActived, setDarkModeActived] = useState(false);
 
+    useEffect(() => setTimeout(() => setDarkModeActived(true), 300), []);
+
     useEffect(() => {
         const root = document.documentElement;
 

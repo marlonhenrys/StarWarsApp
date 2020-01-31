@@ -18,7 +18,7 @@ const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme })
     // const [darkModeActived, setDarkModeActived] = useState(false);
 
     fixContent();
-    // useEffect(() => fixContent(), []);
+    useEffect(fixContent, []);
 
     // useEffect(() => {
     //     const root = document.documentElement;
