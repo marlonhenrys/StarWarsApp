@@ -13,6 +13,7 @@ const Login = (props) => {
     const [loginErrorMsg, setLoginErrorMsg] = useState(null);
     const locationState = props.location.state;
     const locationStateHasMsg = locationState && locationState.authMsg;
+    const locationStateHasUserData = locationState && locationState.userData;
     const hasLoginErrorMsg = loginErrorMsg;
 
     const _login = () => isToLogin ? <Redirect to={{
@@ -47,9 +48,9 @@ const Login = (props) => {
                         <i className="i-username icon"></i>
                         <input className="input-field" type="text" name="username"
                             placeholder="Who are you?" ref={register(usernameLoginConfig)}
-                            defaultValue={locationState && locationState.userData ?
+                            defaultValue={locationStateHasUserData ?
                                 locationState.userData.username : ""}
-                            autoFocus={hasLoginErrorMsg} />
+                            autoFocus={!locationStateHasUserData} />
                     </div>
 
                     {errors.username && /* Username error */
@@ -61,7 +62,7 @@ const Login = (props) => {
                         <i className="i-password fa fa-key icon"></i>
                         <input className="input-field" type="password" name="password"
                             placeholder="What's your password?" ref={register(passwordConfig)}
-                            autoFocus={!hasLoginErrorMsg && locationStateHasMsg} />
+                            autoFocus={locationStateHasUserData} />
                     </div>
 
                     {errors.password && /* Password error */
