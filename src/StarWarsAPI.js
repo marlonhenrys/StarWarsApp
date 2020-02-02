@@ -34,38 +34,34 @@ async function fetchCategoryUrl(
 {
     let result = null;
 
-    try
+    const dataAndCacheStatus = await fetchUrl(url, false, apiData, setApiData);
+
+    if (dataAndCacheStatus !== null)
     {
-        const dataAndCacheStatus = await fetchUrl(url, false, apiData, setApiData);
-    
-        if (dataAndCacheStatus !== null)
+        const [data, isCached] = dataAndCacheStatus;
+
+        if (!isCached)
         {
-            const [data, isCached] = dataAndCacheStatus;
-    
-            if (!isCached)
-            {
-                data.url = url;
-                data.page = page;
-    
-                const newApiData = { ...apiData, [url]: data };
-    
-                // Além de fazer o cache da url da categoria, faz o cache das urls
-                // de cada um dos itens dela
-                data.results.forEach((result) => newApiData[result.url] = result);
-    
-                setApiData(newApiData);
-    
-                const categoryInfo = {page, maxReached: false};
-                setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
-            }
-    
-            result = [data, isCached];
+            data.url = url;
+            data.page = page;
+
+            const newApiData = { ...apiData, [url]: data };
+
+            // Além de fazer o cache da url da categoria, faz o cache das urls
+            // de cada um dos itens dela
+            data.results.forEach((result) => newApiData[result.url] = result);
+
+            setApiData(newApiData);
+
+            const categoryInfo = {page, maxReached: false};
+            setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
         }
+
+        result = [data, isCached];
     }
-    
-    catch (error)
+
+    else
     {
-        console.log(error);
         const categoryInfo = {page, maxReached: true};
         setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
     }
