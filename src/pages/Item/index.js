@@ -26,7 +26,6 @@ const Item = (props) => {
         setLoading(false);
     }
 
-
     return (
         <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
             {loading ? <p>Loading...</p> : null}

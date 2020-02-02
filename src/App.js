@@ -14,8 +14,7 @@ import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
 import './styles.css';
-
-export const API_BASE = 'https://swapi.co/api/';
+import starWarsAPI from './StarWarsAPI';
 
 const App = () => {
 
@@ -46,126 +45,33 @@ const App = () => {
      */
     const [categoriesPages, setCategoriesPages] = useState({});
 
-    function fetchUrl(url = API_BASE, saveState = false) {
-        return new Promise(
-            (resolve, reject) => {
-                const cached = !!apiData[url];
+    const fetchUrl = (url = starWarsAPI.baseURL, saveState = false) =>
+        starWarsAPI.fetchUrl(url, saveState, apiData, setApiData)
 
-                if (cached) resolve([apiData[url], cached]);
+    const fetchCategoryUrl = (urlBase, url, page = 1) =>
+        starWarsAPI.fetchCategoryUrl(
+            urlBase, url, page, apiData, setApiData, categoriesPages, setCategoriesPages)
 
-                else axios.get(url).then(
-                    (response) => {
-                        if (saveState) setApiData({ ...apiData, [url]: response.data });
-                        resolve([response.data, cached]);
-                    }
-                )
-                    .catch(
-                        (error) => {
-                            console.log(error);
-                            resolve(null);
-                        }
-                    );
-            }
-        );
-    }
+    const fetchNextCategoryPageUrl = (url) =>
+        starWarsAPI.fetchNextCategoryPageUrl(
+            url, apiData, setApiData, categoriesPages, setCategoriesPages)
 
-    // A URL já tem que vir com o filtro de page. O parâmetro page desta função
-    // é usado apenas para guardá-lo no objeto buscado
-    function fetchCategoryUrl(urlBase, url, page = 1) {
-        return new Promise(
-            (resolve, reject) => {
-                fetchUrl(url).then(
-                    (dataAndCacheStatus) => {
-                        if (dataAndCacheStatus === null) resolve(null);
+    const fetchNextCategoryPageByName = (name) =>
+        starWarsAPI.fetchNextCategoryPageByName(
+            name, apiData, setApiData, categoriesPages, setCategoriesPages)
 
-                        else {
-                            const [data, cached] = dataAndCacheStatus;
+    const fetchCategory = (categoryName, page = 1) =>
+        starWarsAPI.fetchCategory(
+            categoryName, page, apiData, setApiData, categoriesPages, setCategoriesPages)
 
-                            if (!cached) {
-                                data.url = url;
-                                data.page = page;
+    const fetchCategoryItemUrl = (url) =>
+        starWarsAPI.fetchCategoryItemUrl(url, apiData, setApiData)
 
-                                const newApiData = { ...apiData, [url]: data };
+    const fetchCategoryItem = (categoryName, id) =>
+        starWarsAPI.fetchCategoryItem(categoryName, id, apiData, setApiData)
 
-                                // Além de fazer o cache da url da categoria, faz o cache das urls
-                                // de cada um dos itens dela
-                                data.results.forEach((result) => newApiData[result.url] = result);
-
-                                setApiData(newApiData);
-    
-                                const categoryInfo = {page, maxReached: false};
-                                setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
-                                console.log(data);
-                            }
-
-                            resolve(data);
-                        }
-                    }
-                )
-                .catch(
-                    (error) => {
-                        console.log(error);
-                        const categoryInfo = {page, maxReached: true};
-                        setCategoriesPages({...categoriesPages, [urlBase]: categoryInfo});
-                        resolve(null);
-                    }
-                );
-            }
-        );
-    }
-
-    function fetchNextCategoryPageUrl(url) {
-        const page = categoriesPages[url] ? categoriesPages[url].page + 1 : 1;
-        const pageQuery = page === 1 ? '' : `?page=${page}`;
-
-        return fetchCategoryUrl(url, `${url}${page === 1 ? '' : `?page=${page}`}`, page);
-    }
-
-    function fetchNextCategoryPageByName(name) {
-        // debugger;
-        return fetchNextCategoryPageUrl(`${API_BASE}${name}/`);
-    }
-
-    function fetchCategory(categoryName, page = 1) {
-        const pageQuery = page === 1 ? '' : `?page=${page}`;
-        const urlBase = `${API_BASE}${categoryName}/`;
-
-        return fetchCategoryUrl(urlBase, `${urlBase}${pageQuery}`, page);
-    }
-
-    function fetchCategoryItemUrl(url) {
-        return new Promise(
-            (resolve, reject) => {
-                fetchUrl(url).then(
-                    (dataAndCacheStatus) => {
-
-                        if (dataAndCacheStatus === null) resolve(null);
-
-                        else {
-                            const [data, cached] = dataAndCacheStatus;
-
-                            if (!cached) {
-                                setApiData({ ...apiData, [url]: data });
-                                console.log(data);
-                            }
-
-                            resolve(data);
-                        }
-                    }
-                );
-            }
-        );
-    }
-
-    function fetchCategoryItem(categoryName, id) {
-        return fetchCategoryItemUrl(`${API_BASE}${categoryName}/${id}`);
-    }
-
-    function clearCategoryPages(categoryName) {
-        const urlBase = `${API_BASE}${categoryName}/`;
-
-        setCategoriesPages({...categoriesPages, [urlBase]: null});
-    }
+    const clearCategoryPages = (categoryName) =>
+        starWarsAPI.clearCategoryPages(categoryName, categoriesPages, setCategoriesPages)
 
     // useEffect(() => { fetchCategory('people'); }, [apiData]);
 

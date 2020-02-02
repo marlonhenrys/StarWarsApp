@@ -12,17 +12,18 @@ const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPa
     const [nameFilter, setNameFilter] = useState('');
 
     const fetchMoreElements = () => {
-        setLoading(true);
-        fetchNextCategoryPageByName(category.toLowerCase()).then(
-            (categoryPage) => {
-                setLoading(false);
-                if (categoryPage !== null) setElements([...elements, ...categoryPage.results]);
-                else
-                {
-                    clearCategoryPages(category.toLowerCase());
-                }
-            }
-        );
+        async function fetchMore()
+        {
+            setLoading(true);
+            const categoryPageAndIsCached = await fetchNextCategoryPageByName(category.toLowerCase());
+            const [ categoryPage, isCached ] = categoryPageAndIsCached;
+            setLoading(false);
+
+            if (categoryPage !== null) setElements([...elements, ...categoryPage.results]);
+            else clearCategoryPages(category.toLowerCase());
+        }
+
+        fetchMore();
     };
 
     useEffect(() => {
