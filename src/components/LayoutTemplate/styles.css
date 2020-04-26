@@ -1,4 +1,5 @@
 .LayoutTemplate {
+    min-height: 100vh;
     --sidenav-width: 180px;
 }
 
@@ -28,5 +29,10 @@
 @media (max-width: 992px) {
     .LayoutTemplate .template-content {
         padding-left: 0;
+    }
+
+    .LayoutTemplate .Header .navbar-brand {
+        margin: 0;
+        width: auto;
     }
 }
