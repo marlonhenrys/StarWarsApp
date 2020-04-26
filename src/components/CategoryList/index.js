@@ -1,43 +1,49 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useContext, useCallback, useRef, useEffect } from 'react';
+import { Spinner } from 'react-bootstrap';
+import axios from 'axios';
+import { APIContext } from '../../contexts/APIContext';
 import CardList from '../../components/CardList';
-import api from '../../services/api';
 import './styles.css';
-import { Button } from "react-bootstrap";
 import searchIcon from "../../assets/search-solid.svg";
 
-const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPageByName, clearCategoryPages }) => {
+const useGetter = (value) => {
+    const ref = useRef(value);
+    
+    useEffect(() => {
+        ref.current = value;
+    });
 
-    const [elements, setElements] = useState([]);
+    return useCallback(() => ref.current, [ref]);
+};
+
+const CategoryList = ({ category }) => {
+    const { categoriesData, fetchCategoryPage } = useContext(APIContext);
+    const elements = Object.values(categoriesData[category].entities);
+    const fetchCategoryPageWrapper = useGetter(fetchCategoryPage);
     const [loading, setLoading] = useState(true);
     const [nameFilter, setNameFilter] = useState('');
+    
+    const fetchMoreElements = useCallback(() => {
+        const source = axios.CancelToken.source();
+        let cancelled = false;
 
-    const fetchMoreElements = () => {
-        async function fetchMore()
-        {
-            setLoading(true);
-            const categoryPageAndIsCached = await fetchNextCategoryPageByName(category.toLowerCase());
-            const [ categoryPage, isCached ] = categoryPageAndIsCached;
-            setLoading(false);
+        (async () => {
+            try {
+                setLoading(true);
+                await fetchCategoryPageWrapper()(category);
+                if (!cancelled) setLoading(false);
+            } catch (error) {
+                console.info(error);
+            }
+        })();
 
-            if (categoryPage !== null) setElements([...elements, ...categoryPage.results]);
-            else clearCategoryPages(category.toLowerCase());
+        return () => {
+            cancelled = true;
+            source.cancel("Request cancelled on component unmount");
         }
+    }, [fetchCategoryPageWrapper, category]);
 
-        fetchMore();
-    };
-
-    useEffect(() => {
-        /* if (clearItems)
-        {
-            setElements([]);
-            setClearItems(false);
-        }
-        else  */fetchMoreElements();
-        // api.get(`/${category}`)
-        //     .then(response => {
-        //         setElements([...response.data.results]);
-        //     })
-    }, [category, clearItems]);
+    useEffect(fetchMoreElements, [fetchMoreElements]);
 
     const filterElements = (element) => {
         const title = element.name ? element.name.toLowerCase() : element.title.toLowerCase();
@@ -45,7 +51,7 @@ const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPa
 
         for (const filter of nameFilter.split(' '))
         {
-            matches = matches && title.indexOf(filter.toLowerCase()) != -1;
+            matches = matches && title.indexOf(filter.toLowerCase()) !== -1;
         }
 
         return matches;
@@ -59,7 +65,7 @@ const CategoryList = ({ setClearItems, clearItems, category, fetchNextCategoryPa
                 ))}
             </div>
             <div className="container container-options flex-wrap d-flex">
-                {loading ? <p>Loading...</p> : null }
+                {loading ? <Spinner animation="border" /> : null }
                 <button type="button" id="btn-show-more" className="btn btn-secondary"
                         onClick={fetchMoreElements}>
                     Show me more
