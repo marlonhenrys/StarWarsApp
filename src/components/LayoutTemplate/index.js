@@ -41,11 +41,11 @@ const LayoutTemplate = ({ headerTitle, children, darkModeActived, changeTheme })
             <Header
                 headerTitle={headerTitle}
                 darkModeActived={darkModeActived}
-                changeTheme={() => changeTheme()}
+                changeTheme={changeTheme}
             />
             <SideNav
                 darkModeActived={darkModeActived}
-                changeTheme={() => changeTheme()}
+                changeTheme={changeTheme}
             />
             <div className={"template-content"}>
                 <div className={"inner-template-content"}>
