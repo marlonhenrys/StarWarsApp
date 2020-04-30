@@ -20,7 +20,7 @@
     width: 70%;
     text-align: center;
     margin: 0 auto;
-    /* opacity: 90%; */
+    opacity: 0.9;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
