@@ -7,7 +7,7 @@ const categories = ["films", "people", "planets", "species", "starships", "vehic
 
 const INITIAL_STATE = categories.reduce(
     (categoriesData, category) => {
-        categoriesData[category] = { next: `${BASE_URL}/${category}`, entities: {} }
+        categoriesData[category] = { next: `${BASE_URL}/${category}/`, entities: {} }
         return categoriesData
     }, {}
 );
@@ -49,7 +49,7 @@ const APIContextProvider = ({ children }) => {
         let entity = categoriesData[category].entities[id];
 
         if (!entity) {
-            const response = await api.get(`${category}/${id}`, { cancelToken });
+            const response = await api.get(`${category}/${id}/`, { cancelToken });
             entity = response.data;
             const newCategoriesData = cacheEntities(categoriesData, category, entity);
             setCategoriesData(newCategoriesData);
