@@ -63,7 +63,7 @@ const APIContextProvider = ({ children }) => {
         const next = categoriesData[category].next;
         
         if (next !== null) {
-            const response = await axios.get(next, { cancelToken });
+            const response = await axios.get(next.replace('http', 'https'), { cancelToken });
             categoryPage = response.data;
             let newCategoriesData = mergeCategoryDataTo(categoriesData, category, categoryPage);
             newCategoriesData = cacheEntities(newCategoriesData, category, ...categoryPage.results);
