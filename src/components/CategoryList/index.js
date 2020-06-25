@@ -6,6 +6,12 @@ import CardList from '../../components/CardList';
 import './styles.css';
 import searchIcon from "../../assets/search-solid.svg";
 
+/*
+Related discussion:
+https://github.com/facebook/create-react-app/issues/6880
+https://github.com/facebook/react/issues/15084
+https://github.com/facebook/react/issues/14920
+*/
 const useGetter = (value) => {
     const ref = useRef(value);
     
