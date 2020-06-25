@@ -1,24 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import LayoutTemplate from "../../components/LayoutTemplate";
 import './styles.css';
 import CategoryList from "../../components/CategoryList";
 
-const Category = (props) => {
-
-    const [myCategory, setMyCategory] = useState("");
-    const [clearItems, setClearItems] = useState(false);
-    const category = props.match.params.category;
-
-    useEffect(
-        () => {
-            setClearItems(true);
-        }
-        , [myCategory]
-    );
+const Category = ({ match, darkModeActived, changeTheme }) => {
+    const category = match.params.category;
     
     return (
-        <LayoutTemplate headerTitle={category} darkModeActived={props.darkModeActived} changeTheme={() => props.changeTheme()}>
-            <CategoryList setClearItems={setClearItems} clearItems={clearItems} category={category} clearCategoryPages={props.clearCategoryPages} fetchNextCategoryPageByName={props.fetchNextCategoryPageByName}/>
+        <LayoutTemplate headerTitle={category} darkModeActived={darkModeActived} changeTheme={changeTheme}>
+            <CategoryList category={category}/>
         </LayoutTemplate>
     );
 };
